@@ -13,6 +13,7 @@ include "pages/header.php";
 <head>
     <title>
         Welcome to RADIAN H.A. Limited
+        Thanks
     </title>
     <link rel="stylesheet" href="style/main-style.css">
     <p>The leading scaffolding training provider in Trinidad & Tobago and the Caribbean</p>
