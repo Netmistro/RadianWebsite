@@ -1,0 +1,36 @@
+body {
+    background: lightblue;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+}
+
+h1 {
+    color: darkblue;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+
+}
+
+h2 {
+    color: #00008b;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    margin: 16px;
+    text-align: left;
+    line-height: 200%;
+}
+
+ul {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 200%;
+}
