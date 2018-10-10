@@ -14,6 +14,7 @@
 </head>
 <body>
 <p>
+    <img src="../images/radian-logo.png" align="left" >
     <a href="../index.php" >Home</a>
     <a href="products.php" >Products</a>
     <a href="services.php" >Services</a>
