@@ -11,13 +11,8 @@
 <head>
     <meta charset="UTF-8">
     <title>RADIAN H.A. Limited</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
 </head>
 <body>
-<!------ Footer ---------->
 <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
     <div class="container">
         <div class="row row-30">

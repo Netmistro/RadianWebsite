@@ -10,8 +10,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RADIAN H.A. Limited</title>
 </head>
 <body>
 <div class="header">
@@ -20,12 +19,7 @@
         <a class="active" href="/index.php">Home</a>
         <a href="../pages/contact-us.php">Contact</a>
         <a href="../pages/about-us.php">About</a>
-
     </div>
-</div>
-<div style="padding-left:20px">
-    <h1>RADIAN H.A. Limited</h1>
-    <p>Scaffolding Materials Sale, Rental, Training, Rope Access Equipment</p>
 </div>
 </body>
 </html>
