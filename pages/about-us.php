@@ -11,24 +11,12 @@ include "header.php";
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Radian H.A. Limited - About Us</title>
 </head>
 <body>
 
 </body>
 </html>
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
-
 <?php
 include "footer.php";
 ?>

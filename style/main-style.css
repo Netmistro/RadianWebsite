@@ -1,36 +1,57 @@
+/* Header CSS Styles */
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Body Styles CSS */
 body {
     background: lightblue;
     font-family: "Times New Roman", Times, serif;
     font-style: normal;
+    margin: 0;
 }
 
+/* H1 Styles CSS */
 h1 {
     color: darkblue;
     text-align: left;
     font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
-
+    font-size: 30px;
 }
 
+/* H2 Styles CSS */
 h2 {
     color: #00008b;
     text-align: left;
     font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
-
+    font-size: 20px;
+    margin-top: 0px;
 }
 
+/* Typical Paragraphs Styles CSS */
 p {
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
-    margin: 16px;
     text-align: left;
     line-height: 200%;
 }
 
+/* Unordered Lists Styles CSS */
 ul {
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
     text-align: left;
     line-height: 200%;
+}
+
+.header {
+    background: #638969;
+    color: #1e2128;
+}
+
+.footer-wrap {
+    background: #638969;
+    color: #1e2128;
 }

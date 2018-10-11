@@ -7,48 +7,62 @@
  */
 include "header.php";
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="../style/main-style.css">
-</head>
-<body>
-<h1>The Leader in Scaffolding Training</h1>
-<h2>Our Services</h2>
-<p>
-    Radian H.A. Ltd. has vast experience in our industry and that is only solidified by our alliance with Safety
-    & Access Ltd. (UK), a leading scaffolding training and consultancy firm based in the UK. We provide a services
-    specifically for scaffolding and scaffolding related companies. We sell to both wholesale and retail customers,
-    and also provide rental options for all general scaffolding equipment/tools.
-</p>
-<h3>Scaffold & Formwork Training</h3>
-<p>
-    We have an exclusive agreement with the top UK based scaffolding consultants and training agencies, to provide
-    the most advanced scaffolding and formwork training in Trinidad & Tobago and the Caribbean.
-</p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="../style/main-style.css">
+    </head>
+    <body>
+    <h1>The Leader in Scaffolding Training</h1>
+    <h2>Our Services</h2>
+    <div class="content-wrap">
+        <p>
+            Radian H.A. Ltd. has vast experience in our industry and that is only solidified by our alliance with Safety
+            & Access Ltd. (UK), a leading scaffolding training and consultancy firm based in the UK. We provide a
+            services
+            specifically for scaffolding and scaffolding related companies. We sell to both wholesale and retail
+            customers,
+            and also provide rental options for all general scaffolding equipment/tools.
+        </p>
+    </div>
+    <h3>Scaffold & Formwork Training</h3>
+    <div class="content-wrap">
+        <p>
+            We have an exclusive agreement with the top UK based scaffolding consultants and training agencies, to
+            provide
+            the most advanced scaffolding and formwork training in Trinidad & Tobago and the Caribbean.
+        </p>
+    </div>
 
-<h3>ScaffoldingDesign&Consultancy</h3>
-<p>
-    Our vast experience in the scaffolding industry has enabled us to skillfully provide scaffolding design &
-    consultancy
-    services for projects of all sizes. We offer this service to all markets and sectors including residential,
-    commercial, industrial, marine, etc.
-</p>
-<h3>Scaffolding Equipment & Tools</h3>
-<p>
-    We have an exclusive arrangement with the number 1 scaffolding tools manufacturer in the UK, Leach’s. This
-    arrangement allows us to confidently state that our tools and scaffolding equipment are among the best available
-    across the globe.
-</p>
-<h3>Scaffolding Inspection & Certification</h3>
-<p>
-    Our inspection team has a number of years of experience in the scaffolding industry and provide scaffolding
-    inspection and certification for projects of all sizes.
-</p>
-</body>
-</html>
+    <h3>ScaffoldingDesign&Consultancy</h3>
+    <div class="content-wrap">
+        <p>
+            Our vast experience in the scaffolding industry has enabled us to skillfully provide scaffolding design &
+            consultancy
+            services for projects of all sizes. We offer this service to all markets and sectors including residential,
+            commercial, industrial, marine, etc.
+        </p>
+    </div>
+    <h3>Scaffolding Equipment & Tools</h3>
+    <div class="content-wrap">
+        <p>
+            We have an exclusive arrangement with the number 1 scaffolding tools manufacturer in the UK, Leach’s. This
+            arrangement allows us to confidently state that our tools and scaffolding equipment are among the best
+            available
+            across the globe.
+        </p>
+    </div>
+    <h3>Scaffolding Inspection & Certification</h3>
+    <div class="content-wrap">
+        <p>
+            Our inspection team has a number of years of experience in the scaffolding industry and provide scaffolding
+            inspection and certification for projects of all sizes.
+        </p>
+        <div class="content-wrap">
+    </body>
+    </html>
 <?php
 include "footer.php";
 ?>

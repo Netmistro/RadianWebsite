@@ -13,13 +13,16 @@
     <title>RADIAN H.A. Limited</title>
 </head>
 <body>
-<p>
-    <img src="../images/radian-logo.png" align="left" >
-    <a href="../index.php" >Home</a>
-    <a href="products.php" >Products</a>
-    <a href="services.php" >Services</a>
-    <a href="contact-us.php" >Contact Us</a>
-    <a href="about-us.php" >About Us</a>
-</p>
+<div class="content-wrap">
+    <section class="header">
+        <img src="images/radian-logo.png" alt="Radian" height="150">
+        <a href="index.php">Home</a>
+        <a href="pages/products.php">Products</a>
+        <a href="pages/services.php">Services</a>
+        <a href="pages/contact-us.php">Contact Us</a>
+        <a href="pages/about-us.php">About Us</a>
+        <h1>Welcome to RADIAN H.A. Limited</h1>
+    </section>
+</div>
 </body>
 </html>
