@@ -6,17 +6,10 @@
  * Time: 3:12 PM
  */
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>RADIAN H.A. Limited</title>
-    <link rel="stylesheet" href="../css/header.css">
-</head>
-<body>
+<link rel="stylesheet" href="../css/header.css">
 <div class="header-row">
     <div class="radian-logo">
-        <img src="../images/radian-logo.png" width="120">
+        <img src="../images/radian-logo.png" alt="Radian" width="120">
     </div>
     <div class="header-name">
         <h1>RADIAN H.A. Limited</h1>
@@ -31,5 +24,3 @@
         <a href="profile.php">About Us</a>
     </div>
 </div>
-</body>
-</html>

@@ -5,13 +5,16 @@
  * Date: 10/8/2018
  * Time: 10:36 AM
  */
-include "pages/header.php";
+include 'pages/header.php';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <title>Welcome to RADIAN H.A. Limited</title>
     <link rel="stylesheet" href="css/main-style.css">
+    <link   rel="stylesheet" href="css/slideshow.css">
+    <link   rel="stylesheet" href="css/header.css">
+    <link   rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 <main>
@@ -60,7 +63,7 @@ include "pages/header.php";
 </body>
 <footer>
     <?php
-    include "pages/footer.php";
+    include 'pages/footer.php';
     ?>
 </footer>
 </html>

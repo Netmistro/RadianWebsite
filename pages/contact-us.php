@@ -7,41 +7,47 @@
  */
 include "header.php";
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="../css/main-style.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+    </head>
+    <body>
+    <div class="content-wrap">
+        <p>Visit us, call, or email, our friendly and knowledgeable staff members are ready to be of service.</p>
+    </div>
+    <div class="contact-form">
+        <?php
+        $name = $_POST["name"];
+        $email = $_POST["email"];
+        $subject = $_POST["subject"];
+        $company = $_POST["company"];
+        $phone = $_POST["phone"];
+        $message = $_POST["message"];
+        ?>
+        <form action="contact-us.php" method="post">
+            Name <br>
+            <input type="text" name="name"><br><br>
+            e-mail <br>
+            <input type="text" name="email"><br><br>
+            Subject <br>
+            <input type="text" name="subject"><br><br>
+            Company <br>
+            <input type="text" name="company"><br><br>
+            Phone <br>
+            <input type="text" name="phone"><br><br>
+            Message <br>
+            <textarea rows="5" cols="40" name="message"></textarea><br><br>
+            <input type="submit" name="submit" value="Submit">
 
-</body>
-</html>
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="../style/main-style.css">
-</head>
-<body>
-<p>
-    Visit us, call, or email, our friendly and knowledgeable staff members are ready to be of service.
-</p>
-
-<p>
-<address>Address: 187 Helen Street, Marabella, Trinidad & Tobago</address>
-    Telelephone Contacts:
-    TSTT Primary: (868)658-0293
-    Fax: (868)658-5946 / 8294
-    FLOW Primary: (868)223-8823
-    (868)223-8824
-    Digicel: (868)387-0293
-    Email: radianhaltd@gmail.com
-</p>
-</body>
-</html>
+        </form>
+    </div>
+    </body>
+    </html>
 <?php
 include "footer.php";
 ?>

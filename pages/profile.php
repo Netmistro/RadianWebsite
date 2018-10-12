@@ -11,11 +11,13 @@ include "header.php";
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>RADIAN H.A. Limited</title>
-        <link rel="stylesheet" href="../style/main-style.css">
+        <title>RADIAN Profile</title>
+        <link rel="stylesheet" href="../css/main-style.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
     </head>
     <body>
-    <h1>We are Committed to our Clients</h1>
+    <h1>We are Committed to our Clients</h1><br>
     <h2>Our Company</h2>
     <p>
         Radian H.A. Ltd. is a dynamic, customer driven business established in 2000, we primarily engage in the provision
@@ -25,14 +27,12 @@ include "header.php";
         in Trinidad & Tobago for both hire and sale.
         Radian H.A. Ltd also has a truly unique market position as we never undertake any contract work, which we would
         consider to be direct competition with on-site contractors, many of whom are our customers.
-    </p>
+    </p><br>
     <h2> Mission Statement </h2>
-    <p>
-        "Committed to being the one provider of a unique one stop service for the scaffolding industry, ensuring
+    <p>"Committed to being the one provider of a unique one stop service for the scaffolding industry, ensuring
         trained personnel in all aspects pertaining to the industry. Customers access to all Scaffolding and Scaffolding
         Accessories and the availability of specialized tools and Safety Equipment that together offer a safe and
-        healthy work environment."
-    </p>
+        healthy work environment."</p><br>
     <h2>Our Clients Include </h2>
     <ul>
         <li>Atlantic LNG</li>

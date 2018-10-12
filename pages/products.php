@@ -7,16 +7,19 @@
  */
 include "header.php";
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Products</title>
+        <link rel="stylesheet" href="../css/main-style.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+    </head>
+    <body>
+    <div class="content-wrap">
+    </body>
+    </html>
 <?php
 include "footer.php";
 ?>
