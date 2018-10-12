@@ -7,55 +7,39 @@
  */
 ?>
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>RADIAN H.A. Limited</title>
+    <link rel="stylesheet" href="../css/main-style.css">
 </head>
 <body>
-<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-    <div class="container">
-        <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-                <h5>About</h5>
-                <div class="pr-xl-4"><a class="brand" href="index.php"></a>
-                    <p>The leading scaffolding training provider in Trinidad & Tobago and the Caribbean.</p>
-                    <!-- Rights-->
-                    <p class="rights"><span>© </span><span class="copyright-year">2018</span>
-                        <span>RADIAN H.A. Limited</span><span>.</span><span>All Rights Reserved.</span>
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <h5>Contacts</h5>
-                <dl class="contact-list">
-                    <dt>Address:</dt>
-                    <dd>#187 Helen Street, Marabella, Trinidad</dd>
-                </dl>
-                <dl class="contact-list">
-                    <dt>email:</dt>
-                    <dd><a href="mailto:#">radianhaltd@gmail.com</a></dd>
-                </dl>
-                <dl class="contact-list">
-                    <dt>TSTT/BMobile:</dt>
-                    <dd><a href="tel:#">+1 868 658-0293</a><span>or</span> <a href="tel:#">+1 868 658-5946</a></dd>
-                    <dt>FLOW:</dt>
-                    <dd><a href="tel:#">+1 868 658-8294</a><span>or</span> <a href="tel:#">+1 868 223-0293</a></dd>
-                    <dt>Digicel:</dt>
-                    <dd><a href="tel:#">+1 868 387-0293</a></dd>
-                </dl>
-
-            </div>
-            <div class="col-md-4 col-xl-3">
-                <h5>Quick Links</h5>
-                <ul class="nav-list">
-                    <li><a href="../pages/about-us.php">About</a></li>
-                    <li><a href="../pages/contact-us.php">Contacts</a></li>
-                    <li><a href="http://www.facebook.com/radianhaltd/">Facebook</a></li>
-                </ul>
-            </div>
-        </div>
+<div class="row">
+    <div class="column">
+        <h5>About</h5>
+            <p>The leading scaffolding training provider in Trinidad & Tobago and the Caribbean.</p>
+            <p> © 2018 RADIAN H.A. Limited. All Rights Reserved.</p>
     </div>
-</footer>
+    <div class="column">
+        <h5>Contacts</h5>
+        <dl class="contact-list">
+            <dt>Address: #187 Helen Street, Marabella, Trinidad</dt>
+            <dt>email: <a href="mailto:#">radianhaltd@gmail.com</a></dt>
+            <dt>TSTT/BMobile: <a href="tel:#">+1 868 658-0293 </a><span>or</span> <a href="tel:#">+1 868 658-5946</a></dt>
+            <dt>FLOW: <a href="tel:#">+1 868 658-8294 </a><span>or</span> <a href="tel:#">+1 868 223-0293</a></dt>
+            <dt>Digicel: <a href="tel:#">+1 868 387-0293 </a></dt>
+        </dl>
+    </div>
+    <div class="column">
+        <h5>Quick Links</h5>
+        <ul class="nav-list">
+            <li><a href="../pages/about-us.php">About</a></li>
+            <li><a href="../pages/contact-us.php">Contacts</a></li>
+            <li><a href="http://www.facebook.com/radianhaltd/">Facebook</a></li>
+        </ul>
+    </div>
+</div>
 </body>
+<footer>
+</footer>
 </html>

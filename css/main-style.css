@@ -5,7 +5,6 @@
     padding: 20px;
     background-color: #aec3b0;
 }
-
 /***** Body Styles CSS *****/
 body {
     background: lightblue;
@@ -14,7 +13,6 @@ body {
     margin: 0 auto;
     max-width: 950px;
 }
-
 /***** H1 Styles CSS *****/
 h1 {
     color: black;
@@ -22,7 +20,6 @@ h1 {
     font-family: "Arial", SansSerif;
     font-size: 25px;
 }
-
 /***** H2 Styles CSS *****/
 h2 {
     color: black;
@@ -31,26 +28,46 @@ h2 {
     font-size: 20px;
     margin-top: 0px;
 }
-
+/***** H5 Styles CSS *****/
+h5 {
+    color: black;
+    text-align: left;
+    font-family: "Arial", SansSerif;
+    font-size: 20px;
+    margin-top: 0px;
+}
 /***** Typical Paragraphs Styles CSS *****/
-p {
+p, dt, ul {
     font-family: "Arial", SansSerif;
     font-size: 14px;
     text-align: left;
     line-height: 200%;
     color: black;
 }
-
-/***** Unordered Lists Styles CSS *****/
-ul {
-    font-family: "Arial", SansSerif;
-    font-size: 14px;
-    text-align: left;
-    line-height: 200%;
-}
+/***** Header CSS *****/
 .header{
     background-color: #598392;
 }
-.container{
+/****** Main Footer CSS ******/
+* {
+    box-sizing: border-box;
+}
+.column{
     background-color: #598392;
+    font-family: Arial, SansSerif;
+    font-size: 12pt;
+    float: left;
+    padding: 10px;
+    width: 33.33%;
+    /*Clear Floats After*/
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:700px){
+    .column{
+        width: 100%;
+    }
 }

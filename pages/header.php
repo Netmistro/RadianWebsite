@@ -11,6 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <title>RADIAN H.A. Limited</title>
+    <link rel="stylesheet" href="css/main-style.css">
 </head>
 <body>
 <div class="header">

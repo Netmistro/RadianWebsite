@@ -11,13 +11,12 @@
 <head>
     <?php include "pages/header.php"; ?>
     <title>Welcome to RADIAN H.A. Limited</title>
-    <link rel="stylesheet" href="style/main-style.css">
+    <link rel="stylesheet" href="css/main-style.css">
 </head>
 <body>
 <main>
     <section class="main">
         <div class="content-wrap">
-
             <div class="slideshow">
                 <img src="images/radian-img2.jpg" alt="Work done by RADIAN" width="950" align="centre">
             </div>
