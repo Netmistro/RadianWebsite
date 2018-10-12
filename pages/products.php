@@ -12,12 +12,13 @@ include "header.php";
     <head>
         <meta charset="UTF-8">
         <title>Products</title>
-        <link rel="stylesheet" href="../css/main-style.css">
         <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/main-style.css">
         <link rel="stylesheet" href="../css/footer.css">
     </head>
     <body>
     <div class="content-wrap">
+    </div>
     </body>
     </html>
 <?php

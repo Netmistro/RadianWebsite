@@ -12,14 +12,15 @@
         <img src="../images/radian-logo.png" alt="Radian" width="120">
     </div>
     <div class="header-name">
-        <h1>RADIAN H.A. Limited</h1>
+        <h1>RADIAN H.A. Limited</h1><br>
         <p>187 Helen Street, Marabella, Trinidad</p>
         <p>TSTT: +1(868) 658-0293/8294/5946</p>
     </div>
     <div class="header-right">
         <a class="active" href="../index.php">Home</a>
-        <a href="services.php">Services</a>
         <a href="products.php">Products</a>
+        <a href="services.php">Services</a>
+        <a href="our-clients.php">Our Clients</a>
         <a href="contact-us.php">Contact</a>
         <a href="profile.php">About Us</a>
     </div>

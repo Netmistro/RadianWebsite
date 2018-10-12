@@ -2,7 +2,10 @@
 * {
     box-sizing: border-box
 }
-
+/* Background colour of the Main Container*/
+main{
+    background-color: #aec3b0;
+}
 body {
     font-family: Verdana, sans-serif;
     margin: 0
