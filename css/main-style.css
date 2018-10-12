@@ -1,7 +1,7 @@
 /***** Other CSS for Header *****/
 .content-wrap {
-    max-width: 950px;
     margin: 0 auto;
+    max-width: 950px;
     padding: 20px;
     background-color: #aec3b0;
 }
@@ -48,18 +48,9 @@ p, dt, ul {
     line-height: 200%;
     color: black;
 }
-/***** Header CSS *****/
-.header{
-    background-color: #598392;
-}
-
 /****** Footer CSS ******/
 * {
     box-sizing: border-box;
-    margin: 0 auto;
-}
-.row{
-    /*float: none;*/
     margin: 0 auto;
 }
 .column{
@@ -70,14 +61,13 @@ p, dt, ul {
     padding: 5px;
     width: 33.33%;
     height: 200px;
-    margin: auto;
+    margin: 0 auto;
 }
 .row:after{
     content: "";
     display: table;
     clear: both;
 }
-
 /****** Main Header CSS ******/
 * {box-sizing: border-box;}
 body {
@@ -110,9 +100,15 @@ body {
 }
 .header-right {
     float: right;
+    margin: 20px 0;
 }
-.header-logo{
+.radian-logo{
     float: left;
+    margin: 2px;
+}
+.header-name{
+    float: left;
+    margin: 0 15px;
     /*width: 50px;*/
     /*border-radius: 10%;*/
 }
@@ -123,6 +119,12 @@ body {
         text-align: left;
     }
     .header-right {
+        float: none;
+    }
+    .header-name{
+        float: none;
+    }
+    .radian-logo{
         float: none;
     }
 }
