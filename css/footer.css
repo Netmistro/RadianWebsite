@@ -1,0 +1,26 @@
+/****** Footer CSS ******/
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.column {
+    background-color: #598392;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+    height: 200px;
+    margin: 0 auto;
+}
+.row h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

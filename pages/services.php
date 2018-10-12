@@ -12,7 +12,7 @@ include "header.php";
     <head>
         <meta charset="UTF-8">
         <title>Title</title>
-        <link rel="stylesheet" href="../style/main-style.css">
+        <link rel="stylesheet" href="../css/main-style.css">
     </head>
     <body>
     <h1>The Leader in Scaffolding Training</h1>

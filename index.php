@@ -5,14 +5,13 @@
  * Date: 10/8/2018
  * Time: 10:36 AM
  */
+include "pages/header.php";
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <?php include "pages/header.php"; ?>
     <title>Welcome to RADIAN H.A. Limited</title>
     <link rel="stylesheet" href="css/main-style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <main>

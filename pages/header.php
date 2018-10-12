@@ -11,13 +11,12 @@
 <head>
     <meta charset="UTF-8">
     <title>RADIAN H.A. Limited</title>
-    <link rel="stylesheet" href="../css/main-style.css">
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 <body>
-
 <div class="header-row">
     <div class="radian-logo">
-        <img src="../images/radian-logo.png" width="80">
+        <img src="../images/radian-logo.png" width="120">
     </div>
     <div class="header-name">
         <h1>RADIAN H.A. Limited</h1>
@@ -26,14 +25,11 @@
     </div>
     <div class="header-right">
         <a class="active" href="../index.php">Home</a>
-        <a href="../pages/services.php">Services</a>
-        <a href="../pages/products.php">Products</a>
-        <a href="../pages/contact-us.php">Contact</a>
-        <a href="../pages/profile.php">About Us</a>
+        <a href="services.php">Services</a>
+        <a href="products.php">Products</a>
+        <a href="contact-us.php">Contact</a>
+        <a href="profile.php">About Us</a>
     </div>
 </div>
 </body>
-<footer>
-
-</footer>
 </html>
