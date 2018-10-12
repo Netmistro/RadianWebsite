@@ -1,57 +1,56 @@
-/* Header CSS Styles */
+/***** Other CSS for Header *****/
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #aec3b0;
 }
 
-/* Body Styles CSS */
+/***** Body Styles CSS *****/
 body {
     background: lightblue;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Arial", SansSerif;
     font-style: normal;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 950px;
 }
 
-/* H1 Styles CSS */
+/***** H1 Styles CSS *****/
 h1 {
-    color: darkblue;
+    color: black;
     text-align: left;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
+    font-family: "Arial", SansSerif;
+    font-size: 25px;
 }
 
-/* H2 Styles CSS */
+/***** H2 Styles CSS *****/
 h2 {
-    color: #00008b;
+    color: black;
     text-align: left;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Arial", SansSerif;
     font-size: 20px;
     margin-top: 0px;
 }
 
-/* Typical Paragraphs Styles CSS */
+/***** Typical Paragraphs Styles CSS *****/
 p {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Arial", SansSerif;
     font-size: 14px;
     text-align: left;
     line-height: 200%;
+    color: black;
 }
 
-/* Unordered Lists Styles CSS */
+/***** Unordered Lists Styles CSS *****/
 ul {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Arial", SansSerif;
     font-size: 14px;
     text-align: left;
     line-height: 200%;
 }
-
-.header {
-    background: #638969;
-    color: #1e2128;
+.header{
+    background-color: #598392;
 }
-
-.footer-wrap {
-    background: #638969;
-    color: #1e2128;
+.container{
+    background-color: #598392;
 }
