@@ -18,7 +18,7 @@
     <div class="column">
         <h5>About</h5>
             <p>The leading scaffolding training provider in Trinidad & Tobago and the Caribbean.</p>
-            <p> © 2018 RADIAN H.A. Limited. All Rights Reserved.</p>
+            <p> &copy; <?php echo date(Y);?> RADIAN H.A. Limited. All Rights Reserved.</p>
     </div>
     <div class="column">
         <h5>Contacts</h5>
