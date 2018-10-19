@@ -10,8 +10,14 @@ include 'initialize.php';
 <link rel="stylesheet" href="../css/header.css">
 <div class="header-row">
     <div class="radian-logo">
-        <img src="<?php echo PROJECT_PATH.'/images/radian-logo.png';?>" alt="Radian" width="120">
-        <?php echo PROJECT_PATH;?>
+        <?php
+        if (empty(scandir('pages')) == true) {
+            $radian_logo = '../images/radian-logo.png';
+        } else {
+            $radian_logo = 'images/radian-logo.png';
+        }
+        ?>
+        <img src="<?php echo $radian_logo; ?>" alt="Radian" width="120">
     </div>
     <div class="header-name">
         <h1>RADIAN H.A. Limited</h1>
@@ -20,11 +26,13 @@ include 'initialize.php';
         <p>Others: +1(868) 223-8823/8824</p>
     </div>
     <div class="header-right">
-        <a class="active" href="../index.php">Home</a>
-        <a href="<?php echo '../pages/products.php';?>">Products</a>
-        <a href="<?php echo 'services.php';?>">Services</a>
-        <a href="<?php echo 'our-clients.php';?>">Our Clients</a>
-        <a href="<?php echo 'contact-us.php';?>">Contact</a>
-        <a href="<?php echo 'profile.php';?>">About Us</a>
+        <a class="active" href=<?php "../index.php" ?>>Home</a>
+
+        <a href="<?php products($products); ?>">Products</a>
+        <a href="<?php echo 'Services'; ?>">Services</a>
+
+        <a href="<?php echo 'our-clients.php'; ?>">Our Clients</a>
+        <a href="<?php echo 'contact-us.php'; ?>">Contact</a>
+        <a href="<?php echo 'profile.php'; ?>">About Us</a>
     </div>
 </div>
