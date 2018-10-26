@@ -5,12 +5,13 @@
  * Date: 10/8/2018
  * Time: 10:36 AM
  */
-include 'pages/initialize.php';
 include 'pages/header.php';
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>RADIAN H.A. Limited</title>
     <title>Welcome to RADIAN H.A. Limited</title>
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/header.css">
