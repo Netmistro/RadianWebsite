@@ -26,7 +26,7 @@ include 'pages/header.php';
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 3</div>
                     <img src="images/radian-img1.jpg" style="width:100%" height="500">
-                    <div class="text">Caption Text</div>
+                    <div class="text">Caption One</div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">2 / 3</div>
