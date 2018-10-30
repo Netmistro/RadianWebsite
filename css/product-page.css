@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+.grid-item {
+    background-color: whitesmoke;
+    border: 1px transparent;
+    padding: 5px;
+    font-size: 12px;
+    text-align: left;
+}

@@ -56,8 +56,10 @@ include "header.php";
         <li>Weldfab Ltd.</li>
     </ul>
 </div>
-<?php
-include "footer.php";
-?>
 </body>
+<footer>
+    <?php
+    include "footer.php";
+    ?>
+</footer>
 </html>
