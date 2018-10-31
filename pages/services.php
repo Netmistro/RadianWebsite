@@ -33,8 +33,8 @@ include "header.php";
         consultancy services for projects of all sizes. We offer this service to all markets and sectors including
         residential, commercial, industrial, marine, etc.</p><br>
     <h3>Scaffolding Equipment & Tools</h3>
-    <p>We have an exclusive arrangement with the number 1 scaffolding tools manufacturer in the UK, Leach’s. This
-        arrangement allows us to confidently state that our tools and scaffolding equipment are among the best
+    <p>We have an exclusive arrangement with the number one (1) scaffolding tools manufacturer in the UK, Leach’s.
+        This arrangement allows us to confidently state that our tools and scaffolding equipment are among the best
         available across the globe.</p><br>
     <h3>Scaffolding Inspection & Certification</h3>
     <p>Our inspection team has a number of years of experience in the scaffolding industry and provide scaffolding

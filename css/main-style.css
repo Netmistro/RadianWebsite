@@ -46,7 +46,7 @@ p, dt, ul {
     margin: 0 auto;
     max-width: 1000px;
     padding: 10px;
-    background-color: #aec3b0;
+    background-color: whitesmoke;
     font-size: 14px;
 }
 
@@ -57,5 +57,5 @@ p, dt, ul {
     margin: 0 auto;
     max-width: 1000px;
     padding: 10px;
-    background-color: #aec3b0;
+    background-color: whitesmoke;
 }

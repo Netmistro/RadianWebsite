@@ -11,7 +11,7 @@ include "header.php";
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>RADIAN Profile</title>
+    <title>RADIAN Company Profile</title>
     <link rel="stylesheet" href="../css/main-style.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">

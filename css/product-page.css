@@ -10,7 +10,7 @@
     background-color: whitesmoke;
     border: 1px transparent;
     padding: 10px 1px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
 }
 .text-wrapper{
@@ -20,4 +20,21 @@
     .column {
         width: 100%;
     }
+}
+.row-page {
+    display: flex;
+    /*float: left;*/
+    background-color: whitesmoke;
+    border: 1px transparent;
+    padding: 10px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+.column-page{
+    /*float: left;*/
+    flex: 50%;
+    background-color: whitesmoke;
+    padding: 5px;
+    min-height: 500px;
 }
