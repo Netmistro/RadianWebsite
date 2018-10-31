@@ -1,13 +1,23 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
+.grid-column {
+    float: left;
+    flex: 50%;
     background-color: whitesmoke;
     padding: 5px;
 }
 .grid-item {
+    display: flex;
+    float: left;
     background-color: whitesmoke;
     border: 1px transparent;
-    padding: 5px;
+    padding: 10px 1px;
     font-size: 12px;
     text-align: left;
+}
+.text-wrapper{
+    padding: 5px 20px;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
