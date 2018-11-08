@@ -49,13 +49,73 @@ p, dt, ul {
     background-color: whitesmoke;
     font-size: 14px;
 }
-
-.contact-form {
+/* Form Details CSS*/
+.radian-form {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     margin: 0 auto;
     max-width: 1000px;
     padding: 10px;
     background-color: whitesmoke;
+}
+/*Formatting of the Text Field*/
+input[type=text], select {
+      width: 40%;
+      padding: 10px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+  }
+/*Formatting of the Telephone Field*/
+input[type=tel], select {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/*Formatting of the password field*/
+input[type=password], select {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/*Formatting of the email field*/
+input[type=email], select {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/*Formatting of the Submit Button*/
+input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 12pt;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*Formatting of the Hover Effect*/
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/*Formatting of the Background colour when focused on a field*/
+input[type=text]:focus {
+    background-color: lightblue;
 }

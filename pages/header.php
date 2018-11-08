@@ -6,6 +6,7 @@
  * Time: 3:12 PM
  */
 include 'initialize.php';
+session_start();
 ?>
 <link rel="stylesheet" href="../css/header.css">
 <div class="header-row">
