@@ -87,5 +87,15 @@ session_start();
         }
         ?>
         <a href="<?php echo $Profile; ?>">About Us</a>
+
+        <!--  Code for Training Hyperlink  -->
+        <?php
+        if (empty(scandir('pages')) == true) {
+            $Training = 'training.php';
+        } else {
+            $Training = 'pages/training.php';
+        }
+        ?>
+        <a href="<?php echo $Training; ?>">CITB Training</a>
     </div>
 </div>
