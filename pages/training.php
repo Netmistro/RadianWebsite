@@ -36,11 +36,12 @@ $training_data = mysqli_query($conn, $sql);
             <th>End Date</th>
             <th>Instructor</th>
             <th>Spaces</th>
+            <th>Training</th>
         </tr>
         <?php
         while ($row = mysqli_fetch_assoc($training_data)) {
             echo "<tr>";
-            echo "<td>" . $row['train_id'] . "</td>";
+            echo "<td>" . $row['course_code'] . "</td>";
             echo "<td>" . $row['train_title'] . "</td>";
             echo "<td>" . $row['train_cost'] . "</td>";
             echo "<td>" . $row['short_description'] . "</td>";
@@ -48,6 +49,11 @@ $training_data = mysqli_query($conn, $sql);
             echo "<td>" . $row['train_end_date'] . "</td>";
             echo "<td>" . $row['train_instructor'] . "</td>";
             echo "<td>" . $row['train_spaces'] . "</td>";
+            echo "<td>";
+            $image_path = '../images/training/'.$row['image'].'.jpeg';
+            echo "<img src= $image_path alt='Training' width='100'>";
+            echo "</td>";
+            echo "";
             echo "</tr>";
         }
         mysqli_close($conn);
