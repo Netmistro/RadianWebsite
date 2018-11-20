@@ -2,13 +2,18 @@
 /**
  * Created by PhpStorm.
  * User: said
- * Date: 11/12/18
- * Time: 9:19 PM
+ * Date: 11/16/18
+ * Time: 9:42 PM
  */
 include('header.php');
+if ($_SERVER["REQUEST_METHOD"]=="POST"){
+    $_SESSION["train_id"]=$_POST["train_id"];
+    header("location:confirmation.php");
+}
 include('db-connect.php');
 $sql = "SELECT * FROM training";
 $training_data = mysqli_query($conn, $sql);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,50 +21,47 @@ $training_data = mysqli_query($conn, $sql);
     <meta charset="UTF-8">
     <title>RADIAN Training</title>
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/main-style.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/training-page.css"
+    <link rel="stylesheet" href="../css/main-style.css">
+    <link rel="stylesheet" href="../css/training-page.css">
 </head>
 <body>
-
 <!--    Display a table caption with the current year    -->
-<caption>Training for <?php echo date(Y); ?></caption>
-<br>
-<table>
-    <div class="training-table">
-        <tr>
-            <th>Course Code</th>
-            <th>Title</th>
-            <th>Price (TTD)</th>
-            <th>Course Description</th>
-            <th>Start Date</th>
-            <th>End Date</th>
-            <th>Instructor</th>
-            <th>Spaces</th>
-            <th>Training</th>
-        </tr>
+<h1>
+    <caption>Training for <?php echo date(Y); ?></caption>
+    <br>
+</h1>
+<div class="training-container">
+    <table>
         <?php
         while ($row = mysqli_fetch_assoc($training_data)) {
             echo "<tr>";
-            echo "<td>" . $row['course_code'] . "</td>";
-            echo "<td>" . $row['train_title'] . "</td>";
-            echo "<td>" . $row['train_cost'] . "</td>";
-            echo "<td>" . $row['short_description'] . "</td>";
-            echo "<td>" . $row['train_start_date'] . "</td>";
-            echo "<td>" . $row['train_end_date'] . "</td>";
-            echo "<td>" . $row['train_instructor'] . "</td>";
-            echo "<td>" . $row['train_spaces'] . "</td>";
             echo "<td>";
-            $image_path = '../images/training/'.$row['image'].'.jpeg';
-            echo "<img src= $image_path alt='Training' width='100'>";
+            $image_path = '../images/training/' . $row['image'] . '.jpeg';
+            echo "<img src= $image_path alt='Training' width='300'>" . "<br>";
             echo "</td>";
-            echo "";
+            echo "<td>";
+            echo "Course Code: " . $row['course_code'] . "<br>";
+            echo "Course Title: " . $row['train_title'] . "<br>";
+            setlocale(LC_MONETARY, "en_US");
+            echo "Cost (TTD): " . money_format("%.2n", $row['train_cost']) . "<br>";
+            echo "Course Description: " . $row['short_description'] . "<br>";
+            echo "Start Date: " . $row['train_start_date'] . "<br>";
+            echo "End Date: " . $row['train_end_date'] . "<br>";
+            echo "Instructor: " . $row['train_instructor'] . "<br>";
+            echo "Spaces Available: " . $row['train_spaces'] . "<br>";
+            echo "<form action='training.php' method='post'>";
+            echo "<button type='submit' class='btn-book-now' >" . "Book Now" . "</button>" . "<br>";
+            $train_id = $row['train_id'];
+            echo "<input type='hidden' name='train_id' value = $train_id >";
+            echo "</form>";
+            echo "</td>";
             echo "</tr>";
         }
         mysqli_close($conn);
         ?>
-    </div>
-</table>
+    </table>
+</div>
 </body>
 <footer>
     <?php
