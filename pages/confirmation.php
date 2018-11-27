@@ -6,11 +6,22 @@
  * Time: 2:32 PM
  */
 include('header.php');
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    require('db-connect.php');
+    $train_id = $_SESSION['train_id'];
+    $user_id = $_SESSION['user_id'];
+    $sql = "INSERT INTO `bookings` (`booking_id`, `user_id`, `training_code`) VALUES (NULL, '$user_id', '$train_id');";
+
+    if (mysqli_query($conn, $sql)) {
+        header("location:thank-you.php");
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+}
 $train_id = $_SESSION['train_id'];
-
 require('db-connect.php');
-$sql = "SELECT * FROM training where train_id =$train_id";
-
+$sql = "SELECT * FROM training where train_id = $train_id";
+echo $sql;
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
@@ -30,7 +41,6 @@ if (mysqli_num_rows($result) > 0) {
 } else {
     echo "0 results";
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

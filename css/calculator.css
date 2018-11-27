@@ -1,0 +1,83 @@
+.head-calculations {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin: auto;
+    text-align: justify;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
+}
+
+th {
+    text-align: justify;
+    border: 1px solid black;
+    background-color: #e9d30a;
+    padding: 1px 5px;
+}
+
+td {
+    text-align: justify;
+    line-height: 1.2;
+    border: 1px solid black;
+    padding: 1px 5px;
+}
+.content-wrap.align-centre{
+    text-align: right;
+}
+
+/*Formatting of the Submit Button*/
+button[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 12pt;
+    padding: 1px 5px;
+    margin: auto auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Formatting of the Hover Effect*/
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*Formatting of the Background colour when focused on a field*/
+button[type=submit]:focus {
+    background-color: lightblue;
+}
+
+/*Formatting of the Submit Button*/
+input[type=text] {
+    width: 80%;
+    padding: 5px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+    background-color: #007b5e;
+    color: black;
+    font-size: 15px;
+}
+::placeholder{
+    color: darkgrey;
+}
+/*Formatting of the Hover Effect*/
+input[type=text]:hover {
+    background-color: blueviolet;
+    color: black;
+}
+
+/*Formatting of the Background colour when focused on a field*/
+input[type=text]:focus {
+    background-color: lightblue;
+    color: black;
+}

@@ -28,7 +28,7 @@ $training_data = mysqli_query($conn, $sql);
 <body>
 <!--    Display a table caption with the current year    -->
 <h1>
-    <caption>Training for <?php echo date(Y); ?></caption>
+    <br><caption>Training lineup for <?php echo date(Y); ?></caption>
     <br>
 </h1>
 <div class="training-container">

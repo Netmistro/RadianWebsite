@@ -5,6 +5,7 @@
  * Date: 10/9/2018
  * Time: 3:12 PM
  */
+include('functions.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,12 +17,16 @@
 <body>
 <div class="row">
     <div class="column">
-        <h5>About</h5>
-        <p>The leading scaffolding training provider in Trinidad & Tobago and the Caribbean.</p>
+        <h5>Social Links</h5><br>
+        <a href="http://www.twitter.com"> <img src=<?php Twitter() ?> alt="Twitter" width="30"> </a>
+        <a href="http://www.facebook.com/radianhaltd"><img src=<?php Facebook() ?> alt="Facebook" width="30"></a>
+        <a href="http://www.youtube.com"><img src=<?php YouTube() ?> alt="Youtube" width="30"></a>
+        <a href="http://www.instagram.com"><img src=<?php Instagram() ?> alt="Instagram" width="30"></a>
+        <br><br>
         <p> &copy; <?php echo date(Y); ?> RADIAN H.A. Limited. All Rights Reserved.</p>
     </div>
     <div class="column">
-        <h5>Contacts</h5>
+        <h5>Contacts</h5><br>
         <dl class="contact-list">
             <dt>Address: #187 Helen Street, Marabella, Trinidad</dt>
             <dt>email: <a href="mailto:#">radianhaltd@gmail.com</a></dt>
@@ -32,30 +37,10 @@
         </dl>
     </div>
     <div class="column">
-        <h5>Quick Links</h5>
+        <h5>Quick Links</h5><br>
         <ul class="nav-list">
-
-            <!--  Code for About Hyperlink  -->
-            <?php
-            if (empty(scandir('pages')) == true) {
-                $About = 'profile.php';
-            } else {
-                $About = 'pages/profile.php';
-            }
-            ?>
-            <li><a href="<?php echo $About; ?>">About Us</a></li>
-
-            <!--  Code for Contacts Hyperlink  -->
-            <?php
-            if (empty(scandir('pages')) == true) {
-                $Contacts = 'contact-us.php';
-            } else {
-                $Contacts = 'pages/contact-us.php';
-            }
-            ?>
-            <li><a href="<?php echo $Contacts; ?>">Contact Us</a></li>
-            <!--  Facebook Link  -->
-            <li><a href="http://www.facebook.com/radianhaltd/">Facebook</a></li>
+            <li><a href="<?php aboutUs(); ?>">About Us</a></li>
+            <li><a href="<?php echo contactUs(); ?>">Contact Us</a></li>
         </ul>
     </div>
 </div>

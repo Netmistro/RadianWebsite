@@ -32,7 +32,7 @@ include "header.php";
     $phone = $_POST["phone"];
     $message = $_POST["message"];
     ?>
-    <form action="contact-us.php" method="post">
+    <form name="contact" action="contact-us.php" method="post">
         Name <br>
         <input type="text" name="name"><br><br>
         E-mail <br>

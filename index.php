@@ -5,7 +5,7 @@
  * Date: 10/8/2018
  * Time: 10:36 AM
  */
-include "pages/header.php";
+include ('pages/header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,19 +22,34 @@ include "pages/header.php";
     <div class="slide-show">
         <div class="slideshow-container">
             <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
+                <div class="numbertext">1 / 6</div>
                 <img src="images/radian-img1.jpg" style="width:100%" height="500">
                 <div class="text">Caption One</div>
             </div>
             <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
+                <div class="numbertext">2 / 6</div>
                 <img src="images/radian-img2.jpg" style="width:100%" height="500">
                 <div class="text">Caption Two</div>
             </div>
             <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
+                <div class="numbertext">3 / 6</div>
                 <img src="images/radian-img3.jpg" style="width:100%" height="500">
                 <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/radian-img4.jpg" style="width:100%" height="500">
+                <div class="text">Caption Four</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/radian-img5.jpg" style="width:100%" height="500">
+                <div class="text">Caption Five</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/radian-img6.jpg" style="width:100%" height="500">
+                <div class="text">Caption Six</div>
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -44,6 +59,9 @@ include "pages/header.php";
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
         </div>
         <script type="text/javascript" src="js/slideshow.js"></script>
     </div>
@@ -61,7 +79,7 @@ include "pages/header.php";
 </body>
 <footer>
     <?php
-    include "pages/footer.php";
+    include ('pages/footer.php');
     ?>
 </footer>
 </html>
