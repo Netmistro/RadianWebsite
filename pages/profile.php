@@ -32,6 +32,10 @@ include "header.php";
         trained personnel in all aspects of the industry. Customers access to all Scaffolding and Scaffolding
         Accessories and the availability of specialised tools and Safety Equipment that together offer a safe
         and healthy work environment."</p><br>
+    <h2> Vision Statement </h2>
+    <p>"To become the leading supply company in the scaffold industry by providing quality products to
+        satisfied customers, raising the level of professionalism through our intense training regime and to constantly
+        strive for excellence driven by the integrity, teamwork and creativity of our management, staff and employees."</p><br>
     <h2>Purpose</h2>
     <p>To lead the scaffold industry.</p><br>
     <h2>Core Values</h2>

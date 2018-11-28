@@ -18,12 +18,12 @@ include('functions.php');
 <div class="row">
     <div class="column">
         <h5>Social Links</h5><br>
-        <a href="http://www.twitter.com"> <img src=<?php Twitter() ?> alt="Twitter" width="30"> </a>
+        <a href="http://www.twitter.com"><img src=<?php Twitter() ?> alt="Twitter" width="30"></a>
         <a href="http://www.facebook.com/radianhaltd"><img src=<?php Facebook() ?> alt="Facebook" width="30"></a>
         <a href="http://www.youtube.com"><img src=<?php YouTube() ?> alt="Youtube" width="30"></a>
         <a href="http://www.instagram.com"><img src=<?php Instagram() ?> alt="Instagram" width="30"></a>
-        <br><br>
-        <p> &copy; <?php echo date(Y); ?> RADIAN H.A. Limited. All Rights Reserved.</p>
+        <br><br><br>
+        <p> <?php echo "&copy " . date(Y); ?> RADIAN H.A. Limited. All Rights Reserved.</p>
     </div>
     <div class="column">
         <h5>Contacts</h5><br>
