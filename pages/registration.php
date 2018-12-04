@@ -33,33 +33,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>RADIAN Registration</title>
-    <link rel="stylesheet" href="../css/main-style.css">
+    <link rel="stylesheet" href="<?php echo StyleSheet('main-style') ?>">
 </head>
 <body>
-<div class="content-wrap">
-    <h1>New User Registration</h1>
-</div>
-<div class="radian-form">
-    <form action="registration.php" method="post">
-        First Name <br>
-        <input type="text" name="first_name"> <br>
-        Last Name <br>
-        <input type="text" name="last_name"> <br>
-        Company <br>
-        <input type="text" name="company_name"> <br>
-        email <br>
-        <input type="email" name="email_address"> <br>
-        Business Phone <br>
-        <input type="tel" name="business_phone"> <br>
-        Mobile Phone <br>
-        <input type="tel" name="mobile_phone"> <br>
-        Username <br>
-        <input type="text" name="user_name"> <br>
-        Password <br>
-        <input type="password" name="user_password"> <br>
-        <br>
-        <input type="submit" name="Register">
-    </form>
+<div class="main-page">
+    <div class="content-wrap">
+        <h1>New User Registration</h1>
+    </div>
+    <div class="radian-form">
+        <form action="registration.php" method="post">
+            First Name <br>
+            <input type="text" name="first_name"> <br>
+            Last Name <br>
+            <input type="text" name="last_name"> <br>
+            Company <br>
+            <input type="text" name="company_name"> <br>
+            email <br>
+            <input type="email" name="email_address"> <br>
+            Business Phone <br>
+            <input type="tel" name="business_phone"> <br>
+            Mobile Phone <br>
+            <input type="tel" name="mobile_phone"> <br>
+            Username <br>
+            <input type="text" name="user_name"> <br>
+            Password <br>
+            <input type="password" name="user_password"> <br>
+            <br>
+            <input type="submit" name="Register">
+        </form>
+    </div>
 </div>
 </body>
 <footer>

@@ -47,31 +47,31 @@ if (mysqli_num_rows($result) > 0) {
 <head>
     <meta charset="UTF-8">
     <title>Confirm Training</title>
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/main-style.css">
-    <link rel="stylesheet" href="../css/training-page.css">
+    <link rel="stylesheet" href="<?php echo StyleSheet('main-style') ?>">
+    <link rel="stylesheet" href="<?php echo StyleSheet('training-page') ?>">
 </head>
 <body>
-<h1>Confirm your training below...</h1><br>
-<p>Please review the information below for your training and click the confirm button to book. You are on your way to
-    success as a scaffolder. Thank you for choosing RADIAN H.A. Limited to build your career.</p>
-<div class="training-container">
-    <p><img src="<?php echo "../images/training/" . "$training_image" . ".jpeg"; ?>" alt="Training Image"></p>
-    <p>Course Code: <?php echo "$course_code"; ?> </p>
-    <p>Course Title: <?php echo "$train_title"; ?></p>
-    <?php setlocale(LC_MONETARY, "en_US") ?>
-    <p>Cost (TTD): <?php echo money_format("%.2n", $train_cost) ?></p>
-    <p>Course Description: <?php echo "$course_description"; ?></p>
-    <p>Start Date: <?php echo "$start_date"; ?></p>
-    <p>End Date: <?php echo "$end_date"; ?></p>
-    <p>Course Instructor: <?php echo "$instructor"; ?></p>
-    <p>Spaces Available Now: <?php echo "$spaces_available"; ?></p>
-    <form action="confirmation.php" method="post">
-        <p><input type="submit" name="confirm" value="Book Now"></p>
-    </form>
+<div class="main-page">
+    <h1>Confirm your training below...</h1><br>
+    <p>Please review the information below for your training and click the confirm button to book. You are on your way
+        to
+        success as a scaffolder. Thank you for choosing RADIAN H.A. Limited to build your career.</p>
+    <div class="training-container">
+        <p><img src="<?php echo "../images/training/" . "$training_image" . ".jpeg"; ?>" alt="Training Image"></p>
+        <p>Course Code: <?php echo "$course_code"; ?> </p>
+        <p>Course Title: <?php echo "$train_title"; ?></p>
+        <?php setlocale(LC_MONETARY, "en_US") ?>
+        <p>Cost (TTD): <?php echo money_format("%.2n", $train_cost) ?></p>
+        <p>Course Description: <?php echo "$course_description"; ?></p>
+        <p>Start Date: <?php echo "$start_date"; ?></p>
+        <p>End Date: <?php echo "$end_date"; ?></p>
+        <p>Course Instructor: <?php echo "$instructor"; ?></p>
+        <p>Spaces Available Now: <?php echo "$spaces_available"; ?></p>
+        <form action="confirmation.php" method="post">
+            <p><input type="submit" name="confirm" value="Book Now"></p>
+        </form>
+    </div>
 </div>
-
 </body>
 <footer>
     <?php

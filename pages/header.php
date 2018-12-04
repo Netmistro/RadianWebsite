@@ -1,101 +1,62 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Brad
- * Date: 10/9/2018
- * Time: 3:12 PM
+ * User: said
+ * Date: 2018-11-28
+ * Time: 15:45
  */
-include 'initialize.php';
 session_start();
+require('functions.php');
 ?>
-<link rel="stylesheet" href="../css/header.css">
-<div class="header-row">
-    <div class="radian-logo">
-        <?php
-        if (empty(scandir('pages')) == true) {
-            $radian_logo = '../images/radian-logo.png';
-        } else {
-            $radian_logo = 'images/radian-logo.png';
-        }
-        ?>
-        <img src="<?php echo $radian_logo; ?>" alt="Radian" width="120">
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="<?php echo StyleSheet('header')?>">
+
+</head>
+<!--Navigation Bar-->
+<script type="text/javascript" src="../js/drop-menus.js"></script>
+<div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn" onclick="window.location.href='<?php echo HomePage('index') ?>'">Home</button>
     </div>
-    <div class="header-name">
-        <h1>RADIAN H.A. Limited</h1>
-        <p>187 Helen Street, Marabella, Trinidad</p>
-        <p>TSTT: +1(868) 658-0293/8294/5946</p>
-        <p>Others: +1(868) 223-8823/8824</p>
+    <div class="dropdown">
+        <button class="dropbtn">Products</button>
+        <div class="dropdown-content">
+            <a href="<?php echo productsLink('scaffold-materials') ?>">Scaffold Materials</a>
+            <a href="<?php echo productsLink('tagging-systems') ?>">Tagging Systems</a>
+            <a href="<?php echo productsLink('drop-object-prevention') ?>">Drop Object Prevention</a>
+            <a href="<?php echo productsLink('scaffold-consumables') ?>">Scaffold Consumables</a>
+            <a href="<?php echo productsLink('rescue-equipment') ?>">Rescue Equipment</a>
+            <a href="<?php echo productsLink('formwork') ?>">Formwork</a>
+            <a href="<?php echo productsLink('rope-access') ?>">Rope Access</a>
+            <a href="<?php echo productsLink('ppe') ?>">P.P.E.</a>
+        </div>
     </div>
-    <div class="header-right">
-
-        <!--  Code for Home Page Hyperlink  -->
-        <?php
-        if (empty(scandir('pages')) == true) {
-            $Home = '../index.php';
-        } else {
-            $Home = 'index.php';
-        }
-        ?>
-        <a class="active" href=<?php echo $Home; ?>>Home</a>
-
-        <!--  Code for Products Hyperlink  -->
-        <?php
-        if (empty(scandir('pages')) == true) {
-            $Products = 'products.php';
-        } else {
-            $Products = 'pages/products.php';
-        }
-        ?>
-        <a href="<?php echo $Products; ?>">Products</a>
-
-        <!--  Code for Services Hyperlink  -->
-        <?php
-        if (empty(scandir('pages')) == true) {
-            $Services = 'services.php';
-        } else {
-            $Services = 'pages/services.php';
-        }
-        ?>
-        <a href="<?php echo $Services; ?>">Services</a>
-
-        <!--  Code for Our Clients Hyperlink  -->
-        <?php
-        if (empty(scandir('pages')) == true) {
-            $OurClients = 'our-clients.php';
-        } else {
-            $OurClients = 'pages/our-clients.php';
-        }
-        ?>
-        <a href="<?php echo $OurClients; ?>">Our Clients</a>
-
-        <!--  Code for Contact Us Hyperlink  -->
-        <?php
-        if (empty(scandir('pages')) == true) {
-            $ContactUs = 'contact-us.php';
-        } else {
-            $ContactUs = 'pages/contact-us.php';
-        }
-        ?>
-        <a href="<?php echo $ContactUs; ?>">Contact</a>
-
-        <!--  Code for Profile Hyperlink  -->
-        <?php
-        if (empty(scandir('pages')) == true) {
-            $Profile = 'profile.php';
-        } else {
-            $Profile = 'pages/profile.php';
-        }
-        ?>
-        <a href="<?php echo $Profile; ?>">About Us</a>
-
-        <!--  Code for Training Hyperlink  -->
-        <?php
-        if (empty(scandir('pages')) == true) {
-            $Training = 'training.php';
-        } else {
-            $Training = 'pages/training.php';
-        }
-        ?>
-        <a href="<?php echo $Training; ?>">CITB Training</a>
+    <div class="dropdown">
+        <button class="dropbtn">Services</button>
+        <div class="dropdown-content">
+            <a href="<?php echo productsLink('engineering-design') ?>">Engineering Design</a>
+            <a href="<?php echo productsLink('scaffold-inspection') ?>">Scaffold Inspection</a>
+            <a href="<?php echo productsLink('scaffold-training') ?>">CITB Scaffold Training</a>
+            <a href="<?php echo productsLink('rescue-training') ?>">Rescue Training</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Technical</button>
+        <div class="dropdown-content">
+            <a href="<?php echo productsLink('cuplock-scaffolding') ?>">Cuplock Scaffold</a>
+            <a href="<?php echo productsLink('conventional-scaffolding') ?>">Conventional Scaffolding</a>
+            <a href="<?php echo productsLink('scaffold-calculator') ?>">Scaffold Calculator</a>
+            <a href="<?php echo productsLink('useful-links') ?>">Useful Links</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="window.location.href='<?php echo ProductsLink('profile') ?>'">About-Us</button>
+    </div>
+    <div class="topnav-right">
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location.href='<?php echo ProductsLink('login') ?>'">Login</button>
+        </div>
     </div>
 </div>

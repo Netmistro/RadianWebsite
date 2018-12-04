@@ -6,62 +6,46 @@
  * Time: 23:03
  */
 // Function to display twitter link
-function Twitter()
+function SocialIcon($SocialIcon)
 {
     if (empty(scandir('images')) == true) {
-        echo '../images/twitter-icon.png';
+        echo '../images/'.$SocialIcon.'.png';
     } else {
-        echo 'images/twitter-icon.png';
+        echo 'images/'.$SocialIcon.'.png';
     }
 }
 
-// Function to display Youtube link
-function YouTube()
+function ContactImages($image)
 {
-    if (empty(scandir('images')) == true) {
-        echo '../images/youtube-icon.png';
+    if (empty(scandir('css')) == true) {
+        echo '../images/'.$image.'.png';
     } else {
-        echo 'images/youtube-icon.png';
+        echo 'images/'.$image.'.png';
     }
 }
-
-// Function to display Instagram link
-function Instagram()
-{
-    if (empty(scandir('images')) == true) {
-        echo '../images/instagram-icon.png';
-    } else {
-        echo 'images/instagram-icon.png';
-    }
-}
-
-// Function to display Facebook link
-function Facebook()
-{
-    if (empty(scandir('images')) == true) {
-        echo '../images/facebook-icon.png';
-    } else {
-        echo 'images/facebook-icon.png';
-    }
-}
-
-// Function for About link
-function aboutUs()
-{
+//Function will create all the links for the pages by passing the page name as a variable
+function productsLink($Page){
     if (empty(scandir('pages')) == true) {
-        echo 'profile.php';
+        echo $Page.'.php';
     } else {
-        echo 'pages/profile.php';
+        echo 'pages/'.$Page.'.php';
     }
 }
 
-// Function for Contact Us link
-function contactUs()
-{
+//Function will link to home page
+function HomePage($HomePage){
     if (empty(scandir('pages')) == true) {
-        echo 'contact-us.php';
+        echo '../'.$HomePage.'.php';
     } else {
-        echo 'pages/contact-us.php';
+        echo $HomePage.'.php';
     }
 }
 
+function StyleSheet($styleSheet)
+{
+    if (empty(scandir('css')) == true) {
+        echo '../css/'.$styleSheet.'.css';
+    } else {
+        echo 'css/'.$styleSheet.'.css';
+    }
+}

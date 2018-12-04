@@ -35,21 +35,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>RADIAN Login</title>
-    <link rel="stylesheet" href="../css/main-style.css">
-    <link rel="stylesheet" href="../css/product-page.css">
+    <link rel="stylesheet" href="<?php echo StyleSheet('main-style') ?>">
 </head>
 <body>
-<br>
-<h1>Login</h1><br>
-<!-- Form Code-->
-<form action="login.php" method="post">
-    Email <br>
-    <input type="email" name="email"><br><br>
-    Password <br>
-    <input type="password" name="user_password"><br><br>
-    <input type="submit" name="Login">
-    <br><br>
-</form>
+<div class="main-page">
+    <br>
+    <h1>User Login</h1><br>
+    <!-- Form Code-->
+    <form action="login.php" method="post">
+        Email <br>
+        <input type="email" name="email"><br><br>
+        Password <br>
+        <input type="password" name="user_password"><br><br>
+        <input type="submit" name="Login">
+        <br><br>
+    </form>
+</div>
 </body>
 <footer>
     <!--    Page Footer     -->
