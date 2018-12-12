@@ -12,8 +12,8 @@ require('pages/header.php');
 <head>
     <meta charset="UTF-8">
     <title>RADIAN H.A. Limited</title>
-    <link rel="stylesheet" href="<?php echo StyleSheet('main-style')?>">
-    <link rel="stylesheet" href="<?php echo StyleSheet('slideshow')?>">
+    <link rel="stylesheet" href="<?php echo StyleSheet('main-style') ?>">
+    <link rel="stylesheet" href="<?php echo StyleSheet('slideshow') ?>">
 </head>
 <body>
 <div class="main-page">
@@ -50,30 +50,28 @@ require('pages/header.php');
             <br>
         </div>
         <br>
-            <div style="text-align: center">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-            <script type="text/javascript" src="js/slideshow.js"></script>
-            <div class="content-wrap">
-                <h2>The leading scaffolding training provider in Trinidad & Tobago and the Caribbean</h2><br>
-                <p>Radian H.A. Ltd. is a dynamic, customer-driven business established in 2001; we primarily engage in
-                    the
-                    provision of comprehensive training programs in Scaffolding & Form Work. We work in conjunction
-                    with Safety & Access Ltd.(UK) the leading scaffolding & formwork training agency in the United
-                    Kingdom.
-                    We also provide the widest range of scaffolding, Scaffolding Tools, Scaffolding Accessories and
-                    Safety
-                    Equipment in Trinidad & Tobago for both hire and sale. Radian H.A. Ltd also has a truly unique
-                    market
-                    position as we never undertake any contract work, which we would consider to be direct competition
-                    with on-site contractors, many of whom are our customers.</p>
-            </div>
+        <div style="text-align: center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
+        <script type="text/javascript" src="js/slideshow.js"></script>
+        <div class="content-wrap">
+            <br>
+            <h2>The leading Scaffold Training provider in Trinidad & Tobago and the Caribbean</h2><br>
+            <p>Radian H.A. Ltd. is a dynamic, customer-driven business established in 2001; we primarily engage in
+                the provision of comprehensive training programs in Scaffolding & Form Work. We work in conjunction
+                with Safety & Access Ltd.(UK) the leading scaffolding & formwork training agency in the United
+                Kingdom. We also provide the widest range of scaffolding, Scaffolding Tools, Scaffolding Accessories
+                and Safety Equipment in Trinidad & Tobago for both hire and sale. Radian H.A. Ltd also has a truly
+                unique market position as we never undertake any contract work, which we would consider to be direct competition
+                with on-site contractors, many of whom are our customers.</p>
+            <br><br>
+        </div>
+    </div>
 </body>
 <footer>
     <?php

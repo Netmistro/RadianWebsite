@@ -17,6 +17,7 @@ include('header.php');
 </head>
 <body>
 <div class="main-page">
+    <br>
     <h1>Tagging Systems</h1>
 </div>
 </body>

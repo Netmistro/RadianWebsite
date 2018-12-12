@@ -28,6 +28,8 @@
                                                 alt="Instagram" width="30"></a>
         <br><br><br>
         <p> <?php echo "&copy " . date(Y); ?> RADIAN H.A. Limited. All Rights Reserved.</p>
+        <span id="siteseal"><script async type="text/javascript"
+                                    src="https://seal.godaddy.com/getSeal?sealID=5r3sdbsYbQL2KGHfg0dAkpE07QBMg4lypkTJJ2pk2AON3HTtadydx4bg6kFJ"></script></span>
     </div>
     <div class="column">
         <h5>Contact Information</h5><br>
@@ -49,4 +51,7 @@
     </div>
 </div>
 </body>
+<footer>
+
+</footer>
 </html>

@@ -1,123 +1,128 @@
 /***** Body Styles CSS *****/
-body .main-page{
-    background: white;
+body .main-page {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    margin: 0 auto;
+    color: #000;
     max-width: 1000px;
-    min-height: 500px;
+    min-height: 700px;
 }
 
 /***** H1 Styles CSS *****/
-h1 {
+h1 h2 h5 {
     color: black;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
     font-size: 25px;
+    margin: 2% auto;
 }
 
 /***** H2 Styles CSS *****/
 h2 {
-    color: black;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-top: 0px;
 }
 
 /***** H5 Styles CSS *****/
 h5 {
-    color: black;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-top: 0px;
 }
 
 /***** Typical Paragraphs Styles CSS *****/
-p, dt, ul {
+p, dt, ul li{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    line-height: 200%;
+    line-height: 1.6;
     color: black;
+    font-size: 14px;
 }
 
 /***** Other CSS for Other Pages *****/
 .content-wrap {
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 1000px;
-    padding: 10px;
     background-color: white;
     font-size: 14px;
 }
 
 /* Form Details CSS*/
-.radian-form {
+.registration-form {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-align: left;
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 10px;
     background-color: white;
 }
+
 /*Formatting of the Text Field*/
 input[type=text], select {
-      width: 40%;
-      padding: 10px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-sizing: border-box;
-  }
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
 /*Formatting of the Telephone Field*/
 input[type=tel], select {
-    width: 40%;
-    padding: 10px 20px;
-    margin: 8px 0;
+    width: 150px;
+    padding: 10px 10px;
+    margin: 10px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 5px;
     box-sizing: border-box;
+    font-size: 16px;
 }
+
 /*Formatting of the password field*/
 input[type=password], select {
-    width: 40%;
-    padding: 10px 20px;
-    margin: 8px 0;
+    width: 150px;
+    padding: 10px 10px;
+    margin: 10px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 5px;
     box-sizing: border-box;
+    font-size: 16px;
 }
+
 /*Formatting of the email field*/
 input[type=email], select {
-    width: 40%;
-    padding: 10px 20px;
-    margin: 8px 0;
+    width: 300px;
+    padding: 10px 10px;
+    margin: 10px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 5px;
     box-sizing: border-box;
+    font-size: 16px;
 }
+
 /*Formatting of the Submit Button*/
 input[type=submit] {
-    width: 10%;
+    width: 150px;
     background-color: #4CAF50;
     color: white;
-    font-size: 12pt;
-    padding: 10px 20px;
-    margin: 8px 0;
+    font-size: 14pt;
+    padding: 10px;
+    margin: 10px auto;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
+
 /*Formatting of the Hover Effect*/
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
 /*Formatting of the Background colour when focused on a field*/
 input[type=text]:focus {
     background-color: lightblue;
+}
+
+.login-page {
+    background-color: white;
+    color: black;
 }

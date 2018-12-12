@@ -6,17 +6,18 @@
  * Time: 15:45
  */
 session_start();
-require('functions.php');
+include_once('functions.php');
 ?>
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="<?php echo StyleSheet('header')?>">
-
+    <link rel="stylesheet" href="<?php echo StyleSheet('header') ?>">
+    <link rel="icon" href="<?php echo ContactImages('radian-logo') ?>">
+    <script type="text/javascript" src="../js/drop-menus.js"></script>
 </head>
-<!--Navigation Bar-->
-<script type="text/javascript" src="../js/drop-menus.js"></script>
-<div class="navbar">
+<body>
+<div class="navbar" id="main-navbar">
     <div class="dropdown">
         <button class="dropbtn" onclick="window.location.href='<?php echo HomePage('index') ?>'">Home</button>
     </div>
@@ -52,11 +53,21 @@ require('functions.php');
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropbtn" onclick="window.location.href='<?php echo ProductsLink('profile') ?>'">About-Us</button>
+        <button class="dropbtn" onclick="window.location.href='<?php echo ProductsLink('profile') ?>'">About</button>
     </div>
     <div class="topnav-right">
         <div class="dropdown">
-            <button class="dropbtn" onclick="window.location.href='<?php echo ProductsLink('login') ?>'">Login</button>
+            <?php if (isset($_SESSION['first_name'])): ?>
+                Welcome<?php echo $_SESSION['first_name'] ?>
+                <button class="dropbtn" onclick="window.location.href='<?php echo ProductsLink('logout') ?>'">Logout
+                </button>
+            <?php else: ?>
+                <button class="dropbtn" onclick="window.location.href='<?php echo ProductsLink('login') ?>'">Login
+                </button>
+            <?php endif; ?>
         </div>
     </div>
 </div>
+<script type="text/javascript" src="../js/nav-bar-sticky.js"></script>
+</body>
+</html>

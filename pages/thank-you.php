@@ -5,6 +5,7 @@
  * Date: 11/18/18
  * Time: 2:35 PM
  */
+session_start();
 include('header.php')
 ?>
 <!DOCTYPE html>

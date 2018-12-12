@@ -6,7 +6,8 @@
  * Time: 11:14 PM
  */
 //  Page Header
-include 'header.php';
+include_once('header.php');
+include_once ('functions.php');
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $user_password = $_POST["user_password"];
@@ -35,27 +36,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>RADIAN Login</title>
-    <link rel="stylesheet" href="<?php echo StyleSheet('main-style') ?>">
+    <link rel="stylesheet" href="<?php echo StyleSheet('login') ?>">
 </head>
 <body>
-<div class="main-page">
-    <br>
-    <h1>User Login</h1><br>
-    <!-- Form Code-->
-    <form action="login.php" method="post">
-        Email <br>
-        <input type="email" name="email"><br><br>
-        Password <br>
-        <input type="password" name="user_password"><br><br>
-        <input type="submit" name="Login">
-        <br><br>
+<div class="login-page">
+    <h2>Please Login</h2><br>
+    <!-- Form Code Here-->
+    <form action="login.php" name="login-page" method="post">
+        <div class="container">
+            <label for="uname"><b>E-mail</b></label>
+            <input type="text" placeholder="Enter E-Mail" name="email" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="user_password" required>
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+        <div class="container">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="reset-password.php">Password?</a></span>
+            <span class="register">Don't have an Account <a href="<?php ProductsLink('registration')?>">Register?</a></span>
+        </div>
     </form>
 </div>
 </body>
 <footer>
     <!--    Page Footer     -->
     <?php
-    include 'footer.php';
+    include('footer.php');
     ?>
 </footer>
 </html>

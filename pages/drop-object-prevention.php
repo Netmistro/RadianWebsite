@@ -16,6 +16,7 @@ include('header.php');
 </head>
 <body>
 <div class="main-page">
+    <br>
     <h1>Drop Object Prevention Systems</h1>
 </div>
 </body>

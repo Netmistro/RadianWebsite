@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: said
- * Date: 2018-12-01
- * Time: 00:21
+ * Date: 2018-12-03
+ * Time: 21:26
  */
 include('header.php');
 ?>
@@ -12,13 +12,13 @@ include('header.php');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Scaffold Materials</title>
-    <link rel="stylesheet" href="<?php echo StyleSheet('main-style')?>">
+    <title>Conventional Scaffolding</title>
+    <link rel="stylesheet" href="<?php echo StyleSheet('main-style') ?>">
 </head>
 <body>
 <div class="main-page">
     <br>
-    <h1>Scaffold Materials</h1>
+    <h1>Conventional Scaffolding</h1>
 </div>
 </body>
 <footer>

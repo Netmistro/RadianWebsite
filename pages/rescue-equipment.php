@@ -17,6 +17,7 @@ include('header.php');
 </head>
 <body>
 <div class="main-page">
+    <br>
     <h1>Rescue Equipment</h1>
 </div>
 </body>
