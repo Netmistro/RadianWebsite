@@ -126,3 +126,15 @@ input[type=text]:focus {
     background-color: white;
     color: black;
 }
+
+/*Formatting of the Submit Button*/
+button[type=submit] {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+}

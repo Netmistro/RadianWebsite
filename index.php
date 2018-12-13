@@ -5,15 +5,15 @@
  * Date: 10/8/2018
  * Time: 10:36 AM
  */
-require('pages/header.php');
+require('header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>RADIAN H.A. Limited</title>
-    <link rel="stylesheet" href="<?php echo StyleSheet('main-style') ?>">
-    <link rel="stylesheet" href="<?php echo StyleSheet('slideshow') ?>">
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/slideshow.css">
 </head>
 <body>
 <div class="main-page">
@@ -75,7 +75,7 @@ require('pages/header.php');
 </body>
 <footer>
     <?php
-    require('pages/footer.php');
+    require('footer.php');
     ?>
 </footer>
 </html>
