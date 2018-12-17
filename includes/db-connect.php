@@ -6,15 +6,15 @@
  * Time: 12:03 AM
  */
 
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "radian";
+$serverName = "localhost";
+$dbUserName = "root";
+$dbPassword = "root";
+$dbName = "radian";
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($serverName, $dbUserName, $dbPassword, $dbName);
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-echo "Connected successfully";
+//echo "Connected successfully";

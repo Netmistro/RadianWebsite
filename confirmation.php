@@ -6,26 +6,26 @@
  * Time: 2:32 PM
  */
 include('header.php');
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    require('db-connect.php');
+if (isset($_POST['confirm-training']) && $_SESSION['userID'] == true) {
+    require('includes/db-connect.php');
     $train_id = $_SESSION['train_id'];
     $user_id = $_SESSION['user_id'];
     $sql = "INSERT INTO `bookings` (`booking_id`, `user_id`, `training_code`) VALUES (NULL, '$user_id', '$train_id');";
     $updateBbookingSpaces = "UPDATE training SET train_spaces = train_spaces-1 WHERE train_id=$train_id";
     if (mysqli_query($conn, $sql)) {
-        header("location:thank-you.php");
+        header("Location: thank-you.php?success=true");
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
 
     if ($conn->query($updateBbookingSpaces) === TRUE) {
-        echo "Record updated successfully";
+        echo "Your training has been booked. Thank You!";
     } else {
         echo "Error updating record: " . $conn->error;
     }
 }
 $train_id = $_SESSION['train_id'];
-require('db-connect.php');
+require('includes/db-connect.php');
 $sql = "SELECT * FROM training where train_id = $train_id";
 //Echo SQL statement for testing purposes only
 //echo $sql;
@@ -46,7 +46,7 @@ if (mysqli_num_rows($result) > 0) {
         $training_image = $row["image"];
     }
 } else {
-    echo "0 results";
+    echo "There was an error booking your training. We apologize for any inconvenience";
 }
 ?>
 <!DOCTYPE html>
@@ -60,18 +60,17 @@ if (mysqli_num_rows($result) > 0) {
 <div class="main-page">
     <h1>Training Confirmation</h1><br>
     <form action="confirmation.php" method="post">
-        <p><input type="submit" name="confirm" value="Confirm"></p>
+        <p><input type="submit" name="confirm-training" value="Confirm"></p>
     </form>
-    <br>
-    <p>Please confirm your training details below...</p>
-    <br>
-    <p>Please review the information below of your training details and click the confirm button to book.
-        You are now on your way to success. Thank you for choosing RADIAN H.A. Limited to build your career.</p>
-    <br>
-    <div class="training-container">
+    <div class="training-container"><br>
+        <p>Please confirm your training details below...</p>
+        <br>
+        <p>Please review the information below of your training details and click the confirm button to book.
+            You are now on your way to success. Thank you for choosing RADIAN H.A. Limited to build your career.</p>
+        <br>
         <p><img src="<?php echo "images/training/" . "$training_image" . ".jpeg"; ?>" alt="Training Image"></p>
         <br>
-        <b><p>Course Code: <?php echo "$course_code"; ?> </p></b>
+        <b><p style="font-size: larger">Course Code: <?php echo "$course_code"; ?> </p></b>
         <p>Course Title: <?php echo "$train_title"; ?></p>
         <?php setlocale(LC_MONETARY, "en_US") ?>
         <p>Cost (TTD): <?php echo money_format("%.2n", $train_cost) ?></p>
@@ -79,7 +78,8 @@ if (mysqli_num_rows($result) > 0) {
         <p>Start Date: <?php echo "$start_date"; ?></p>
         <p>End Date: <?php echo "$end_date"; ?></p>
         <p>Course Instructor: <?php echo "$instructor"; ?></p>
-        <p>Available Spaces: <?php echo "$spaces_available"; ?></p>
+        <p style="font-size: larger">Open Spaces: <span style="color: red"><b><?php echo "$spaces_available"; ?></span></b></p>
+        <br>
     </div>
 </div>
 </body>

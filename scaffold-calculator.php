@@ -9,7 +9,7 @@
 include('header.php');
 include('includes/db-connect.php');
 $sql = "SELECT * FROM scaffold_weight";
-$scaffold_weight_data = mysqli_query($conn, $sql);
+$scaffoldWeightData = mysqli_query($conn, $sql);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,8 +22,9 @@ $scaffold_weight_data = mysqli_query($conn, $sql);
 <div class="calculator-page">
     <br>
     <h2>Scaffold Weight Calculator Ver.1.0</h2>
+    <img src="images/radian-logo.png" alt="RADIAN Logo" width="75">
     <br>
-    <form name="form1" method="post" action="scaffold-calculator.php">
+    <form name="scaffolding-calculator" method="POST" action="scaffold-calculator.php">
         <input type="submit" name="calculate" value="Calculate">
         <input type="submit" name="clear" value="Clear"><br>
         <table>
@@ -37,39 +38,41 @@ $scaffold_weight_data = mysqli_query($conn, $sql);
                 <th style="text-align: center">Weight (tons)</th>
             </tr>
             <?php
-            while ($row_material = mysqli_fetch_assoc($scaffold_weight_data)) {
-                $material_description = $row_material['description'];
-                $category = $row_material['category'];
-                $unit_weight = $row_material['unit_weight_kg'];
-                echo "<tr>";
-                echo "<td>" . $material_description . "</td>";
-                echo "<td>" . $category . "</td>";
-                echo "<td style='text-align: center'>" . "<input type='text' name = '$material_id'
-                    value = '$_POST[$material_id]' size='15' placeholder='Qty.'>" . "</td>";
-                echo "<td style='text-align: right'>" . number_format($unit_weight, 2) . "</td>";
+            while ($rowMaterial = mysqli_fetch_assoc($scaffoldWeightData)) {
+                $materialID = $rowMaterial['material_id'];
+                $description = $rowMaterial['description'];
+                $category = $rowMaterial['category'];
+                $unitWeight = $rowMaterial['unit_weight_kg'];
                 if (isset($_POST['calculate'])) {
-                    $weight_in_kg = $_POST[$material_id] * $unit_weight;
-                    $total_weight_kg = $weight_in_kg + $total_weight_kg;
-                    $weight_in_lbs = $weight_in_kg * 2.20462;
-                    $weight_in_tons = $weight_in_kg / 1000;
+                    $weightKg = $_POST[$materialID] * $unitWeight;
+                    $weightLbs = $weightKg * 2.20462;
+                    $weightTons = $weightKg / 1000;
+                    $totalWeightKg = $weightKg + $totalWeightKg;
                 }
-
                 if (isset($_POST['clear'])) {
-                    header('location:scaffold-calculator.php');
+                    header('Location: scaffold-calculator.php');
                 }
-
-                echo "<td style='text-align: right'>" . number_format($weight_in_kg, 2) . "</td>";
-                echo "<td style='text-align: right'>" . number_format($weight_in_lbs, 2) . "</td>";
-                echo "<td style='text-align: right'>" . number_format($weight_in_tons, 2) . "</td>";
-                echo "</tr>";
+                ?>
+                <tr>
+                    <td><?php echo $description ?></td>
+                    <td><?php echo $category ?></td>
+                    <td style="text-align: center"><input type="text" name="<?php echo $materialID; ?>"
+                                                          value="<?php echo $_POST[$materialID]; ?>" placeholder="Qty">
+                    </td>
+                    <td style='text-align: right'><?php echo number_format($unitWeight, 2) ?></td>
+                    <td style='text-align: right'><?php echo number_format($weightKg, 2) ?></td>
+                    <td style='text-align: right'><?php echo number_format($weightLbs, 2) ?></td>
+                    <td style='text-align: right'><?php echo number_format($weightTons, 2) ?></td>
+                </tr>
+                <?php
             }
-            echo "<div class='head-calculations'>";
-            echo "Total Weight in Kg: - " . number_format($total_weight_kg, 2) . "<br>";
-            echo "Total Weight in lbs: - " . number_format($total_weight_kg * 2.20462, 2) . "<br>";
-            echo "<b>" . "Total Weight in Tons: - " . number_format($total_weight_kg / 1000, 2) . "</b>" . "<br>";
-            echo "<br>";
-            echo "</div>";
             ?>
+            <div class='head-calculations'>
+                Total Weight in Kg: - <?php echo number_format($totalWeightKg, 2) ?><br>
+                Total Weight in lbs: - <?php echo number_format($totalWeightKg * 2.20462, 2) ?> <br>
+                <b> Total Weight in Tons: - <?php echo number_format($totalWeightKg / 1000, 2) ?> </b> <br>
+                <br>
+            </div>
     </form>
     </table>
 </div>

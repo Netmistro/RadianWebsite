@@ -54,7 +54,7 @@ button[type=submit]:focus {
 /*Formatting of the Submit Button*/
 input[type=text] {
     width: 100px;
-    padding: 8px;
+    padding: 5px;
     margin: 5px 5px;
     box-sizing: border-box;
     background-color: skyblue;

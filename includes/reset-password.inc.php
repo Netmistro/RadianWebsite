@@ -14,12 +14,12 @@ if (isset($_POST["reset-password-submit"])) {
         header("Location: create-new-password.php?newpwd=empty");
         exit();
     } elseif ($password != $passwordRepeat) {
-        header("Location:create-new-password?newpwd=pwdnotsame");
+        header("Location: create-new-password?newpwd=pwdnotsame");
         exit();
     }
     $currentDate = date("U");
 //    Database connection string
-    require("db-connect.php");
+    require("includes/db-connect.php");
 //    SQL statement to get data from the tokens database
     $sql = "SELECT * FROM pwdReset WHERE pwdResetSelector=? AND pwdResetExpires >=?";
     $stmt = mysqli_stmt_init($conn);
@@ -81,5 +81,5 @@ if (isset($_POST["reset-password-submit"])) {
         }
     }
 } else {
-    header("Location:../index.php");
+    header("Location: index.php");
 }

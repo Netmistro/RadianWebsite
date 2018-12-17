@@ -5,6 +5,8 @@
  * Date: 2018-12-11
  * Time: 23:06
  */
+
+// This is a form that will be setup to reset your password
 include('header.php');
 ?>
 
@@ -22,10 +24,9 @@ include('header.php');
     <p>An email will be sent to you with instructions on how to reset your password.
     Please enter your email address below that is associated with your account.</p>
     <form action="reset-request.php" method="post">
-        <input type="text" name="email" placeholder="Enter your e-mail address...">
+        <input type="text" name="email" placeholder="Enter your e-mail...">
         <button type="submit" name="reset-request-submit">Reset</button>
     </form>
-
     <?php
     if (isset($_GET['reset'])) {
         if ($_GET['reset'] == "success") {

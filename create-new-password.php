@@ -27,9 +27,9 @@ include('header.php');
 //        Check if the tokens are of hexadecimal format
         if (ctype_xdigit($selector) !== false && ctype_xdigit($validator) !== false) {
             ?>
-            <form action="reset-password-inc.php" method="post">
-                <input type="hidden" name="selector" value="<?php echo $selector; ?>">
-                <input type="hidden" name="validator" value="<?php echo $validator; ?>">
+            <form action="includes/reset-password.inc.php" method="post">
+                <input type="hidden" name="selector" value="<?php echo $selector; ?>" width="200">
+                <input type="hidden" name="validator" value="<?php echo $validator; ?>" width="300">
                 New Password <br>
                 <input type="password" name="pwd" placeholder="Enter new Password..."><br>
                 Re-Enter New Password<br>

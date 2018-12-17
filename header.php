@@ -10,6 +10,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials & Tools">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/header.css">
     <link rel="icon" href="images/radian-logo.png">
@@ -56,11 +57,11 @@ session_start();
     </div>
     <div class="topnav-right">
         <div class="dropdown">
-            <?php if (isset($_SESSION['first_name'])): ?>
-                Welcome<?php echo $_SESSION['first_name'] ?>
-                <button class="dropbtn" onclick="window.location.href='logout.php'">Logout</button>
+            <?php if (isset($_SESSION['userID'])): ?>
+                Welcome <?php echo $_SESSION['first_name'] ?>
+                <button class="dropbtn" onclick="window.location.href='includes/logout.inc.php'">Logout</button>
             <?php else: ?>
-                <button class="dropbtn" onclick="window.location.href='login.php'">Login</button>
+                <button class="dropbtn" onclick="window.location.href='login.php'">Register/Login</button>
             <?php endif; ?>
         </div>
     </div>
