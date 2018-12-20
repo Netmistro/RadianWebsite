@@ -6,7 +6,7 @@
  * Time: 2:35 PM
  */
 session_start();
-include('header.php')
+include('header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

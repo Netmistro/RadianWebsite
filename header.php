@@ -31,6 +31,7 @@ session_start();
             <a href="rescue-equipment.php">Rescue Equipment</a>
             <a href="formwork.php">Formwork</a>
             <a href="rope-access.php">Rope Access</a>
+            <a href="scaffold-tools.php">Scaffold Tools</a>
             <a href="ppe.php">P.P.E.</a>
         </div>
     </div>

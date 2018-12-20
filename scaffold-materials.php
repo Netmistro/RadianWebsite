@@ -18,7 +18,8 @@ include('header.php');
 <body>
 <div class="main-page">
     <br>
-    <h1>Scaffold Materials</h1>
+    <h1>Scaffold Materials</h1><br>
+
 </div>
 </body>
 <footer>

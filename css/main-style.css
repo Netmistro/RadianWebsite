@@ -7,6 +7,15 @@ body .main-page {
     min-height: 700px;
 }
 
+.main-page ol{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12pt;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
 /***** H1 Styles CSS *****/
 h1 h2 h5 {
     color: black;
@@ -158,4 +167,11 @@ button[type=submit] {
     margin: 10px auto;
     border: none;
     cursor: pointer;
+}
+.main-page p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
 }

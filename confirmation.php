@@ -13,17 +13,58 @@ if (isset($_POST['confirm-training']) && $_SESSION['userID'] == true) {
     $sql = "INSERT INTO `bookings` (`booking_id`, `user_id`, `training_code`) VALUES (NULL, '$user_id', '$train_id');";
     $updateBbookingSpaces = "UPDATE training SET train_spaces = train_spaces-1 WHERE train_id=$train_id";
     if (mysqli_query($conn, $sql)) {
+        // Send email to office and potential student
+//   Email format to user with lost/forgotten password
+        $to = $_SESSION['userEmail'];
+// Subject
+        $subject = 'Training Confirmation - Booking';
+// Message content
+        $message = '
+<!DOCTYPE html>
+<head>
+  <title>Training Confirmation</title>
+</head>
+<body>
+  <p>
+  This email is to confirm training that was booked from this email account. If you didnt book this training
+  or it was done in error, please reply to training@rhatt.com and notify of the error.
+  
+  Thank You and looking forward to meeting you for your upcoming course.
+</p>
+</body>
+<footer>
+RADIAN H.A. Limited<br>
+Address - 187 Helen Street Marabella, San Fernando, Trinidad and Tobago<br>
+Office - +1 868 658-0293<br>
+E-mail - radianhaltd@gmail.com<br>
+</footer>
+</html>';
+
+// To send HTML mail, the Content-type header must be set
+
+        $headers[] = 'MIME-Version: 1.0';
+        $headers[] = 'Content-type: text/html; charset=iso-8859-1';
+
+// Additional headers
+        $headers[] = 'To: ' . $to;
+        $headers[] = 'From: RADIAN H.A. Limited <arnold.bradshaw@rhatt.com>';
+        $headers[] = 'Cc: arnold.bradshaw@rhatt.com';
+        $headers[] = 'Bcc: arnoldbradshaw@hotmail.com';
+
+// Mail it
+        mail($to, $subject, $message, implode("\r\n", $headers));
+
         header("Location: thank-you.php?success=true");
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
-
     if ($conn->query($updateBbookingSpaces) === TRUE) {
         echo "Your training has been booked. Thank You!";
     } else {
         echo "Error updating record: " . $conn->error;
     }
 }
+// Code for all the
 $train_id = $_SESSION['train_id'];
 require('includes/db-connect.php');
 $sql = "SELECT * FROM training where train_id = $train_id";
@@ -44,10 +85,13 @@ if (mysqli_num_rows($result) > 0) {
         $instructor = $row["train_instructor"];
         $spaces_available = $row["train_spaces"];
         $training_image = $row["image"];
+//        Set session variables for the final email
+        $_SESSION['courseCode']=$course_code;
     }
 } else {
     echo "There was an error booking your training. We apologize for any inconvenience";
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -78,7 +122,8 @@ if (mysqli_num_rows($result) > 0) {
         <p>Start Date: <?php echo "$start_date"; ?></p>
         <p>End Date: <?php echo "$end_date"; ?></p>
         <p>Course Instructor: <?php echo "$instructor"; ?></p>
-        <p style="font-size: larger">Open Spaces: <span style="color: red"><b><?php echo "$spaces_available"; ?></span></b></p>
+        <p style="font-size: larger">Open Spaces: <span
+                    style="color: red"><b><?php echo "$spaces_available"; ?></span></b></p>
         <br>
     </div>
 </div>

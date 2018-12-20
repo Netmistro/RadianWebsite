@@ -53,7 +53,7 @@ $training_data = mysqli_query($conn, $sql);
                     echo "<span style='color: #cd0a0a'>" . "Start Date: " . $row['train_start_date'] . "</span>" . "<br>";
                     echo "<span style='color: #cd0a0a'>" . "End Date: " . $row['train_end_date'] . "</span>" . "<br>";
                     echo "Instructor: " . $row['train_instructor'] . "<br>";
-                    echo "Spaces Available: " . $row['train_spaces'] . "<br>";
+                    echo "<b>"."Spaces Available: " . $row['train_spaces'] . "</b>"."<br>";
                     echo "<form action='scaffold-training.php' method='post'>";
                     echo "<button type='submit' class='btn-book-now' >" . "Book Now" . "</button>" . "<br>";
                     $train_id = $row['train_id'];
