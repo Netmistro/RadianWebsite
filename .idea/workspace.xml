@@ -2,76 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff336057-2b2b-41f7-ac64-5cead3ef3e17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boss-towers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cuplock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leather-products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ringlock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/safety-equipment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scaffold-mart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool-belts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conventional-scaffolding.php" beforeDir="false" afterPath="$PROJECT_DIR$/conventional-scaffolding.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create-new-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/create-new-password.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/calculator.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/calculator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/rescue-equipment.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rescue-equipment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scaffold-tools.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/slideshow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/slideshow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tagging.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/catalogue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/training.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/training.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuplock-scaffolding.php" beforeDir="false" afterPath="$PROJECT_DIR$/cuplock-scaffolding.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drop-object-prevention.php" beforeDir="false" afterPath="$PROJECT_DIR$/drop-object.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineering-design.php" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-design.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formwork.php" beforeDir="false" afterPath="$PROJECT_DIR$/formwork.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boss-aluminium-towers.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/column-climber.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/doka-formwork.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ergodyne-safety-glasses.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/getmie-safe-rescue-kit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/getmiesafe/getmie-safe-fast_access_close_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/getmiesafe/getmie-safe-ratchet-handles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/getmiesafe/getmie-safe-rescue_kit.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/getmiesafe/getmie-safe-rescue_kit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/h-frame-scaffolding.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/other/tube-and-coupler-system.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/other/tube-and-coupler-system.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ppe-fall-protection.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/radian-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/radian-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rescue-training.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rope-access-equipment.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/scaffold-consumables.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/scaffold-materials.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/scaffold-tools.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/scaffold-training.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/training/basic-scaffolding-inspection.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/training/basic-scaffolding-inspection.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/training/scaffold-estimation.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/training/scaffold-estimation.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/our-clients.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ppe.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rescue-equipment.php" beforeDir="false" afterPath="$PROJECT_DIR$/rescue-equipment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rescue-training.php" beforeDir="false" afterPath="$PROJECT_DIR$/rescue-training.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/reset-password.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rope-access.php" beforeDir="false" afterPath="$PROJECT_DIR$/rope-access.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffold-calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-calculator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffold-consumables.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-consumables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffold-inspection.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-inspection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffold-materials.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-materials.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffold-tools.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-tools.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffold-training.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-training.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagging-systems.php" beforeDir="false" afterPath="$PROJECT_DIR$/tagging-systems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thank-you.php" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/useful-links.php" beforeDir="false" afterPath="$PROJECT_DIR$/useful-links.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool-belts.php" beforeDir="false" afterPath="$PROJECT_DIR$/tool-belts.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,19 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tool-belts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="342">
+              <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
               </folding>
@@ -184,8 +107,8 @@
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/leather-products.php" />
         <option value="$PROJECT_DIR$/css/header.css" />
-        <option value="$PROJECT_DIR$/tool-belts.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/tool-belts.php" />
       </list>
     </option>
   </component>
@@ -199,10 +122,9 @@
       <path value="$PROJECT_DIR$/../../bin/php/php7.2.10/bin" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="734" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -317,15 +239,16 @@
       <workItem from="1551896488448" duration="2792000" />
       <workItem from="1552049659527" duration="17000" />
       <workItem from="1552049711428" duration="6131000" />
-      <workItem from="1552578503452" duration="864000" />
+      <workItem from="1552578503452" duration="1209000" />
+      <workItem from="1552585830843" duration="3029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226506000" />
+    <option name="totallyTimeSpent" value="229880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="734" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.2786753" />
@@ -707,20 +630,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tool-belts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool-belts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
