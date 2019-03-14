@@ -97,6 +97,9 @@ if (mysqli_num_rows($result) > 0) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="RADIAN H.A. Limited" content="Welcome to RADIAN H.A. Limited, we sell and rent scaffolding materials.
+     We also provide CITB Scaffolding Training">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Confirm Training</title>
     <link rel="stylesheet" href="css/main-style.css">
 </head>

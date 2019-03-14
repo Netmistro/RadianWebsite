@@ -11,6 +11,8 @@ include "header.php";
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials, Tools & Training">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RADIAN Services</title>
     <link rel="stylesheet" href="css/main-style.css">
 </head>

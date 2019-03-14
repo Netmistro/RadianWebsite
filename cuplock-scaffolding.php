@@ -12,16 +12,17 @@ include('header.php');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="RADIAN H.A. Limited" content="Welcome to RADIAN H.A. Limited, we sell and rent scaffolding materials.
+     We also provide CITB Scaffolding Training">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cuplock Scaffolding</title>
     <link rel="stylesheet" href="css/main-style.css">
 </head>
 <body>
 <div class="main-page">
     <br>
-    <h1>Cuplock Scaffolding</h1>
-
-    <img src="images/other/cuplock-scaffold-system.png" alt="Conventional Materials" width="250"><br><br>
-    <h2>Cuplock Scaffold Materials</h2><br>
+    <h1>Cuplock Scaffolding</h1><br>
+    <img src="images/other/cuplock-scaffold-system.png" alt="Conventional Materials" width="300"><br><br>
     <h3>Introduction</h3>
     <p>
         CUPLOK is the world’s most widely used system scaffold. It is a fully galvanised multi-purpose steel scaffold

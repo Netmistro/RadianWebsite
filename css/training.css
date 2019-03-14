@@ -1,11 +1,20 @@
-.main-page{
+.main-page {
+    width: 80%;
     min-height: 700px;
 }
-.main-page .training-container img {
-    margin: 15px auto;
+
+.main-page h1, h2,h3, h5 {
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2% auto;
 }
 
-.training-container .training-message{
+.main-page .training-container img {
+    margin: 10px auto;
+}
+
+.training-container .training-message {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -63,6 +72,16 @@ input[type=submit] {
     cursor: pointer;
 }
 
+/* Format for Training in the CITB Page*/
+.training-wrapper {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+}
+
 /*Formatting of the Hover Effect*/
 input[type=submit]:hover {
     opacity: 0.8;
@@ -71,4 +90,20 @@ input[type=submit]:hover {
 /*Formatting of the Background colour when focused on a field*/
 input[type=submit]:focus {
     background-color: lightblue;
+}
+
+/* Media query for smaller phones */
+@media only screen and (max-width: 375px) {
+    img {
+        max-width: 100%;
+    }
+    .training-container{
+        flex-wrap: wrap;
+        margin: 5px 5px;
+    }
+
+    table {
+        margin: 5px 5px;
+    }
+
 }

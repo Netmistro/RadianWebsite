@@ -15,19 +15,21 @@ $scaffoldWeightData = mysqli_query($conn, $sql);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials, Tools & Training">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Scaffold Weight Calculator</title>
     <link rel="stylesheet" href="css/calculator.css">
 </head>
 <body>
 <div class="calculator-page">
     <br>
-    <h2>Scaffold Weight Calculator Ver.1.0</h2>
+    <h1>Scaffold Weight Calculator Ver.1</h1>
     <img src="images/radian-logo.png" alt="RADIAN Logo" width="75">
     <br>
     <form name="scaffolding-calculator" method="POST" action="scaffold-calculator.php">
         <input type="submit" name="calculate" value="Calculate">
         <input type="submit" name="clear" value="Clear"><br>
-        <table>
+        <table class="calc-table">
             <tr>
                 <th>Material Description</th>
                 <th>Category</th>
@@ -73,8 +75,9 @@ $scaffoldWeightData = mysqli_query($conn, $sql);
                 <b> Total Weight in Tons: - <?php echo number_format($totalWeightKg / 1000, 2) ?> </b> <br>
                 <br>
             </div>
+        </table>
     </form>
-    </table>
+    <br><br>
 </div>
 </body>
 <footer>

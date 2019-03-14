@@ -10,14 +10,14 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials & Tools">
+    <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials, Tools & Training">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/header.css">
     <link rel="icon" href="images/radian-logo.png">
     <script type="text/javascript" src="js/drop-menus.js"></script>
 </head>
 <body>
-<div class="navbar" id="main-navbar">
+<div id="main-navbar" class="navbar">
     <div class="dropdown">
         <button class="dropbtn" onclick="window.location.href='index.php'">Home</button>
     </div>
@@ -25,14 +25,21 @@ session_start();
         <button class="dropbtn">Products</button>
         <div class="dropdown-content">
             <a href="scaffold-materials.php">Scaffold Materials</a>
+            <a href="scaffold-mart.php">Scaffmart H-Frame</a>
+            <a href="cuplock.php">Cuplock Scaffold</a>
+            <a href="ringlock.php">Ringlock Scaffold</a>
+            <a href="boss-towers.php">BoSS Towers</a>
             <a href="tagging-systems.php">Tagging Systems</a>
-            <a href="drop-object-prevention.php">Drop Object Prevention</a>
+            <a href="drop-object.php">Drop Object Prevention</a>
             <a href="scaffold-consumables.php">Scaffold Consumables</a>
             <a href="rescue-equipment.php">Rescue Equipment</a>
             <a href="formwork.php">Formwork</a>
             <a href="rope-access.php">Rope Access</a>
             <a href="scaffold-tools.php">Scaffold Tools</a>
-            <a href="ppe.php">P.P.E.</a>
+            <a href="leather-products.php">Leather Products</a>
+            <a href="tool-belts.php">Tool Belts</a>
+            <a href="scaffold-tools.php">Scaffold Tools</a>
+            <a href="safety-equipment.php">Safety Equipment</a>
         </div>
     </div>
     <div class="dropdown">

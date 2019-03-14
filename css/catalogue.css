@@ -1,0 +1,369 @@
+/* All pages reset function */
+.scaff-mat-page, .formwork-page, .tagging-system, .tools-page, .rope-access-page, .ppe-page,
+.system-scaff-page {
+    width: 80%;
+}
+
+/* Header Styles */
+.main-page h1, h2, h5 {
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2% auto;
+}
+
+/* Formwork Systems */
+.formwork-page p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.8;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.formwork-page .formwork-container {
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.formwork-container .formwork-details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.8;
+    text-align: justify;
+    text-decoration: none;
+    margin: 10px;
+    flex: 1 0 0;
+}
+
+.formwork-head-image {
+    max-width: 350px;
+}
+
+.formwork-details .product-code {
+    font-size: larger;
+    color: red;
+}
+
+.formwork-details .tag-label {
+    font-weight: bold;
+}
+
+.formwork-page li {
+    color: black;
+}
+
+/* Tagging Systems */
+.tagging-system .tagging-system-container {
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.tagging-system-container .tagging-details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.8;
+    text-align: justify;
+    text-decoration: none;
+    margin: 10px;
+    flex: 1 0 0;
+}
+
+.tagging-details .product-code {
+    font-size: larger;
+    color: red;
+}
+
+.tagging-system .tag-label {
+    font-weight: bold;
+}
+
+/* PPE CSS */
+.ppe-page .ppe-container {
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.ppe-container .ppe-details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+    text-decoration: none;
+    margin: 10px;
+    flex: 1 0 0;
+}
+
+.ppe-container .ppe-image {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-decoration: none;
+    max-width: 300px;
+}
+
+.ppe-container .ppe-details .tag-label {
+    font-weight: bold;
+}
+
+.ppe-container .ppe-details .product-code {
+    color: red;
+}
+
+.ppe-image .product-code {
+    font-size: larger;
+    color: red;
+}
+
+.ppe-image .tag-label {
+    font-weight: bold;
+}
+
+.ppe-details li {
+    color: black;
+}
+
+/*Tools Page*/
+.tools-page p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.tools-page .tools-container {
+    padding: 10px auto;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+.tools-page .tools-container .tools-details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: left;
+    text-decoration: none;
+    margin: 10px;
+    flex: 1 0 0;
+}
+
+.tools-page .tools-container .product-code {
+    font-size: larger;
+    color: red;
+}
+
+.tools-page .tools-container .tag-label {
+    font-weight: bold;
+}
+
+.tools-container li {
+    color: black;
+}
+
+/* Rope Access Equipment */
+.rope-access-page p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.rope-access-page .rope-access-container {
+    padding: 10px auto;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+.rope-access-page .rope-access-container .rope-access-details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: left;
+    text-decoration: none;
+    margin: 10px;
+    flex: 1 0 0;
+}
+
+.rope-access-page .rope-access-container .product-code {
+    font-size: larger;
+    color: red;
+}
+
+.rope-access-page .rope-access-container .tag-label {
+    font-weight: bold;
+}
+
+.rope-access-page li {
+    color: black;
+}
+
+/* System Scaffolding */
+.system-scaff-page p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.system-scaff-page .system-scaff-container {
+    padding: 10px auto;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+.system-scaff-page .system-scaff-container .system-scaff--details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: left;
+    text-decoration: none;
+    margin: 10px;
+    flex: 1 0 0;
+}
+
+.system-scaff-page .system-scaff-container .product-code {
+    font-size: larger;
+    color: red;
+}
+
+.system-scaff-page .system-scaff-container .tag-label {
+    font-weight: bold;
+}
+
+.system-scaff-page li {
+    color: black;
+}
+
+/* Scaffold Materials */
+.scaff-mat-page p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.scaff-mat-page .scaff-mat-container {
+    padding: 10px auto;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+.scaff-mat-page .scaff-mat-container .scaff-mat-details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: left;
+    text-decoration: none;
+    margin: 10px;
+    flex: 1 0 0;
+}
+
+.scaff-mat-page .scaff-mat-container .product-code {
+    font-size: larger;
+    color: red;
+}
+
+.scaff-mat-page .scaff-mat-container .tag-label {
+    font-weight: bold;
+}
+
+.scaff-mat-page li {
+    color: black;
+}
+
+@media only screen and (max-width: 375px) {
+    .scaff-mat-container {
+        flex-wrap: wrap;
+    }
+
+    .system-scaff-container {
+        flex-wrap: wrap;
+    }
+
+    .tagging-system-container {
+        flex-wrap: wrap;
+    }
+
+    .tools-container {
+        flex-wrap: wrap;
+    }
+
+    .formwork-container {
+        flex-wrap: wrap;
+    }
+
+    .rope-access-container {
+        flex-wrap: wrap;
+    }
+
+    .ppe-container {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .boss-towers-container {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 90%;
+        margin: 5px;
+    }
+
+    .scaff-mat-page, .formwork-page, .tagging-system, .tools-page, .rope-access-page, .ppe-page,
+    .system-scaff-page .system-scaff-page {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        margin: 5%;
+    }
+
+}

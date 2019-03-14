@@ -2,9 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff336057-2b2b-41f7-ac64-5cead3ef3e17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Radian.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Radian.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boss-towers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cuplock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leather-products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ringlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safety-equipment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scaffold-mart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool-belts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conventional-scaffolding.php" beforeDir="false" afterPath="$PROJECT_DIR$/conventional-scaffolding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-new-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/create-new-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/calculator.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/calculator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/rescue-equipment.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rescue-equipment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/scaffold-tools.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/slideshow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/slideshow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tagging.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/catalogue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/training.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/training.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cuplock-scaffolding.php" beforeDir="false" afterPath="$PROJECT_DIR$/cuplock-scaffolding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drop-object-prevention.php" beforeDir="false" afterPath="$PROJECT_DIR$/drop-object.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineering-design.php" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-design.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formwork.php" beforeDir="false" afterPath="$PROJECT_DIR$/formwork.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/boss-aluminium-towers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/column-climber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/doka-formwork.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ergodyne-safety-glasses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/getmie-safe-rescue-kit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/getmiesafe/getmie-safe-fast_access_close_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/getmiesafe/getmie-safe-ratchet-handles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/getmiesafe/getmie-safe-rescue_kit.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/getmiesafe/getmie-safe-rescue_kit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/h-frame-scaffolding.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/other/tube-and-coupler-system.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/other/tube-and-coupler-system.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ppe-fall-protection.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/radian-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/radian-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rescue-training.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rope-access-equipment.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/scaffold-consumables.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/scaffold-materials.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/scaffold-tools.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/scaffold-training.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/training/basic-scaffolding-inspection.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/training/basic-scaffolding-inspection.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/training/scaffold-estimation.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/training/scaffold-estimation.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/our-clients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rescue-equipment.php" beforeDir="false" afterPath="$PROJECT_DIR$/rescue-equipment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rescue-training.php" beforeDir="false" afterPath="$PROJECT_DIR$/rescue-training.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/reset-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rope-access.php" beforeDir="false" afterPath="$PROJECT_DIR$/rope-access.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffold-calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-calculator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffold-consumables.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-consumables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffold-inspection.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-inspection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffold-materials.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-materials.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffold-tools.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-tools.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffold-training.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-training.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagging-systems.php" beforeDir="false" afterPath="$PROJECT_DIR$/tagging-systems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thank-you.php" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/useful-links.php" beforeDir="false" afterPath="$PROJECT_DIR$/useful-links.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,127 +94,28 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="869171290">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="21" />
-          <entry key="html" value="1" />
-          <entry key="php" value="60" />
-          <entry key="sql" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="21" />
-          <entry key="HTML" value="1" />
-          <entry key="PHP" value="60" />
-          <entry key="Scratch" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="781" />
-          <entry key="php" value="1642" />
-          <entry key="txt" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="781" />
-          <entry key="PHP" value="1642" />
-          <entry key="PLAIN_TEXT" value="8" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1951921170">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="1" />
-          <entry key="php" value="28" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="1" />
-          <entry key="PHP" value="28" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="8" />
-          <entry key="php" value="1881" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="8" />
-          <entry key="PHP" value="1881" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1314795929">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="php" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PHP" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="php" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PHP" value="17" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="FavoritesManager">
+    <favorites_list name="RadianWebsite" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+        <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="174">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool-belts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,27 +135,59 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/footer.css" />
-        <option value="$PROJECT_DIR$/pages/contact-us.php" />
-        <option value="$PROJECT_DIR$/pages/our-clients.php" />
-        <option value="$PROJECT_DIR$/pages/products.php" />
-        <option value="$PROJECT_DIR$/css/slideshow.css" />
-        <option value="$PROJECT_DIR$/css/main-style.css" />
-        <option value="$PROJECT_DIR$/pages/profile.php" />
-        <option value="$PROJECT_DIR$/pages/footer.php" />
+        <option value="$PROJECT_DIR$/thank-you.php" />
+        <option value="$PROJECT_DIR$/useful-links.php" />
+        <option value="$PROJECT_DIR$/tagging-systems.php" />
+        <option value="$PROJECT_DIR$/rope-access.php" />
+        <option value="$PROJECT_DIR$/conventional-scaffolding.php" />
+        <option value="$PROJECT_DIR$/includes/db-connect.php" />
+        <option value="$PROJECT_DIR$/scaffold-calculator.php" />
+        <option value="$PROJECT_DIR$/cuplock-scaffolding.php" />
+        <option value="$PROJECT_DIR$/engineering-design.php" />
+        <option value="$PROJECT_DIR$/scaffold-training.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/rescue-equipment.css" />
+        <option value="$PROJECT_DIR$/scaffold-inspection.php" />
+        <option value="$PROJECT_DIR$/css/training.css" />
+        <option value="$PROJECT_DIR$/formwork.php" />
+        <option value="$PROJECT_DIR$/css/footer.css" />
+        <option value="$PROJECT_DIR$/css/slideshow.css" />
+        <option value="$PROJECT_DIR$/css/login.css" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/confirmation.php" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/footer.php" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/index.php" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/privacy.php" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/profile.php" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/register.php" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/reset-password.php" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/reset-request.php" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/scaffold-calculator.php" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/user-profile.php" />
+        <option value="$PROJECT_DIR$/../ScaffoldTraining/scaffold-tools.php" />
+        <option value="$PROJECT_DIR$/system-scaffold.php" />
+        <option value="$PROJECT_DIR$/boss-towers.php" />
+        <option value="$PROJECT_DIR$/cuplock.php" />
+        <option value="$PROJECT_DIR$/ringlok.php" />
+        <option value="$PROJECT_DIR$/ringlock.php" />
+        <option value="$PROJECT_DIR$/rescue-equipment.php" />
+        <option value="$PROJECT_DIR$/profile.php" />
+        <option value="$PROJECT_DIR$/scaffold-mart.php" />
+        <option value="$PROJECT_DIR$/css/calculator.css" />
+        <option value="$PROJECT_DIR$/css/main-style.css" />
+        <option value="$PROJECT_DIR$/scaffold-consumables.php" />
+        <option value="$PROJECT_DIR$/ppe.php" />
+        <option value="$PROJECT_DIR$/css/catalogue.css" />
+        <option value="$PROJECT_DIR$/scaffold-materials.php" />
+        <option value="$PROJECT_DIR$/scaffold-tools.php" />
+        <option value="$PROJECT_DIR$/safety-equipment.php" />
+        <option value="$PROJECT_DIR$/drop-object.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/leather-products.php" />
         <option value="$PROJECT_DIR$/css/header.css" />
-        <option value="$PROJECT_DIR$/pages/header.php" />
-        <option value="$PROJECT_DIR$/pages/initialize.php" />
-        <option value="$PROJECT_DIR$/pages/services.php" />
+        <option value="$PROJECT_DIR$/tool-belts.php" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
     <servers>
@@ -196,78 +196,29 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
-      <path value="$PROJECT_DIR$/../../bin/php/php7.2.8/lib/php" />
+      <path value="$PROJECT_DIR$/../../bin/php/php7.2.10/bin" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="734" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="RadianWebsite" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="$PROJECT_DIR$/.." type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="RadianWebsite" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="$PROJECT_DIR$/.." type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="RadianWebsite" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="RadianWebsite" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="$PROJECT_DIR$/.." type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="RadianWebsite" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RadianWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Radian" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="RadianWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Radian" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="RadianWebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RadianWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Radian" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="RadianWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RadianWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Radian" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="RadianWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;azure" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -313,21 +264,75 @@
       <workItem from="1540489933140" duration="1234000" />
       <workItem from="1540492291464" duration="330000" />
       <workItem from="1540492643493" duration="72000" />
+      <workItem from="1545306250126" duration="27000" />
+      <workItem from="1545306281828" duration="3744000" />
+      <workItem from="1545311804183" duration="13319000" />
+      <workItem from="1545406817456" duration="11492000" />
+      <workItem from="1545581192540" duration="1139000" />
+      <workItem from="1545801057899" duration="599000" />
+      <workItem from="1546434673449" duration="12413000" />
+      <workItem from="1546518585162" duration="15845000" />
+      <workItem from="1546574681976" duration="10000" />
+      <workItem from="1546605130544" duration="1406000" />
+      <workItem from="1546606994191" duration="6114000" />
+      <workItem from="1546835532719" duration="7000" />
+      <workItem from="1546883336956" duration="2548000" />
+      <workItem from="1546903712581" duration="416000" />
+      <workItem from="1546950575737" duration="10030000" />
+      <workItem from="1546970800004" duration="2537000" />
+      <workItem from="1546974640563" duration="2114000" />
+      <workItem from="1547037116009" duration="16080000" />
+      <workItem from="1547128780332" duration="39000" />
+      <workItem from="1547128876588" duration="10000" />
+      <workItem from="1547130451451" duration="2441000" />
+      <workItem from="1547169534515" duration="205000" />
+      <workItem from="1547214312559" duration="265000" />
+      <workItem from="1547215755114" duration="680000" />
+      <workItem from="1547223423590" duration="290000" />
+      <workItem from="1547235253871" duration="234000" />
+      <workItem from="1547405100700" duration="1564000" />
+      <workItem from="1547471787169" duration="101000" />
+      <workItem from="1547471898586" duration="11918000" />
+      <workItem from="1547555990575" duration="3110000" />
+      <workItem from="1547577651396" duration="3171000" />
+      <workItem from="1547600018782" duration="4000" />
+      <workItem from="1547642919390" duration="9813000" />
+      <workItem from="1547660651846" duration="1575000" />
+      <workItem from="1547817535759" duration="5604000" />
+      <workItem from="1548083991864" duration="6789000" />
+      <workItem from="1548300970895" duration="8000" />
+      <workItem from="1548336535598" duration="6751000" />
+      <workItem from="1548354210472" duration="3098000" />
+      <workItem from="1548686777374" duration="283000" />
+      <workItem from="1548788695306" duration="46000" />
+      <workItem from="1548861832643" duration="43000" />
+      <workItem from="1548870446853" duration="80000" />
+      <workItem from="1548956833299" duration="2259000" />
+      <workItem from="1548960557672" duration="338000" />
+      <workItem from="1551279014380" duration="23000" />
+      <workItem from="1551279374564" duration="303000" />
+      <workItem from="1551280354578" duration="431000" />
+      <workItem from="1551449087659" duration="598000" />
+      <workItem from="1551450690835" duration="5289000" />
+      <workItem from="1551896488448" duration="2792000" />
+      <workItem from="1552049659527" duration="17000" />
+      <workItem from="1552049711428" duration="6131000" />
+      <workItem from="1552578503452" duration="864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49499000" />
+    <option name="totallyTimeSpent" value="226506000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1280" height="734" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26655897" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.2786753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -370,106 +375,352 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dbe9424e-dfb9-4ed6-86a5-2234d258ccc1/console.sql" />
-    <entry file="file://$PROJECT_DIR$/pages/our-clients.php">
+    <entry file="file://$PROJECT_DIR$/css/rescue-equipment.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+        <state relative-caret-position="498">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/test.html">
+    <entry file="file://$PROJECT_DIR$/scaffold-inspection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="26" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="334">
+          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaffold-training.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formwork.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="24" column="79" lean-forward="true" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/logout.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reset-password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="46" lean-forward="true" selection-start-line="8" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reset-request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1699">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/training.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="108" column="1" lean-forward="true" selection-start-line="94" selection-end-line="108" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="407">
+          <caret line="87" column="1" lean-forward="true" selection-start-line="76" selection-end-line="87" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/slideshow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="498">
+          <caret line="113" column="1" selection-start-line="99" selection-end-line="113" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db-connect.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/dop.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/login.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/reset-password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/reset-request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/scaffold-calculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/useful-links.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/user-profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/scaffold-tools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/tagging-systems.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/privacy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss-towers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cuplock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="233" column="43" lean-forward="true" selection-start-line="233" selection-start-column="43" selection-end-line="233" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ringlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="703" column="51" selection-start-line="703" selection-start-column="51" selection-end-line="703" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rescue-equipment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaffold-mart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="706">
+          <caret line="180" column="16" lean-forward="true" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/footer.php">
+    <entry file="file://$PROJECT_DIR$/css/calculator.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="185">
+          <caret line="98" column="99" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contact-us.php">
+    <entry file="file://$PROJECT_DIR$/scaffold-calculator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="44" column="62" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
+        <state relative-caret-position="199">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaffold-consumables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2296">
+          <caret line="93" column="67" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/catalogue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="123" column="15" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/db-connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaffold-materials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="172" column="17" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaffold-tools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drop-object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="217" column="42" selection-start-line="217" selection-start-column="42" selection-end-line="217" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/safety-equipment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="827" column="66" selection-start-line="827" selection-start-column="66" selection-end-line="827" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        <state relative-caret-position="246">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/initialize.php">
+    <entry file="file://$PROJECT_DIR$/leather-products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="215">
+          <caret line="13" column="6" lean-forward="true" selection-end-line="620" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
+    <entry file="file://$PROJECT_DIR$/tool-belts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        <state relative-caret-position="759">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/profile.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="174">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
         </state>
       </provider>
     </entry>

@@ -12,6 +12,9 @@ include('header.php');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="RADIAN H.A. Limited" content="Welcome to RADIAN H.A. Limited, we sell and rent scaffolding materials.
+     We also provide CITB Scaffolding Training">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Conventional Scaffolding</title>
     <link rel="stylesheet" href="css/main-style.css">
 </head>
@@ -19,8 +22,7 @@ include('header.php');
 <div class="main-page">
     <br>
     <h1>Conventional Scaffolding</h1>
-    <img src="images/other/tube-and-coupler-system.png" alt="Conventional Materials" width="250"><br><br>
-    <h2>Conventional Scaffold Materials</h2><br>
+    <img src="images/other/tube-and-coupler-system.png" alt="Conventional Materials" width="300"><br><br>
     <h3>Introduction</h3>
     <p>
         Generally known as tube and coupler scaffold, the tube and clamp scaffold is inclusive of clamps , boards and
@@ -34,7 +36,7 @@ include('header.php');
         field of construction industry and scaffolding sectors but the tube and camp scaffold is used in various
         scaffolding applications as it is tried and tested for its low cost and extremely high reliability.
         Additionally, the tube and coupler scaffold is used in construction applications where unlimited versatility is
-        required.</p>
+        required.</p><br><br>
 </div>
 </body>
 <footer>

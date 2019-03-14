@@ -3,6 +3,13 @@
     box-sizing: border-box
 }
 
+.main-page h1, h2, h5 {
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2% auto;
+}
+
 /* Background colour of the Main Container*/
 main {
     background-color: #aec3b0;
@@ -23,7 +30,7 @@ img {
 
 /* Slide show container */
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 100%;
     position: relative;
     margin: 0 auto;
 }
@@ -90,9 +97,18 @@ img {
     }
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+/* On smaller screens, decrease text size and other areas */
+@media only screen and (max-width: 375px) {
     .prev, .next, .text {
         font-size: 11px
+    }
+
+    .slideshow-container {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .slideshow-container img{
+        width: 100%;
     }
 }

@@ -1,7 +1,7 @@
 /*Entire navigation bar CSS*/
 .navbar {
     background-color: black;
-    max-width: 1000px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -73,14 +73,68 @@
     background-color: red;
 }
 
+/* Page content */
+.content {
+    padding: 16px;
+}
+
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
+    width: 80%;
     top: 0;
-    width: 100%;
+    margin: 0 10%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.second-level-menu{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu li {
+    height: 30px;
+    background: #999999;
+}
+
+.second-level-menu li:hover{
+    background: #CCCCCC;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position
+ at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 60px;
+}
+
+@media screen and (max-width: 375px) , (min-device-width: 375px) and (max-device-width: 768px) {
+    .navbar {
+        max-width: 100%;
+    }
+
+    .nav-button {
+        max-width: 100%;
+        float: left;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav-right {
+        float: none;
+    }
+
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    .sticky {
+        width: 100%;
+        margin: 0 0;
+    }
+
+    .topnav-right {
+        float: left;
+    }
 }
