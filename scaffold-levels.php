@@ -38,7 +38,7 @@ include('header.php');
 
             <p>The New Big Ben Alloy Induction Level is a premium level with a really outstanding finish and
                 feel.</p>
-            <p>The proven perfect size and shape for scaffolders, weighs only 213g</p>
+            <p>The proven perfect size and shape for scaffolders, weighs only 213g.</p>
             <p>The unique vistatech vial is far easier to read making this level faster to work with.</p>
             <p>As any tradesperson knows, the quality of the job depends not just on their knowledge and skill but
                 on using the right tools, and an essential tool for a professional scaffolder is a quality spirit
@@ -60,7 +60,7 @@ include('header.php');
             Big Ben New Induction Level, Beautifully Machined from Aircraft Alloy - MIRROR</span><br>
             <span class="tag-label">Manufacturer: </span><span>LEACH's</span><br>
             <p>The New Big Ben Alloy Induction Level is a premium level with a really outstanding finish and feel.</p>
-            <p>The proven perfect size and shape for scaffolders, weighs only 213g</p>
+            <p>The proven perfect size and shape for scaffolders, weighs only 213g.</p>
             <p>The unique vistatech vial is far easier to read making this level faster to work with.</p>
             <p>As any tradesperson knows, the quality of the job depends not just on their knowledge and skill but on
                 using the right tools, and an essential tool for a professional scaffolder is a quality spirit
@@ -82,7 +82,7 @@ include('header.php');
                 Aircraft Alloy Anodised - Red</span><br>
             <span class="tag-label">Manufacturer: </span><span>LEACH's</span><br>
             <p>The New Big Ben Alloy Induction Level is a premium level with a really outstanding finish and feel.</p>
-            <p>The proven perfect size and shape for scaffolders, weighs only 213g</p>
+            <p>The proven perfect size and shape for scaffolders, weighs only 213g.</p>
             <p>The unique vistatech vial is far easier to read making this level faster to work with.</p>
             <p>As any tradesperson knows, the quality of the job depends not just on their knowledge and skill but on
                 using the right tools, and an essential tool for a professional scaffolder is a quality spirit
@@ -103,7 +103,7 @@ include('header.php');
                 Aircraft Alloy Anodised - Blue</span><br>
             <span class="tag-label">Manufacturer: </span><span>LEACH's</span><br>
             <p>The New Big Ben Alloy Induction Level is a premium level with a really outstanding finish and feel.</p>
-            <p>The proven perfect size and shape for scaffolders, weighs only 213g</p>
+            <p>The proven perfect size and shape for scaffolders, weighs only 213g.</p>
             <p>The unique vistatech vial is far easier to read making this level faster to work with.</p>
             <p>As any tradesperson knows, the quality of the job depends not just on their knowledge and skill but on
                 using the right tools, and an essential tool for a professional scaffolder is a quality spirit
@@ -131,14 +131,14 @@ include('header.php');
                 level.</p>
             <p>BigBen has been making quality scaffolding tools for decades and they have now designed a level that is
                 light, incredibly robust and of course accurate.</p>
-            <ul>
+            <ol>
                 <li>Guaranteed for life against magnetic failure</li>
                 <li>Big, bright easy to read vials - faster to work with perfectly balanced feel</li>
                 <li>Engineered from high-grade composite material</li>
                 <li>Extremely durable design</li>
                 <li>Ultra-Light - weighs only 148grams</li>
                 <li>Certified Level Accuracy</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -155,14 +155,14 @@ include('header.php');
             <p>This strong lightweight spirit level features a cast aluminium alloy profile in an especially slim form
                 with a magnetic base. Extremely sturdy with electrostatic powder coating for scratch resistance and easy
                 cleaning.</p>
-            <ul>
+            <ol>
                 <li>Strong magnets in the measuring surface for a secure hold on steel surfaces.</li>
                 <li>Slim, bevelled shape makes it suitable for working in cramped spaces</li>
                 <li>It handles overhead measurements as easily as it resists hard shocks</li>
                 <li>Measurement accuracy in the normal position 0.029° = 0.5mm/m</li>
                 <li>For overhead measurements 0.043° = 0.75mm/m</li>
                 <li>Vials are guaranteed to remain accurate for 10 years</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -176,7 +176,7 @@ include('header.php');
             <b><span class="product-code">Product Code:</span> HTT-0009</b><br>
             <span class="tag-label">Description: </span><span>5M Magnetic Tape Measure</span><br>
             <span class="tag-label">Manufacturer: </span><span>LEACH's</span><br>
-            <ul>
+            <ol>
                 <li>The 5m Leachs Magnetic Tape Measure is supremely hand-friendly and suitable for the toughest jobs.
                 </li>
                 <li>It's shock proof rubber outer is designed for maximum grip, comfort and flexibility. The magnetic
@@ -184,7 +184,7 @@ include('header.php');
                 </li>
                 <li>Available in 5m & 8m with SS Ring to attach to tool tether</li>
                 <li>25mm Blade</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>

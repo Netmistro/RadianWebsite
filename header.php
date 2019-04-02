@@ -66,9 +66,9 @@ session_start();
                         <ul>
                             <li><a href="leather-tool-belts.php">Leather Tool-Belts</a></li>
                             <li><a href="spanner-frogs.php">Spanner Frogs</a></li>
-                            <li><a href="#">Level Sacks</a></li>
-                            <li><a href="#">Tape Sacks</a></li>
-                            <li><a href="#">Hammer Sacks</a></li>
+                            <li><a href="level-holders.php">Level Holders</a></li>
+                            <li><a href="tape-holders.php">Tape Holders</a></li>
+<!--                            <li><a href="hammers-mallet-holders.php">Hammer Holders</a></li>-->
                         </ul>
                     </ul>
                 </li>
@@ -76,12 +76,12 @@ session_start();
                 <li><a href="#">Safety Equipment &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
-                            <li><a href="#">Helmets</a></li>
-                            <li><a href="#">High-Viz Vests</a></li>
-                            <li><a href="#">Safety Glasses</a></li>
-                            <li><a href="#">Hand & Knee Protection</a></li>
-                            <li><a href="#">Harnesses & Lanyards</a></li>
-                            <li><a href="#">Inertia Blocks</a></li>
+                            <li><a href="safety-helmets.php">Helmets</a></li>
+                            <li><a href="high-viz-vests.php">High-Viz Vests</a></li>
+                            <li><a href="eye-protection.php">Eye Protection</a></li>
+                            <li><a href="hand-knee-protection.php">Hand & Knee Protection</a></li>
+                            <li><a href="harness-and-lanyards.php">Harnesses & Lanyards</a></li>
+                            <li><a href="inertia-blocks.php">Inertia Blocks</a></li>
                         </ul>
                     </ul>
                 </li>

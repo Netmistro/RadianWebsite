@@ -35,7 +35,7 @@ include('header.php');
             <p>Installer/Drill Holder Tool Rig with Suspenders: Tool rig for maximum tool capacity and cordless drill
                 accessibility.</p>
             <h3>Features</h3>
-            <ul>
+            <ol>
                 <li>1680D ballistic Polyester</li>
                 <li>5in Padded Base Layer Tool Belt (5555)</li>
                 <li>Reinforced bindings, semi-rigid</li>
@@ -46,9 +46,9 @@ include('header.php');
                 <li>Fits waist sizes 32in - 54in (81cm - 137cm)</li>
                 <li>Available in Grey ONLY</li>
                 <li>Available in L (WPB-0009) & XL (WPB-0010)</li>
-            </ul>
+            </ol>
             <h3>Application</h3>
-            <ul>
+            <ol>
                 <li>Electricians</li>
                 <li>Carpentry</li>
                 <li>Technicians</li>
@@ -57,7 +57,7 @@ include('header.php');
                 <li>HVAC</li>
                 <li>Handyman</li>
                 <li>Trades</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -74,7 +74,7 @@ include('header.php');
             <p>Framer/Builder Tool Rig: Large capacity, 34-pocket poly tool rig for framing and general carpentry. 3 in
                 1 base layer tool belt with vented foam padding</p>
             <h3>Features</h3>
-            <ul>
+            <ol>
                 <li>1680D ballistic Polyester</li>
                 <li>Reinforced bindings, semi-rigid</li>
                 <li>Abrasion-resistant pouch bases</li>
@@ -84,9 +84,9 @@ include('header.php');
                 <li>Fits waist sizes 32in - 54in (81cm - 137cm)</li>
                 <li>Available in Grey ONLY</li>
                 <li>Available in L (WPB-0007) & XL (WPB-0008)</li>
-            </ul>
+            </ol>
             <h3>Application</h3>
-            <ul>
+            <ol>
                 <li>Carpentry</li>
                 <li>Fishing</li>
                 <li>Framing</li>
@@ -95,7 +95,7 @@ include('header.php');
                 <li>Light Construction</li>
                 <li>Handyman</li>
                 <li>Trades</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -112,7 +112,7 @@ include('header.php');
             <p>Framer/Builder Tool Rig: Large capacity, 28-pocket synthetic tool rig for Framing and general
                 Carpentry</p>
             <h3>Features</h3>
-            <ul>
+            <ol>
                 <li>1680D ballistic Polyester</li>
                 <li>5in Padded Base Layer Tool Belt (5555)</li>
                 <li>16-Pocket Tool Pouch (5522)</li>
@@ -122,9 +122,9 @@ include('header.php');
                 <li>Fits waist sizes 32in - 54in (81cm - 137cm)</li>
                 <li>Available in Grey ONLY</li>
                 <li>Available in L (WPB-0005) & XL (WPB-0006)</li>
-            </ul>
+            </ol>
             <h3>Application</h3>
-            <ul>
+            <ol>
                 <li>Carpentry</li>
                 <li>Fishing</li>
                 <li>Framing</li>
@@ -132,7 +132,7 @@ include('header.php');
                 <li>Construction</li>
                 <li>Handyman</li>
                 <li>Trades</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -147,7 +147,7 @@ include('header.php');
             <span class="tag-label">Description: </span><span>Comfort Fit Padded Tool Belt Regular (28" to 40")</span><br>
             <span class="tag-label">Manufacturer: </span><span>TY-FLOT</span><br><br>
             <h3>Features</h3>
-            <ul>
+            <ol>
                 <li>Ergonomically designed for comfort</li>
                 <li>Inner pad with threaded outer webbing</li>
                 <li>Ballistic nylon outer shell</li>
@@ -156,12 +156,13 @@ include('header.php');
                 <li>Fits most tool pockets</li>
                 <li>Quick release adjustable buckle</li>
                 <li>Installed Dee Rings</li>
-            </ul>
+            </ol>
             <br>
             <!--            Code for Downloads Start Here -->
             <h3>Downloads:</h3>
             <img src="images/other/adobe-pdf.jpg" alt="PDF" width="20"><a
-                    href="downloads/comfort_fit_utility_belt_instructions.pdf"> Comfort Fit Utility Belt Instructions (PDF)</a>
+                    href="downloads/comfort_fit_utility_belt_instructions.pdf"> Comfort Fit Utility Belt Instructions
+                (PDF)</a>
             <br><br>
             <!--            Code for Downloads Ends Here -->
         </div>
@@ -178,7 +179,7 @@ include('header.php');
             <span class="tag-label">Description: </span><span>Comfort Fit Padded Tool Belt Large (40" to 54")</span><br>
             <span class="tag-label">Manufacturer: </span><span>TY-FLOT</span><br><br>
             <h3>Features</h3>
-            <ul>
+            <ol>
                 <li>Ergonomically designed for comfort</li>
                 <li>Inner pad with threaded outer webbing</li>
                 <li>Ballistic nylon outer shell</li>
@@ -187,14 +188,15 @@ include('header.php');
                 <li>Fits most tool pockets</li>
                 <li>Quick release adjustable buckle</li>
                 <li>Installed Dee Rings</li>
-            </ul>
+            </ol>
             <br>
-<!--            Code for Downloads Start Here -->
+            <!--            Code for Downloads Start Here -->
             <h3>Downloads:</h3>
             <img src="images/other/adobe-pdf.jpg" alt="PDF" width="20"><a
-                    href="downloads/comfort_fit_utility_belt_instructions.pdf"> Comfort Fit Utility Belt Instructions (PDF)</a>
+                    href="downloads/comfort_fit_utility_belt_instructions.pdf"> Comfort Fit Utility Belt Instructions
+                (PDF)</a>
             <br><br>
-<!--            Code for Downloads Ends Here -->
+            <!--            Code for Downloads Ends Here -->
         </div>
     </div>
     <br>
