@@ -34,6 +34,7 @@ session_start();
                         <li><a href="boss-towers.php">Boss Towers</a></li>
                     </ul>
                 </li>
+                <!--                Working At Heights Menu -->
                 <li><a href="#">Working at Heights &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
@@ -43,20 +44,35 @@ session_start();
                         </ul>
                     </ul>
                 </li>
+                <!--                Formwork Menu/Link -->
                 <li><a href="formwork.php">Formwork</a></li>
+                <!--                Scaffold Tools Menu -->
                 <li><a href="#">Scaffold Tools &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
                             <li><a href="scaffold-spanners.php">Spanners</a></li>
                             <li><a href="scaffold-levels.php">Levels & Tapes</a></li>
-<!--                            <li><a href="#">Hammers & Mallets</a></li>-->
-                            <li><a href="leather-products.php">Leather Products</a></li>
-                            <li><a href="#">Tool Belts</a></li>
-                            <li><a href="#">Tagging Systems</a></li>
-                            <li><a href="#">Scaffold Consumables</a></li>
+                            <!--                            <li><a href="#">Hammers & Mallets</a></li>-->
+                            <li><a href="tool-belts.php">Tool Belts</a></li>
+                            <li><a href="tagging-systems.php">Tagging Systems</a></li>
                         </ul>
                     </ul>
                 </li>
+                <!-- Scaffold Consumables -->
+                <li><a href="scaffold-consumables.php">Scaffold Consumables</a></li>
+                <!-- Leather Products Menu -->
+                <li><a href="#">Leather Products &#9656;</a>
+                    <ul class="sec-drop">
+                        <ul>
+                            <li><a href="leather-tool-belts.php">Leather Tool-Belts</a></li>
+                            <li><a href="spanner-frogs.php">Spanner Frogs</a></li>
+                            <li><a href="#">Level Sacks</a></li>
+                            <li><a href="#">Tape Sacks</a></li>
+                            <li><a href="#">Hammer Sacks</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <!--                Safety Equipment Menu -->
                 <li><a href="#">Safety Equipment &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
@@ -94,9 +110,9 @@ session_start();
             </ul>
         </li>
         <li><a href="profile.php">About</a></li>
-<!--        <div class="login-register">-->
-<!--            <li><a href="#">Login/Register</a></li>-->
-<!--        </div>-->
+        <!--        <div class="login-register">-->
+        <!--            <li><a href="#">Login/Register</a></li>-->
+        <!--        </div>-->
     </ul>
 </div>
 
