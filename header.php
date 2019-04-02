@@ -14,66 +14,92 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/header.css">
     <link rel="icon" href="images/radian-logo.png">
-    <script type="text/javascript" src="js/drop-menus.js"></script>
+    <!--    <script type="text/javascript" src="js/drop-menus.js"></script>-->
 </head>
 <body>
-<div id="main-navbar" class="navbar">
-    <div class="dropdown">
-        <button class="dropbtn" onclick="window.location.href='index.php'">Home</button>
-    </div>
-    <div class="dropdown">
-        <button class="dropbtn">Products</button>
-        <div class="dropdown-content">
-            <a href="scaffold-materials.php">Scaffold Materials</a>
-            <a href="scaffold-mart.php">Scaffmart H-Frame</a>
-            <a href="cuplock.php">Cuplock Scaffold</a>
-            <a href="ringlock.php">Ringlock Scaffold</a>
-            <a href="boss-towers.php">BoSS Towers</a>
-            <a href="tagging-systems.php">Tagging Systems</a>
-            <a href="drop-object.php">Drop Object Prevention</a>
-            <a href="scaffold-consumables.php">Scaffold Consumables</a>
-            <a href="rescue-equipment.php">Rescue Equipment</a>
-            <a href="formwork.php">Formwork</a>
-            <a href="rope-access.php">Rope Access</a>
-            <a href="scaffold-tools.php">Scaffold Tools</a>
-            <a href="leather-products.php">Leather Products</a>
-            <a href="tool-belts.php">Tool Belts</a>
-            <a href="scaffold-tools.php">Scaffold Tools</a>
-            <a href="safety-equipment.php">Safety Equipment</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <button class="dropbtn">Services</button>
-        <div class="dropdown-content">
-            <a href="engineering-design.php">Engineering Design</a>
-            <a href="scaffold-inspection.php">Scaffold Inspection</a>
-            <a href="scaffold-training.php">CITB Scaffold Training</a>
-            <a href="rescue-training.php">Rescue Training</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <button class="dropbtn">Technical</button>
-        <div class="dropdown-content">
-            <a href="cuplock-scaffolding.php">Cuplock Scaffold</a>
-            <a href="conventional-scaffolding.php">Conventional Scaffolding</a>
-            <a href="scaffold-calculator.php">Scaffold Calculator</a>
-            <a href="useful-links.php">Useful Links</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <button class="dropbtn" onclick="window.location.href='profile.php'">About</button>
-    </div>
-    <div class="topnav-right">
-        <div class="dropdown">
-            <?php if (isset($_SESSION['userID'])): ?>
-                Welcome <?php echo $_SESSION['first_name'] ?>
-                <button class="dropbtn" onclick="window.location.href='includes/logout.inc.php'">Logout</button>
-            <?php else: ?>
-                <button class="dropbtn" onclick="window.location.href='login.php'">Register/Login</button>
-            <?php endif; ?>
-        </div>
-    </div>
+<div id="main-navbar" class="nav-bar">
+    <ul>
+        <!--        Home Page -->
+        <li><a href="index.php">Home</a>
+            <!--        Products Menu -->
+        <li><a href="#">Products &#9660;</a>
+            <ul class="dropdown">
+                <!--        Scaffolding Sub Menu -->
+                <li><a href="#">Scaffolding &#9656;</a>
+                    <ul class="sec-drop">
+                        <li><a href="scaffold-materials.php">Scaffold Materials</a></li>
+                        <li><a href="scaffold-mart.php">Scaffmart H-Frame</a></li>
+                        <li><a href="cuplock.php">Cuplock Scaffold</a></li>
+                        <li><a href="ringlock.php">Ringlock Scaffold</a></li>
+                        <li><a href="boss-towers.php">Boss Towers</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Working at Heights &#9656;</a>
+                    <ul class="sec-drop">
+                        <ul>
+                            <li><a href="drop-object.php">Drop Object Prevention</a></li>
+                            <li><a href="rescue-equipment.php">Rescue Equipment</a></li>
+                            <li><a href="rope-access.php">Rope Access</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li><a href="formwork.php">Formwork</a></li>
+                <li><a href="#">Scaffold Tools &#9656;</a>
+                    <ul class="sec-drop">
+                        <ul>
+                            <li><a href="scaffold-spanners.php">Spanners</a></li>
+                            <li><a href="scaffold-levels.php">Levels & Tapes</a></li>
+<!--                            <li><a href="#">Hammers & Mallets</a></li>-->
+                            <li><a href="leather-products.php">Leather Products</a></li>
+                            <li><a href="#">Tool Belts</a></li>
+                            <li><a href="#">Tagging Systems</a></li>
+                            <li><a href="#">Scaffold Consumables</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li><a href="#">Safety Equipment &#9656;</a>
+                    <ul class="sec-drop">
+                        <ul>
+                            <li><a href="#">Helmets</a></li>
+                            <li><a href="#">High-Viz Vests</a></li>
+                            <li><a href="#">Safety Glasses</a></li>
+                            <li><a href="#">Hand & Knee Protection</a></li>
+                            <li><a href="#">Harnesses & Lanyards</a></li>
+                            <li><a href="#">Inertia Blocks</a></li>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <!--        Services Menu -->
+        <li><a href="#">Services &#9660;</a>
+            <ul class="dropdown">
+                <ul>
+                    <li><a href="engineering-design.php">Engineering Design</a></li>
+                    <li><a href="scaffold-inspection.php">Scaffold Inspection</a></li>
+                    <li><a href="scaffold-training.php">CITB Scaffold Training</a></li>
+                    <li><a href="rescue-training.php">Rescue Training</a></li>
+                </ul>
+            </ul>
+        </li>
+        <!--        Technical Menu -->
+        <li><a href="#">Technical &#9660;</a>
+            <ul class="dropdown">
+                <ul>
+                    <li><a href="cuplock-scaffolding.php">Cuplock Scaffold</a></li>
+                    <li><a href="conventional-scaffolding.php">Conventional Scaffold</a></li>
+                    <li><a href="scaffold-calculator.php">Scaffold Calculator</a></li>
+                    <li><a href="useful-links.php">Useful Links</a></li>
+                </ul>
+            </ul>
+        </li>
+        <li><a href="profile.php">About</a></li>
+<!--        <div class="login-register">-->
+<!--            <li><a href="#">Login/Register</a></li>-->
+<!--        </div>-->
+    </ul>
 </div>
-<script type="text/javascript" src="js/nav-bar-sticky.js"></script>
+
+<!--<script type="text/javascript" src="js/nav-bar-sticky.js"></script>-->
 </body>
 </html>

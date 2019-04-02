@@ -19,10 +19,24 @@ require('header.php');
 </head>
 <body>
 <div class="main-page">
+
+    <div class="content-wrap">
+        <br>
+        <h2>The leading Scaffold Training provider in Trinidad & Tobago and the Caribbean</h2>
+        <p>Radian H.A. Ltd. is a dynamic, customer-driven business established in 2001; we primarily engage in the
+            provision of comprehensive training programs in Scaffolding & Form Work. We work in conjunction with
+            Safety & Access Ltd.(UK) the leading scaffolding & formwork training agency in the United Kingdom. We
+            also provide the widest range of scaffolding, Scaffolding Tools, Scaffolding Accessories and Safety
+            Equipment in Trinidad & Tobago for both hire and sale. Radian H.A. Ltd also has a truly unique market
+            position as we never undertake any contract work, which we would consider to be direct competition with
+            on-site contractors, many of whom are our customers.</p>
+        <br><br>
+    </div>
+
     <div class="slideshow-container">
         <div class="mySlides fade">
             <div class="numbertext">1 / 6</div>
-            <img src="images/radian-img1.jpg" style="width:100%" >
+            <img src="images/radian-img1.jpg" style="width:100%">
             <div class="text">Caption One</div>
         </div>
         <div class="mySlides fade">
@@ -59,18 +73,6 @@ require('header.php');
             <span class="dot"></span>
             <span class="dot"></span>
             <span class="dot"></span>
-        </div>
-        <div class="content-wrap">
-            <br>
-            <h2>The leading Scaffold Training provider in Trinidad & Tobago and the Caribbean</h2>
-            <p>Radian H.A. Ltd. is a dynamic, customer-driven business established in 2001; we primarily engage in the
-                provision of comprehensive training programs in Scaffolding & Form Work. We work in conjunction with
-                Safety & Access Ltd.(UK) the leading scaffolding & formwork training agency in the United Kingdom. We
-                also provide the widest range of scaffolding, Scaffolding Tools, Scaffolding Accessories and Safety
-                Equipment in Trinidad & Tobago for both hire and sale. Radian H.A. Ltd also has a truly unique market
-                position as we never undertake any contract work, which we would consider to be direct competition with
-                on-site contractors, many of whom are our customers.</p>
-            <br><br>
         </div>
     </div>
 </div>
