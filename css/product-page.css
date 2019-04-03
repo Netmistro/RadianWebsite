@@ -16,11 +16,6 @@
 .text-wrapper{
     padding: 5px 20px;
 }
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
 .row-page {
     display: flex;
     /*float: left;*/
@@ -37,4 +32,10 @@
     background-color: whitesmoke;
     padding: 5px;
     min-height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }

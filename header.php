@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: said
+ * User: Arnold Bradshaw
  * Date: 2018-11-28
  * Time: 15:45
  */
@@ -19,12 +19,12 @@ session_start();
 <body>
 <div id="main-navbar" class="nav-bar">
     <ul>
-        <!--        Home Page -->
+        <!-- Home Page -->
         <li><a href="index.php">Home</a>
-            <!--        Products Menu -->
+         <!-- Products Menu -->
         <li><a href="#">Products &#9660;</a>
             <ul class="dropdown">
-                <!--        Scaffolding Sub Menu -->
+                <!-- Scaffolding Menu -->
                 <li><a href="#">Scaffolding &#9656;</a>
                     <ul class="sec-drop">
                         <li><a href="scaffold-materials.php">Scaffold Materials</a></li>
@@ -34,7 +34,7 @@ session_start();
                         <li><a href="boss-towers.php">Boss Towers</a></li>
                     </ul>
                 </li>
-                <!--                Working At Heights Menu -->
+                <!-- working at Heights Menu -->
                 <li><a href="#">Working at Heights &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
@@ -44,9 +44,9 @@ session_start();
                         </ul>
                     </ul>
                 </li>
-                <!--                Formwork Menu/Link -->
+                <!-- Formwork Menu -->
                 <li><a href="formwork.php">Formwork</a></li>
-                <!--                Scaffold Tools Menu -->
+                <!-- Scaffold Tools Menu -->
                 <li><a href="#">Scaffold Tools &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
@@ -68,11 +68,11 @@ session_start();
                             <li><a href="spanner-frogs.php">Spanner Frogs</a></li>
                             <li><a href="level-holders.php">Level Holders</a></li>
                             <li><a href="tape-holders.php">Tape Holders</a></li>
-<!--                            <li><a href="hammers-mallet-holders.php">Hammer Holders</a></li>-->
+                            <!-- <li><a href="hammers-mallet-holders.php">Hammer Holders</a></li> -->
                         </ul>
                     </ul>
                 </li>
-                <!--                Safety Equipment Menu -->
+                <!-- Safety Equipment Menu -->
                 <li><a href="#">Safety Equipment &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
@@ -87,7 +87,7 @@ session_start();
                 </li>
             </ul>
         </li>
-        <!--        Services Menu -->
+        <!-- Services Menu -->
         <li><a href="#">Services &#9660;</a>
             <ul class="dropdown">
                 <ul>
@@ -98,7 +98,7 @@ session_start();
                 </ul>
             </ul>
         </li>
-        <!--        Technical Menu -->
+        <!-- Technical Menu -->
         <li><a href="#">Technical &#9660;</a>
             <ul class="dropdown">
                 <ul>

@@ -23,7 +23,7 @@ ul li a {
     text-decoration: none;
 }
 
-/* Change the hover colour of the items */
+/* Change the hover colour of the main menu items */
 ul li a:hover {
     background-color: red;
     transition-duration: 1s;
