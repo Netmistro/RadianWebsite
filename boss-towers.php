@@ -60,9 +60,6 @@ include('header.php');
     </div>
     <br>
 
-    <!-- Test Comment -->
-<p>This is a test message</p>
-
 </div>
 </body>
 <footer>
