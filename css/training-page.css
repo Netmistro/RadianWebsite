@@ -1,0 +1,53 @@
+.training-container {
+}
+table{
+text-align: left;
+}
+td{
+    text-align: justify;
+    padding: 10px 2px 15px 10px;
+    vertical-align: top;
+    line-height: 1.5;
+    border-bottom-style: solid;
+    border-width: thin;
+}
+/*Formatting of the Submit Button*/
+button[type=submit] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 12pt;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*Formatting of the Hover Effect*/
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*Formatting of the Background colour when focused on a field*/
+button[type=submit]:focus {
+    background-color: lightblue;
+}
+/*Formatting of the Submit Button*/
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 12pt;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*Formatting of the Hover Effect*/
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*Formatting of the Background colour when focused on a field*/
+input[type=submit]:focus {
+    background-color: lightblue;
+}
