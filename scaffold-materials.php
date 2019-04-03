@@ -63,10 +63,10 @@ include('header.php');
                 board branding is
                 also available to order.</p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>BS2482:2009 Machine Graded</li>
                 <li>Available in various sizes from 2' to 13'</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -86,11 +86,11 @@ include('header.php');
                 Also available are boards with nail plates which help to increase the life of the scaffolding
                 boards.</p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Treated to BS EN 15301 -1: 2002 and euro class C</li>
                 <li>Available in various sizes from 2' to 13'</li>
                 <li>Available in different brands such as Dricon, FireStop, Fire Safe & Fire Wright</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -115,7 +115,7 @@ include('header.php');
                 beams are quickly and simply joined together with straight connectors using fast action spring clips.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>BS EN1999-1 (1.0m Restraints)</li>
                 <li>Max. Bending = 20.19kNm</li>
                 <li>Max. Shear = 11.66kN</li>
@@ -123,7 +123,7 @@ include('header.php');
                 <li>Use of beams in a load bearing application should be subject to a structural design.</li>
                 <li>Spring Clip available</li>
                 <li>45cm 6 Hole Spigot, also available separately</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -141,10 +141,10 @@ include('header.php');
                 standard EN 74-18 and provides a strong yet economical solution.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>En 74-18 Standard</li>
                 <li>1.1 kg Self Weight</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -166,11 +166,11 @@ include('header.php');
                 They should always be used in pairs and ordered for hire and sale with this in mind.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Manufactured to AS 1576.1</li>
                 <li>1.56 kg Self Weight</li>
                 <li>Available in Fixed and Swivel Types</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -188,10 +188,10 @@ include('header.php');
                 extreme strength and value for money and is available for hire and sale from RADIAN.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Heavy duty drop forged coupler complies with both EN74 and BS EN 74-1:2005</li>
                 <li>1.0 kg Self Weight</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -209,10 +209,10 @@ include('header.php');
                 HD Steel construction with a zinc plated exterior for long life.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Heavy duty coupler complies with EN74</li>
                 <li>1.0 kg Self Weight</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -231,10 +231,10 @@ include('header.php');
                 Can be used with a range of sole pads, Timber or Plastic foot plate.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Zinc Plated for long life</li>
                 <li>0.32 kg Self Weight</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -251,10 +251,10 @@ include('header.php');
                 We provide 4 and 6 ton standard base jacks. we also provide swivel screw jacks as well.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>4 Ton Standard Base Jack 3.5kg</li>
                 <li>6 Ton Standard Base Jack 4.3kg</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -272,10 +272,10 @@ include('header.php');
                 manufactured to BS 1139.2.2.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Manufactured to BS 1139.2.2</li>
                 <li>0.6kg Self Weight</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -293,10 +293,10 @@ include('header.php');
                 fitting available in drop forged and pressed.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Manufactured to BS 1139.2.2 1991 and EN74 A</li>
                 <li>1.0 kg Self Weight</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -321,11 +321,11 @@ include('header.php');
                 Edge Ladder Clamp
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Manufactured to BS EN131</li>
                 <li>Tested to BS2037 Class 1</li>
                 <li>Available Sizes from 3.0m to 8.0m in 1m increments</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -345,11 +345,11 @@ include('header.php');
                 sheet.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Available in 8" and 12" Diameter</li>
                 <li>6.7 kg Self Weight</li>
                 <li>Available in Rubber or Polyurethane base</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -374,14 +374,14 @@ include('header.php');
                 toe board welded to the frame.
             </p><br>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Manufactured from Steel</li>
                 <li>11.0 kg Self Weight</li>
                 <li>Width - 761 mm or 30".00</li>
                 <li>Height - 960 mm or 37.75"</li>
                 <li>Quick and Easy fit & assembly</li>
                 <li>Painted in high visibility yellow</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
@@ -408,22 +408,22 @@ include('header.php');
                 current European standards.
             </p><br>
             <h3>Products Available</h3>
-            <ul>
+            <ol>
                 <li>Ledgers - various lengths</li>
                 <li>Swivel Face Brace</li>
                 <li>Standards</li>
                 <li>Intermediate Transoms</li>
                 <li>Steel Battens</li>
-            </ul>
+            </ol>
             <h3>Specifications</h3>
-            <ul>
+            <ol>
                 <li>Manufactured from Steel</li>
                 <li>Galvanized Coated</li>
                 <li>Quick and East to erect</li>
                 <li>No Loose Fittings</li>
                 <li>Cost Effective</li>
                 <li>Easy to Maintain</li>
-            </ul>
+            </ol>
         </div>
     </div>
     <br>
