@@ -1,9 +1,9 @@
-.training-container {
+/* Training Page General CSS */
+table {
+    text-align: left;
 }
-table{
-text-align: left;
-}
-td{
+
+td {
     text-align: justify;
     padding: 10px 2px 15px 10px;
     vertical-align: top;
@@ -11,7 +11,9 @@ td{
     border-bottom-style: solid;
     border-width: thin;
 }
+
 /*Formatting of the Submit Button*/
+
 button[type=submit] {
     width: 25%;
     background-color: #4CAF50;
@@ -22,16 +24,21 @@ button[type=submit] {
     border-radius: 5px;
     cursor: pointer;
 }
+
 /*Formatting of the Hover Effect*/
+
 button[type=submit]:hover {
     background-color: #45a049;
 }
 
 /*Formatting of the Background colour when focused on a field*/
+
 button[type=submit]:focus {
     background-color: lightblue;
 }
+
 /*Formatting of the Submit Button*/
+
 input[type=submit] {
     width: 20%;
     background-color: #4CAF50;
@@ -42,12 +49,15 @@ input[type=submit] {
     border-radius: 5px;
     cursor: pointer;
 }
+
 /*Formatting of the Hover Effect*/
+
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
 /*Formatting of the Background colour when focused on a field*/
+
 input[type=submit]:focus {
     background-color: lightblue;
 }

@@ -1,4 +1,5 @@
 /* Slide Show CSS*/
+
 * {
     box-sizing: border-box
 }
@@ -11,6 +12,7 @@
 }
 
 /* Background colour of the Main Container*/
+
 main {
     background-color: #aec3b0;
 }
@@ -29,6 +31,7 @@ img {
 }
 
 /* Slide show container */
+
 .slideshow-container {
     max-width: 100%;
     position: relative;
@@ -36,6 +39,7 @@ img {
 }
 
 /* Caption text */
+
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -47,6 +51,7 @@ img {
 }
 
 /* Number text (1/6 etc) */
+
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -56,6 +61,7 @@ img {
 }
 
 /* The dots/bullets/indicators */
+
 .dot {
     cursor: pointer;
     height: 15px;
@@ -72,6 +78,7 @@ img {
 }
 
 /* Fading animation */
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -98,17 +105,16 @@ img {
 }
 
 /* On smaller screens, decrease text size and other areas */
+
 @media only screen and (max-width: 375px) {
     .prev, .next, .text {
         font-size: 11px
     }
-
     .slideshow-container {
         max-width: 100%;
         height: auto;
     }
-
-    .slideshow-container img{
+    .slideshow-container img {
         width: 100%;
     }
 }

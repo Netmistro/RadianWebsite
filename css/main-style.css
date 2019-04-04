@@ -1,4 +1,5 @@
-/***** Body Styles CSS *****/
+/* Body Sytle CSS */
+
 .main-page {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -11,12 +12,14 @@
     min-height: 700px;
 }
 
-/* Images Handling*/
-.main-page .timeline-container img{
+/* Images Handling */
+
+.main-page .timeline-container img {
     width: 100%;
 }
 
 /* Main Page paragraph sytle */
+
 .main-page p {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,6 +30,7 @@
 }
 
 /*CSS for the link items*/
+
 .main-page li {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,6 +41,7 @@
 }
 
 /***** H1 Styles CSS *****/
+
 .main-page h1, h2, h5 {
     color: black;
     text-align: left;
@@ -44,6 +49,7 @@
 }
 
 /***** Typical Paragraphs Styles CSS *****/
+
 .main-page .content-wrap p {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -54,6 +60,7 @@
 }
 
 /***** CSS for Bullet items *****/
+
 .main-page .content-wrap li {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +71,7 @@
 }
 
 /*Training container for confirmation page*/
+
 .main-page .training-container {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,6 +82,7 @@
 }
 
 /* Form Details CSS*/
+
 .registration-form {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -82,6 +91,7 @@
 }
 
 /*Formatting of the Text Field*/
+
 input[type=text], select {
     width: 300px;
     padding: 10px;
@@ -93,6 +103,7 @@ input[type=text], select {
 }
 
 /*Formatting of the Telephone Field*/
+
 input[type=tel], select {
     width: 150px;
     padding: 10px 10px;
@@ -104,6 +115,7 @@ input[type=tel], select {
 }
 
 /*Formatting of the password field*/
+
 input[type=password], select {
     width: 150px;
     padding: 10px 10px;
@@ -115,6 +127,7 @@ input[type=password], select {
 }
 
 /*Formatting of the email field*/
+
 input[type=email], select {
     width: 300px;
     padding: 10px 10px;
@@ -126,6 +139,7 @@ input[type=email], select {
 }
 
 /*Formatting of the Submit Button*/
+
 input[type=submit] {
     width: 150px;
     background-color: #4CAF50;
@@ -138,11 +152,13 @@ input[type=submit] {
 }
 
 /*Formatting of the Hover Effect*/
+
 input[type=submit]:hover {
     background-color: #45a049;
 }
 
 /*Formatting of the Background colour when focused on a field*/
+
 input[type=text]:focus {
     background-color: lightblue;
 }
@@ -156,12 +172,14 @@ input[type=text]:focus {
 }
 
 /* Login Page*/
+
 .login-page {
     background-color: white;
     color: black;
 }
 
 /*Formatting of the Submit Button*/
+
 button[type=submit] {
     width: 150px;
     background-color: #4CAF50;
@@ -174,6 +192,7 @@ button[type=submit] {
 }
 
 /* Media query for smaller phones */
+
 @media only screen and (max-width: 375px) {
     img {
         max-width: 100%;

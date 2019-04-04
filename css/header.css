@@ -1,21 +1,33 @@
 /* Navbar Properties */
+
 .nav-bar {
     max-width: 80%;
-    margin: auto;
+    margin: 0 auto;
     color: white;
     background-color: black;
     height: 50px;
 }
 
+/* Format Links and remove Bullets */
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: unset;
+}
+
 /* Format Links */
-ul li {
+
+.nav-bar ul li {
     display: block;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Setup each link item */
-ul li a {
+
+.nav-bar ul li a {
     display: block;
     color: white;
     padding: 15px;
@@ -24,25 +36,29 @@ ul li a {
 }
 
 /* Change the hover colour of the main menu items */
-ul li a:hover {
+
+.nav-bar ul li a:hover {
     background-color: red;
     transition-duration: 1s;
 }
 
 /* Hide the dropdown menu by default */
-ul.dropdown {
+
+.nav-bar ul.dropdown {
     display: none;
-    background-color: #ccc;
-    min-width: 180px;
+    background-color: #CCCCCC;
+    width: 180px;
 }
 
 /* Dropdown link flow vertical and now horizontal */
-ul.dropdown li {
+
+.nav-bar ul.dropdown li {
     float: none;
 }
 
 /* Format the links for the menu items - 1st level */
-ul.dropdown li a {
+
+.nav-bar ul.dropdown li a {
     background: black;
     color: white;
     display: block;
@@ -50,35 +66,37 @@ ul.dropdown li a {
 }
 
 /* Hover properties for the dropdown menu */
-ul.dropdown li a:hover {
+
+.nav-bar ul.dropdown li a:hover {
     background: white;
     color: Black;
 }
 
 /* Show the menu items for 1st Menu */
-ul li:hover .dropdown {
+
+.nav-bar ul li:hover .dropdown {
     display: block;
 }
 
 /* Hide the second level menu by default */
-ul.sec-drop {
+
+.nav-bar ul.sec-drop {
     display: none;
     position: absolute;
-    width: 200px;
+    width: 180px;
     margin-left: 180px;
     margin-top: -55px;
-
 }
 
 /* Display the second level menu on hover */
-ul.dropdown li:hover ul.sec-drop {
-    display: block;
-    z-index: 1;
 
+.nav-bar ul.dropdown li:hover ul.sec-drop {
+    display: block;
 }
 
 /* Format right NAV Button */
-ul.login-register {
+
+.nav-bar .login-register {
     float: right;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;

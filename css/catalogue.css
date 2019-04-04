@@ -1,10 +1,11 @@
 /* All pages reset function */
-.scaff-mat-page, .formwork-page, .tagging-system, .tools-page, .rope-access-page, .ppe-page,
-.system-scaff-page {
+
+.scaff-mat-page, .formwork-page, .tagging-system, .tools-page, .rope-access-page, .ppe-page, .system-scaff-page {
     width: 80%;
 }
 
 /* Header Styles */
+
 .main-page h1, h2, h5 {
     color: black;
     text-align: left;
@@ -13,6 +14,7 @@
 }
 
 /* Formwork Systems */
+
 .formwork-page p {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,6 +61,7 @@
 }
 
 /* Tagging Systems */
+
 .tagging-system .tagging-system-container {
     display: flex;
     border-bottom-style: solid;
@@ -88,6 +91,7 @@
 }
 
 /* PPE CSS */
+
 .ppe-page .ppe-container {
     display: flex;
     border-bottom-style: solid;
@@ -138,6 +142,7 @@
 }
 
 /*Tools Page*/
+
 .tools-page p {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -181,6 +186,7 @@
 }
 
 /* Rope Access Equipment */
+
 .rope-access-page p {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -224,6 +230,7 @@
 }
 
 /* System Scaffolding */
+
 .system-scaff-page p {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -267,6 +274,7 @@
 }
 
 /* Scaffold Materials */
+
 .scaff-mat-page p {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -313,57 +321,43 @@
     .scaff-mat-container {
         flex-wrap: wrap;
     }
-
     .system-scaff-container {
         flex-wrap: wrap;
     }
-
     .tagging-system-container {
         flex-wrap: wrap;
     }
-
     .tools-container {
         flex-wrap: wrap;
     }
-
     .formwork-container {
         flex-wrap: wrap;
     }
-
     .rope-access-container {
         flex-wrap: wrap;
     }
-
     .ppe-container {
         flex-wrap: wrap;
         max-width: 100%;
     }
-
     .boss-towers-container {
         flex-wrap: wrap;
         max-width: 100%;
     }
-
     img {
         max-width: 90%;
         margin: 5px;
     }
-
-    .scaff-mat-page, .formwork-page, .tagging-system, .tools-page, .rope-access-page, .ppe-page,
-    .system-scaff-page .system-scaff-page {
+    .scaff-mat-page, .formwork-page, .tagging-system, .tools-page, .rope-access-page, .ppe-page, .system-scaff-page .system-scaff-page {
         width: 100%;
     }
-
     h1 {
         text-align: center;
     }
-
     h3 {
         text-align: center;
     }
-
     p {
         margin: 5%;
     }
-
 }

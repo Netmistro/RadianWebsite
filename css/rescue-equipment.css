@@ -1,3 +1,4 @@
+/* Rescue Equipment General CSS */
 .rescue-page {
     width: 80%;
 }
@@ -29,7 +30,6 @@
     text-align: justify;
 }
 
-
 .rescue-page .rescue-images {
     display: flex;
 }
@@ -43,6 +43,7 @@
 }
 
 /* Media query for phones*/
+
 @media screen and (max-width: 375px) {
     .rescue-images {
         align-items: center;

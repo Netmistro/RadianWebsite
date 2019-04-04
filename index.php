@@ -1,11 +1,11 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Brad
+ * User: Arnold Bradshaw
  * Date: 10/8/2018
  * Time: 10:36 AM
  */
-require('header.php');
+require 'header.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,13 +23,11 @@ require('header.php');
     <div class="content-wrap">
         <br>
         <h2>The leading Scaffold Training provider in Trinidad & Tobago and the Caribbean</h2>
-        <p>Radian H.A. Ltd. is a dynamic, customer-driven business established in 2001; we primarily engage in the
-            provision of comprehensive training programs in Scaffolding & Form Work. We work in conjunction with
-            Safety & Access Ltd.(UK) the leading scaffolding & formwork training agency in the United Kingdom. We
-            also provide the widest range of scaffolding, Scaffolding Tools, Scaffolding Accessories and Safety
-            Equipment in Trinidad & Tobago for both hire and sale. Radian H.A. Ltd also has a truly unique market
-            position as we never undertake any contract work, which we would consider to be direct competition with
-            on-site contractors, many of whom are our customers.</p>
+        <p>Radian H.A. Ltd. is a dynamic, customer-driven business established in 2001; we primarily engage in the provision of comprehensive training programs in Scaffolding
+            & Form Work. We work in conjunction with Safety & Access Ltd.(UK) the leading scaffolding & formwork training agency in the United Kingdom. We also provide the widest
+            range of scaffolding, Scaffolding Tools, Scaffolding Accessories and Safety Equipment in Trinidad & Tobago for both hire and sale. Radian H.A. Ltd also has a truly
+            unique market position as we never undertake any contract work, which we would consider to be direct competition with on-site contractors, many of whom are our
+            customers.</p>
         <br><br>
     </div>
 
@@ -79,6 +77,6 @@ require('header.php');
 </body>
 <footer>
     <script type="text/javascript" src="js/slideshow.js"></script>
-    <?php require('footer.php'); ?>
+    <?php require 'footer.php';?>
 </footer>
 </html>

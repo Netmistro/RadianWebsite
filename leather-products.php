@@ -6,7 +6,7 @@
  * Time: 13:17
  */
 
-include('header.php');
+include 'header.php';
 ?>
 
 <!DOCTYPE html>
@@ -614,7 +614,7 @@ include('header.php');
 </body>
 <footer>
     <?php
-    include('footer.php');
-    ?>
+include 'footer.php';
+?>
 </footer>
 </html>

@@ -1,10 +1,12 @@
 /* Calculator Page */
+
 .calculator-page {
     width: 80%;
     margin: 0 auto;
 }
 
 /* Headers */
+
 .calculator-page h1, h2, h5 {
     color: black;
     text-align: left;
@@ -47,6 +49,7 @@ th {
 }
 
 /*Formatting of the Submit Button*/
+
 body input[type=submit] {
     width: 150px;
     background-color: #4CAF50;
@@ -59,16 +62,19 @@ body input[type=submit] {
 }
 
 /*Formatting of the Hover Effect*/
+
 .calculator-page button[type=submit]:hover {
     background-color: #45a049;
 }
 
 /*Formatting of the Background colour when focused on a field*/
+
 button[type=submit]:focus {
     background-color: lightblue;
 }
 
 /*Formatting of the Submit Button*/
+
 input[type=text] {
     width: 100px;
     padding: 5px;
@@ -84,66 +90,60 @@ input[type=text] {
 }
 
 /*Formatting of the Hover Effect*/
+
 input[type=text]:hover {
     background-color: lightcoral;
     color: black;
 }
 
 /*Formatting of the Background colour when focused on a field*/
+
 input[type=text]:focus {
     background-color: lightblue;
     color: black;
 }
 
 /* Responsive Design of Table */
+
 @media only screen and (max-width: 375px), (min-device-width: 375px) and (max-device-width: 768px) {
     /* Flex display for image logo*/
     .calculator-page img {
         display: none;
     }
-
     /* Alternate colors for even rows */
     tr:nth-child(even) {
         background-color: #CCCCCC;
     }
-
     /* Centre header 1 */
     .calculator-page h1 {
         display: inline;
         font-size: 18px;
         text-align: center;
     }
-
     /* Hide table headers */
     th {
         display: none;
     }
-
     /* Adjust width of quantity column*/
     td:nth-child(3) {
         width: 25%;
     }
-
     /* Left Justify Table data */
     .calculator-page td {
         text-align: left;
         font-size: medium;
     }
-
     /* Hide certain columns*/
     td:nth-child(2), td:nth-child(4), td:nth-child(5), td:nth-child(6), td:nth-child(7) {
         display: none;
     }
-
     .calculator-page {
         width: 90%;
         margin: 0 auto;
     }
-
     /* Formatting of the Qty Field */
     input[type=text] {
         width: 90%;
         font-size: medium;
     }
-
 }

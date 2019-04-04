@@ -1,9 +1,11 @@
+/* Products Page General CSS */
 .grid-column {
     float: left;
     flex: 50%;
     background-color: whitesmoke;
     padding: 5px;
 }
+
 .grid-item {
     display: flex;
     float: left;
@@ -13,9 +15,11 @@
     font-size: 14px;
     text-align: left;
 }
-.text-wrapper{
+
+.text-wrapper {
     padding: 5px 20px;
 }
+
 .row-page {
     display: flex;
     /*float: left;*/
@@ -26,7 +30,8 @@
     font-size: 14px;
     text-align: left;
 }
-.column-page{
+
+.column-page {
     /*float: left;*/
     flex: 50%;
     background-color: whitesmoke;

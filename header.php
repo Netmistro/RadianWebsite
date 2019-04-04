@@ -20,10 +20,12 @@ session_start();
 <div id="main-navbar" class="nav-bar">
     <ul>
         <!-- Home Page -->
-        <li><a href="index.php">Home</a>
-         <!-- Products Menu -->
-        <li><a href="#">Products &#9660;</a>
+        <li><a href="index.php">Home</a></li>
+
+        <!-- Products Menu -->
+        <li><a href="javascript:void(0)">Products &#9660;</a>
             <ul class="dropdown">
+
                 <!-- Scaffolding Menu -->
                 <li><a href="#">Scaffolding &#9656;</a>
                     <ul class="sec-drop">
@@ -34,8 +36,9 @@ session_start();
                         <li><a href="boss-towers.php">Boss Towers</a></li>
                     </ul>
                 </li>
-                <!-- working at Heights Menu -->
-                <li><a href="#">Working at Heights &#9656;</a>
+
+                <!-- Working at Heights Menu -->
+                <li><a href="javascript:void(0)">Working at Heights &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
                             <li><a href="drop-object.php">Drop Object Prevention</a></li>
@@ -44,24 +47,28 @@ session_start();
                         </ul>
                     </ul>
                 </li>
+
                 <!-- Formwork Menu -->
                 <li><a href="formwork.php">Formwork</a></li>
+
                 <!-- Scaffold Tools Menu -->
-                <li><a href="#">Scaffold Tools &#9656;</a>
+                <li><a href="javascript:void(0)">Scaffold Tools &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
                             <li><a href="scaffold-spanners.php">Spanners</a></li>
                             <li><a href="scaffold-levels.php">Levels & Tapes</a></li>
-                            <!--                            <li><a href="#">Hammers & Mallets</a></li>-->
+                            <!-- <li><a href="#">Hammers & Mallets</a></li>-->
                             <li><a href="tool-belts.php">Tool Belts</a></li>
                             <li><a href="tagging-systems.php">Tagging Systems</a></li>
                         </ul>
                     </ul>
                 </li>
+
                 <!-- Scaffold Consumables -->
                 <li><a href="scaffold-consumables.php">Scaffold Consumables</a></li>
+
                 <!-- Leather Products Menu -->
-                <li><a href="#">Leather Products &#9656;</a>
+                <li><a href="javascript:void(0)">Leather Products &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
                             <li><a href="leather-tool-belts.php">Leather Tool-Belts</a></li>
@@ -72,8 +79,9 @@ session_start();
                         </ul>
                     </ul>
                 </li>
+
                 <!-- Safety Equipment Menu -->
-                <li><a href="#">Safety Equipment &#9656;</a>
+                <li><a href="javascript:void(0)">Safety Equipment &#9656;</a>
                     <ul class="sec-drop">
                         <ul>
                             <li><a href="safety-helmets.php">Helmets</a></li>
@@ -87,8 +95,9 @@ session_start();
                 </li>
             </ul>
         </li>
+
         <!-- Services Menu -->
-        <li><a href="#">Services &#9660;</a>
+        <li><a href="javascript:void(0)">Services &#9660;</a>
             <ul class="dropdown">
                 <ul>
                     <li><a href="engineering-design.php">Engineering Design</a></li>
@@ -98,8 +107,9 @@ session_start();
                 </ul>
             </ul>
         </li>
+
         <!-- Technical Menu -->
-        <li><a href="#">Technical &#9660;</a>
+        <li><a href="javascript:void(0)">Technical &#9660;</a>
             <ul class="dropdown">
                 <ul>
                     <li><a href="cuplock-scaffolding.php">Cuplock Scaffold</a></li>
@@ -110,9 +120,10 @@ session_start();
             </ul>
         </li>
         <li><a href="profile.php">About</a></li>
-        <!--        <div class="login-register">-->
-        <!--            <li><a href="#">Login/Register</a></li>-->
-        <!--        </div>-->
+
+        <!-- <div class="login-register">
+            <li><a href="#">Login/Register</a></li>
+        </div> -->
     </ul>
 </div>
 
