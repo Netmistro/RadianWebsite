@@ -10,6 +10,7 @@
     <link href="css/header2.css" rel="stylesheet">
 </head>
 
+<!-- Main Menu -->
 <div class="main">
     <ul class="mainnav">
         <li><a href="#">Home</a></li>
@@ -18,14 +19,44 @@
                 <!-- Single Menu Items -->
                 <li class="subs"><a href="./scaffold-consumables.php">Scaffold Consumables</a></li>
                 <li class="subs"><a href="./formwork.php">Formwork</a></li>
-                <li class="subs"><a href="./safety-equipment.php">Safety Equipment</a></li>
+
+                <!-- Scaffold Equipment Sub Menu -->
+                <li class="subs hassubs"><a href="#">Scaffold Equipment</a>
+                    <ul class="dropdown">
+                        <li class="subs"><a href="#">Cuplock</a></li>
+                        <li class="subs"><a href="#">Tube & Clamp</a></li>
+                        <li class="subs"><a href="#">Ring Lock</a></li>
+                        <li class="subs"><a href="#">Scaffmart H-Frames</a></li>
+                        <li class="subs"><a href="#">Boss Towers</a></li>
+                    </ul>
+                </li>
+
+                <!-- Safety Equipment Sub Menu -->
+                <li class="subs hassubs"><a href="#">Safety Equipment</a>
+                    <ul class="dropdown">
+                        <li class="subs"><a href="#">Harnesses</a></li>
+                        <li class="subs"><a href="#">Lanyards</a></li>
+                        <li class="subs"><a href="#">Life Jackets</a></li>
+                        <li class="subs"><a href="#">Hand Protection</a></li>
+                        <li class="subs"><a href="#">Eye Protection</a></li>
+                        <li class="subs"><a href="#">Inertia Reels</a></li>
+                    </ul>
+                </li>
 
                 <!-- Working at Heights Sub Menu -->
                 <li class="subs hassubs"><a href="#">Working at Heights</a>
                     <ul class="dropdown">
-                        <li class="subs"><a href="./drop-object.php">Drop Object Prevention</a></li>
+                        <li class="subs"><a href="./drop-object.php">D.O.P. Systems</a></li>
                         <li class="subs"><a href="./rope-access.php">Rope Access</a></li>
                         <li class="subs"><a href="./rescue-equipment.php">Rescue Equipment</a></li>
+                    </ul>
+                </li>
+
+                <!-- Scaffold Tools Sub Menu -->
+                <li class="subs hassubs"><a href="#">Other Tools</a>
+                    <ul class="dropdown">
+                        <li class="subs"><a href="#">Vernier Calipers</a></li>
+                        <li class="subs"><a href="#">Micrometer Screw Gauges</a></li>
                     </ul>
                 </li>
 
@@ -36,6 +67,7 @@
                         <li class="subs"><a href="#">Levels</a></li>
                         <li class="subs"><a href="#">Measuring Tape</a></li>
                         <li class="subs"><a href="#">Tool Belts</a></li>
+                        <li class="subs"><a href="#">Hammers & Mallets</a></li>
                     </ul>
                 </li>
 
@@ -47,16 +79,6 @@
                         <li class="subs"><a href="#">Tape Holders</a></li>
                         <li class="subs"><a href="#">Hammer Holders</a></li>
                         <li class="subs"><a href="#">Scaffold Belts</a></li>
-                    </ul>
-                </li>
-
-                <li class="subs"><a href="#">Scaffolding</a></li>
-                <li class="subs"><a href="#">Working at Heights</a></li>
-                <li class="subs hassubs"><a href="#">Designing</a>
-                    <ul class="dropdown">
-                        <li class="subs"><a href="#">Web Design</a></li>
-                        <li class="subs"><a href="#">Graphic Design</a></li>
-                        <li class="subs"><a href="#">Logo Design</a></li>
                     </ul>
                 </li>
             </ul>
@@ -80,9 +102,10 @@
                 <li class="subs"><a href="./useful-links.php">Useful Links</a></li>
             </ul>
         </li>
-
-        <li><a href="./profile.php">About</a></li>
-
+        <!-- About/Company Profile Page -->
+        <div class="right-menu-item">
+            <li><a href="./profile.php">About</a></li>
+        </div>
     </ul>
     <br style="clear: both;">
 </div>

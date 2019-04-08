@@ -14,11 +14,11 @@ if (isset($_POST['confirm-training']) && $_SESSION['userID'] == true) {
     $updateBbookingSpaces = "UPDATE training SET train_spaces = train_spaces-1 WHERE train_id=$train_id";
     if (mysqli_query($conn, $sql)) {
         // Send email to office and potential student
-//   Email format to user with lost/forgotten password
+        //   Email format to user with lost/forgotten password
         $to = $_SESSION['userEmail'];
-// Subject
+        // Subject
         $subject = 'Training Confirmation - Booking';
-// Message content
+        // Message content
         $message = '
 <!DOCTYPE html>
 <head>
@@ -40,18 +40,18 @@ E-mail - radianhaltd@gmail.com<br>
 </footer>
 </html>';
 
-// To send HTML mail, the Content-type header must be set
+        // To send HTML mail, the Content-type header must be set
 
         $headers[] = 'MIME-Version: 1.0';
         $headers[] = 'Content-type: text/html; charset=iso-8859-1';
 
-// Additional headers
+        // Additional headers
         $headers[] = 'To: ' . $to;
         $headers[] = 'From: RADIAN H.A. Limited <arnold.bradshaw@rhatt.com>';
         $headers[] = 'Cc: arnold.bradshaw@rhatt.com';
         $headers[] = 'Bcc: arnoldbradshaw@hotmail.com';
 
-// Mail it
+        // Mail it
         mail($to, $subject, $message, implode("\r\n", $headers));
 
         header("Location: thank-you.php?success=true");
@@ -85,8 +85,8 @@ if (mysqli_num_rows($result) > 0) {
         $instructor = $row["train_instructor"];
         $spaces_available = $row["train_spaces"];
         $training_image = $row["image"];
-//        Set session variables for the final email
-        $_SESSION['courseCode']=$course_code;
+        //        Set session variables for the final email
+        $_SESSION['courseCode'] = $course_code;
     }
 } else {
     echo "There was an error booking your training. We apologize for any inconvenience";
@@ -95,6 +95,7 @@ if (mysqli_num_rows($result) > 0) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="RADIAN H.A. Limited" content="Welcome to RADIAN H.A. Limited, we sell and rent scaffolding materials.
@@ -103,37 +104,40 @@ if (mysqli_num_rows($result) > 0) {
     <title>Confirm Training</title>
     <link rel="stylesheet" href="css/main-style.css">
 </head>
+
 <body>
-<div class="main-page">
-    <h1>Training Confirmation</h1><br>
-    <form action="confirmation.php" method="post">
-        <p><input type="submit" name="confirm-training" value="Confirm"></p>
-    </form>
-    <div class="training-container"><br>
-        <p>Please confirm your training details below...</p>
-        <br>
-        <p>Please review the information below of your training details and click the confirm button to book.
-            You are now on your way to success. Thank you for choosing RADIAN H.A. Limited to build your career.</p>
-        <br>
-        <p><img src="<?php echo "images/training/" . "$training_image" . ".jpeg"; ?>" alt="Training Image"></p>
-        <br>
-        <b><p style="font-size: larger">Course Code: <?php echo "$course_code"; ?> </p></b>
-        <p>Course Title: <?php echo "$train_title"; ?></p>
-        <?php setlocale(LC_MONETARY, "en_US") ?>
-        <p>Cost (TTD): <?php echo money_format("%.2n", $train_cost) ?></p>
-        <p>Course Description: <?php echo "$course_description"; ?></p>
-        <p>Start Date: <?php echo "$start_date"; ?></p>
-        <p>End Date: <?php echo "$end_date"; ?></p>
-        <p>Course Instructor: <?php echo "$instructor"; ?></p>
-        <p style="font-size: larger">Open Spaces: <span
-                    style="color: red"><b><?php echo "$spaces_available"; ?></span></b></p>
-        <br>
+    <div class="main-page">
+        <h1>Training Confirmation</h1><br>
+        <form action="confirmation.php" method="post">
+            <p><input type="submit" name="confirm-training" value="Confirm"></p>
+        </form>
+        <div class="training-container"><br>
+            <p>Please confirm your training details below...</p>
+            <br>
+            <p>Please review the information below of your training details and click the confirm button to book.
+                You are now on your way to success. Thank you for choosing RADIAN H.A. Limited to build your career.</p>
+            <br>
+            <p><img src="<?php echo "images/training/" . "$training_image" . ".jpeg"; ?>" alt="Training Image"></p>
+            <br>
+            <b>
+                <p style="font-size: larger">Course Code: <?php echo "$course_code"; ?> </p>
+            </b>
+            <p>Course Title: <?php echo "$train_title"; ?></p>
+            <?php setlocale(LC_MONETARY, "en_US") ?>
+            <p>Cost (TTD): <?php echo money_format("%.2n", $train_cost) ?></p>
+            <p>Course Description: <?php echo "$course_description"; ?></p>
+            <p>Start Date: <?php echo "$start_date"; ?></p>
+            <p>End Date: <?php echo "$end_date"; ?></p>
+            <p>Course Instructor: <?php echo "$instructor"; ?></p>
+            <p style="font-size: larger">Open Spaces: <span style="color: red"><b><?php echo "$spaces_available"; ?></span></b></p>
+            <br>
+        </div>
     </div>
-</div>
 </body>
 <footer>
     <?php
     include('footer.php');
     ?>
 </footer>
+
 </html>
