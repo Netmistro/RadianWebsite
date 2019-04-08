@@ -1,132 +1,115 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Arnold Bradshaw
- * Date: 2018-11-28
- * Time: 15:45
- */
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <title></title>
+    <meta charset="UTF-8">
     <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials, Tools & Training">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="icon" href="images/radian-logo.png">
-    <!--    <script type="text/javascript" src="js/drop-menus.js"></script>-->
+    <link href="css/header.css" rel="stylesheet">
 </head>
-<body>
-<div id="main-navbar" class="nav-bar">
-    <ul>
-        <!-- Home Page -->
-        <li><a href="index.php">Home</a></li>
 
-        <!-- Products Menu -->
-        <li><a href="javascript:void(0)">Products &#9660;</a>
+<!-- Main Menu -->
+<div class="main">
+    <ul class="mainnav">
+        <li><a href="./index.php">Home</a></li>
+        <li class="hassubs"><a href="#">Products</a>
             <ul class="dropdown">
+                <!-- Single Menu Items -->
+                <li class="subs"><a href="./scaffold-consumables.php">Consumables</a></li>
+                <li class="subs"><a href="./formwork.php">Formwork</a></li>
 
-                <!-- Scaffolding Menu -->
-                <li><a href="#">Scaffolding &#9656;</a>
-                    <ul class="sec-drop">
-                        <li><a href="scaffold-materials.php">Scaffold Materials</a></li>
-                        <li><a href="scaffold-mart.php">Scaffmart H-Frame</a></li>
-                        <li><a href="cuplock.php">Cuplock Scaffold</a></li>
-                        <li><a href="ringlock.php">Ringlock Scaffold</a></li>
-                        <li><a href="boss-towers.php">Boss Towers</a></li>
+                <!-- Scaffold Equipment Sub Menu -->
+                <li class="subs hassubs"><a href="#">Equipment</a>
+                    <ul class="dropdown">
+                        <li class="subs"><a href="./cuplock.php">Cuplock</a></li>
+                        <li class="subs"><a href="./scaffold-materials.php">Tube & Clamp</a></li>
+                        <li class="subs"><a href="./ringlock.php">Ring Lock</a></li>
+                        <li class="subs"><a href="./scaffold-mart.php">H-Frames</a></li>
+                        <li class="subs"><a href="./boss-towers.php">Boss Towers</a></li>
                     </ul>
                 </li>
 
-                <!-- Working at Heights Menu -->
-                <li><a href="javascript:void(0)">Working at Heights &#9656;</a>
-                    <ul class="sec-drop">
-                        <ul>
-                            <li><a href="drop-object.php">Drop Object Prevention</a></li>
-                            <li><a href="rescue-equipment.php">Rescue Equipment</a></li>
-                            <li><a href="rope-access.php">Rope Access</a></li>
-                        </ul>
+                <!-- Safety Equipment Sub Menu -->
+                <li class="subs hassubs"><a href="#">Safety Equipment</a>
+                    <ul class="dropdown">
+                        <li class="subs"><a href="./harness-and-lanyards.php">Harnesses & Lanyard</a></li>
+                        <li class="subs"><a href="#">Life Jackets</a></li>
+                        <li class="subs"><a href="./hand-knee-protection.php">Hand & Knee</a></li>
+                        <li class="subs"><a href="./eye-protection.php">Eyes</a></li>
+                        <li class="subs"><a href="./inertia-blocks.php">Inertia Reels</a></li>
                     </ul>
                 </li>
 
-                <!-- Formwork Menu -->
-                <li><a href="formwork.php">Formwork</a></li>
-
-                <!-- Scaffold Tools Menu -->
-                <li><a href="javascript:void(0)">Scaffold Tools &#9656;</a>
-                    <ul class="sec-drop">
-                        <ul>
-                            <li><a href="scaffold-spanners.php">Spanners</a></li>
-                            <li><a href="scaffold-levels.php">Levels & Tapes</a></li>
-                            <!-- <li><a href="#">Hammers & Mallets</a></li>-->
-                            <li><a href="tool-belts.php">Tool Belts</a></li>
-                            <li><a href="tagging-systems.php">Tagging Systems</a></li>
-                        </ul>
+                <!-- Working at Heights Sub Menu -->
+                <li class="subs hassubs"><a href="#">Work at Heights</a>
+                    <ul class="dropdown">
+                        <li class="subs"><a href="./drop-object.php">D.O.P. Systems</a></li>
+                        <li class="subs"><a href="./rope-access.php">Rope Access</a></li>
+                        <li class="subs"><a href="./rescue-equipment.php">Rescue Equipment</a></li>
                     </ul>
                 </li>
 
-                <!-- Scaffold Consumables -->
-                <li><a href="scaffold-consumables.php">Scaffold Consumables</a></li>
-
-                <!-- Leather Products Menu -->
-                <li><a href="javascript:void(0)">Leather Products &#9656;</a>
-                    <ul class="sec-drop">
-                        <ul>
-                            <li><a href="leather-tool-belts.php">Leather Tool-Belts</a></li>
-                            <li><a href="spanner-frogs.php">Spanner Frogs</a></li>
-                            <li><a href="level-holders.php">Level Holders</a></li>
-                            <li><a href="tape-holders.php">Tape Holders</a></li>
-                            <!-- <li><a href="hammers-mallet-holders.php">Hammer Holders</a></li> -->
-                        </ul>
+                <!-- Scaffold Tools Sub Menu -->
+                <li class="subs hassubs"><a href="#">Other Tools</a>
+                    <ul class="dropdown">
+                        <!-- <li class="subs"><a href="#">Vernier Calipers</a></li>
+                        <li class="subs"><a href="#">Micrometer Screw Gauges</a></li> -->
+                        <li class="subs"><a href="./tool-belts.php">Tool Belts</a></li>
                     </ul>
                 </li>
 
-                <!-- Safety Equipment Menu -->
-                <li><a href="javascript:void(0)">Safety Equipment &#9656;</a>
-                    <ul class="sec-drop">
-                        <ul>
-                            <li><a href="safety-helmets.php">Helmets</a></li>
-                            <li><a href="high-viz-vests.php">High-Viz Vests</a></li>
-                            <li><a href="eye-protection.php">Eye Protection</a></li>
-                            <li><a href="hand-knee-protection.php">Hand & Knee Protection</a></li>
-                            <li><a href="harness-and-lanyards.php">Harnesses & Lanyards</a></li>
-                            <li><a href="inertia-blocks.php">Inertia Blocks</a></li>
-                        </ul>
+                <!-- Scaffold Tools Sub Menu -->
+                <li class="subs hassubs"><a href="#">Scaffold Tools</a>
+                    <ul class="dropdown">
+                        <li class="subs"><a href="./scaffold-spanners.php">Spanners</a></li>
+                        <li class="subs"><a href="./scaffold-levels.php">Levels</a></li>
+                        <li class="subs"><a href="./measuring-tape.php">Measuring Tape</a></li>
+                        <!-- <li class="subs"><a href="./hammers-mallets.php">Hammers & Mallets</a></li> -->
+                    </ul>
+                </li>
+
+                <!-- Leather Products Sub Menu -->
+                <li class="subs hassubs"><a href="#">Leather Products</a>
+                    <ul class="dropdown">
+                        <li class="subs"><a href="./spanner-frogs.php">Spanner Frogs</a></li>
+                        <li class="subs"><a href="./level-holders.php">Level Holders</a></li>
+                        <li class="subs"><a href="./tape-holders.php">Tape Holders</a></li>
+                        <li class="subs"><a href="./hammers-mallet-holders.php">Hammer Holders</a></li>
+                        <li class="subs"><a href="./tool-belts.php">Scaffold Belts</a></li>
                     </ul>
                 </li>
             </ul>
         </li>
 
         <!-- Services Menu -->
-        <li><a href="javascript:void(0)">Services &#9660;</a>
+        <li class="hassubs"><a href="#">Services</a>
             <ul class="dropdown">
-                <ul>
-                    <li><a href="engineering-design.php">Engineering Design</a></li>
-                    <li><a href="scaffold-inspection.php">Scaffold Inspection</a></li>
-                    <li><a href="scaffold-training.php">CITB Scaffold Training</a></li>
-                    <li><a href="rescue-training.php">Rescue Training</a></li>
-                </ul>
+                <li class="subs"><a href="./engineering-design.php">Engineering Design</a></li>
+                <li class="subs"><a href="./scaffold-inspection.php">Scaffold Inspection</a></li>
+                <li class="subs"><a href="./scaffold-training.php">Scaffold Training</a></li>
+                <li class="subs"><a href="./rescue-training.php">Rescue Training</a></li>
+                <!-- <li class="subs"><a href="#">Certified Scaffolder</a></li> -->
             </ul>
         </li>
 
-        <!-- Technical Menu -->
-        <li><a href="javascript:void(0)">Technical &#9660;</a>
+        <!-- Technical Menu Items -->
+        <li class="hassubs"><a href="#">Technical</a>
             <ul class="dropdown">
-                <ul>
-                    <li><a href="cuplock-scaffolding.php">Cuplock Scaffold</a></li>
-                    <li><a href="conventional-scaffolding.php">Conventional Scaffold</a></li>
-                    <li><a href="scaffold-calculator.php">Scaffold Calculator</a></li>
-                    <li><a href="useful-links.php">Useful Links</a></li>
-                </ul>
+                <li class="subs"><a href="./cuplock-scaffolding.php">Cuplock Scaffold</a></li>
+                <li class="subs"><a href="./conventional-scaffolding.php">Conventional Scaffold</a></li>
+                <li class="subs"><a href="./scaffold-calculator.php">Scaffold Calculator</a></li>
+                <li class="subs"><a href="./useful-links.php">Useful Links</a></li>
             </ul>
         </li>
-        <li><a href="profile.php">About</a></li>
-
-        <!-- <div class="login-register">
-            <li><a href="#">Login/Register</a></li>
-        </div> -->
+       
+        <!-- About/Company Profile Page -->
+        <div class="right-menu-item">
+            <li><a href="./profile.php">About</a></li>
+        </div>
     </ul>
+    <br style="clear: both;">
 </div>
 
-<!--<script type="text/javascript" src="js/nav-bar-sticky.js"></script>-->
-</body>
 </html>
