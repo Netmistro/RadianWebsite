@@ -1,149 +1,183 @@
 .main {
-    width: 80%;
-    background: black;
-    margin: 0 auto;
-    color: white;
-    background-color: black;
+  background: black;
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  z-index: 2;
+}
+
+/* Wrapper helps with the jumping menu. Menu jumps to the left if wrapper isnt used */
+
+.nav-wrapper {
+  height: 40px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/*General Menu Styling*/
+
+.mainnav {
+  margin: 0 auto;
+  padding: 0px;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.dropdown {
+  position: absolute;
+  width: 150px;
+  top: 33px;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: ease-out 0.35s;
+  -moz-transition: ease-out 0.35s;
+  -webkit-transition: ease-out 0.35s;
+  z-index: 1;
+}
+
+.mainnav li:hover .dropdown {
+  display: block;
+}
+
+.mainnav li {
+  float: left;
+  padding: 5px;
+  background: black;
+  border-left: 1px solid white;
+}
+
+.mainnav li:first-child {
+  border: none;
+}
+
+.mainnav li:nth-child(4) {
+  border-right: 1px solid white;
+}
+
+.mainnav li a {
+  display: block;
+  padding: 2px 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hover for main links */
+
+.mainnav li:hover {
+  background: red;
+  transition: ease-in 0.35s;
+  -moz-transition: ease-in 0.35s;
+  -webkit-transition: ease-in 0.35s;
+}
+
+/* Hover for main links */
+
+.mainnav li:hover a {
+  color: white;
+  transition: ease-in 0.35s;
+  -moz-transition: ease-in 0.35s;
+  -webkit-transition: ease-in 0.35s;
+}
+
+/*First Level*/
+
+.subs {
+  left: -45px;
+  position: relative;
+  top: 0px;
+  width: 180px;
+  border-left: none !important;
+  border-bottom: 1px solid #fff !important;
+}
+
+/* Last Link item on dropdown */
+
+.subs:last-child {
+  border: none !important;
+}
+
+.hassubs:hover .dropdown, .hassubs .hassubs:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transition: ease-in 0.35s;
+  -moz-transition: ease-in 0.35s;
+  -webkit-transition: ease-in 0.35s;
+}
+
+.mainnav li:hover ul a, .mainnav li:hover ul li ul li a {
+  color: white;
+}
+
+.mainnav li ul li:hover, .mainnav li ul li ul li:hover {
+  background: #fff;
+  transition: ease-in-out 0.35s;
+  -moz-transition: ease-in-out 0.35s;
+  -webkit-transition: ease-in-out 0.35s;
+}
+
+.mainnav li ul li:hover a, .mainnav li ul li ul li:hover a {
+  color: black;
+  transition: ease-in-out 0.35s;
+  -moz-transition: ease-in-out 0.35s;
+  -webkit-transition: ease-in-out 0.35s;
+}
+
+/*Second Level*/
+
+.hassubs .hassubs .dropdown .subs {
+  left: 25px;
+  position: relative;
+  width: 180px;
+  top: 0px;
+}
+
+.hassubs .hassubs .dropdown {
+  position: absolute;
+  width: 180px;
+  left: 115px;
+  top: 0px;
+  opacity: 0;
+  visibility: hidden;
+  transition: ease-out 0.35s;
+  -moz-transition: ease-out 0.35s;
+  -webkit-transition: ease-out 0.35s;
+}
+
+.right-menu-item {
+  float: right;
+  border-left: 1px solid white;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 80%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 375px) {
+  .row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
   }
-  
-  /*General Menu Styling*/
-  
-  .mainnav {
-    margin: 0 auto;
-    padding: 0px;
-    text-align: left;
+  .row .column {
+    width: 100%;
+    padding: 2%;
   }
-  
-  li {
-    list-style: none;
-  }
-  
-  li a {
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    position: absolute;
-    width: 150px;
-    top: 33px;
-    display: none;
-    opacity: 0;
-    visibility: hidden;
-    transition: ease-out 0.35s;
-    -moz-transition: ease-out 0.35s;
-    -webkit-transition: ease-out 0.35s;
-    z-index: 1;
-  }
-  
-  .mainnav li:hover .dropdown {
-    display: block;
-  }
-  
-  .mainnav li {
-    float: left;
-    padding: 5px;
-    background: black;
-    border-left: 1px solid white;
-  }
-  
-  .mainnav li:first-child {
-    border: none;
-  }
-  
-  .mainnav li:nth-child(4) {
-    border-right: 1px solid white;
-  }
-  
-  .mainnav li a {
-    display: block;
-    padding: 2px 20px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Hover for main links */
-  
-  .mainnav li:hover {
-    background: red;
-    transition: ease-in 0.35s;
-    -moz-transition: ease-in 0.35s;
-    -webkit-transition: ease-in 0.35s;
-  }
-  
-  /* Hover for main links */
-  
-  .mainnav li:hover a {
-    color: white;
-    transition: ease-in 0.35s;
-    -moz-transition: ease-in 0.35s;
-    -webkit-transition: ease-in 0.35s;
-  }
-  
-  /*First Level*/
-  
-  .subs {
-    left: -45px;
-    position: relative;
-    top: 0px;
-    width: 180px;
-    border-left: none !important;
-    border-bottom: 1px solid #fff !important;
-  }
-  
-  /* Last Link item on dropdown */
-  
-  .subs:last-child {
-    border: none !important;
-  }
-  
-  .hassubs:hover .dropdown, .hassubs .hassubs:hover .dropdown {
-    opacity: 1;
-    visibility: visible;
-    transition: ease-in 0.35s;
-    -moz-transition: ease-in 0.35s;
-    -webkit-transition: ease-in 0.35s;
-  }
-  
-  .mainnav li:hover ul a, .mainnav li:hover ul li ul li a {
-    color: white;
-  }
-  
-  .mainnav li ul li:hover, .mainnav li ul li ul li:hover {
-    background: #fff;
-    transition: ease-in-out 0.35s;
-    -moz-transition: ease-in-out 0.35s;
-    -webkit-transition: ease-in-out 0.35s;
-  }
-  
-  .mainnav li ul li:hover a, .mainnav li ul li ul li:hover a {
-    color: black;
-    transition: ease-in-out 0.35s;
-    -moz-transition: ease-in-out 0.35s;
-    -webkit-transition: ease-in-out 0.35s;
-  }
-  
-  /*Second Level*/
-  
-  .hassubs .hassubs .dropdown .subs {
-    left: 25px;
-    position: relative;
-    width: 180px;
-    top: 0px;
-  }
-  
-  .hassubs .hassubs .dropdown {
-    position: absolute;
-    width: 180px;
-    left: 115px;
-    top: 0px;
-    opacity: 0;
-    visibility: hidden;
-    transition: ease-out 0.35s;
-    -moz-transition: ease-out 0.35s;
-    -webkit-transition: ease-out 0.35s;
-  }
-  
-  .right-menu-item {
-    float: right;
-    border-left: 1px solid white;  
-  }
+}
