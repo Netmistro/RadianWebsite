@@ -5,7 +5,7 @@
  * Date: 2018-12-03
  * Time: 21:01
  */
-include('header.php');
+include 'header.php';
 ?>
 
 <!DOCTYPE html>
@@ -36,17 +36,16 @@ include('header.php');
         <li>Formwork & falsework design</li>
         <li>Petro-chemical & offshore scaffolds</li>
         <li>Façade retention / shoring</li>
-        <li>Temporary roofs</li>
+        <li>Temporary Roofs</li>
         <li>All System scaffolds</li>
         <li>Advertising banner supports</li>
-        <li>Events (e.g. ramp, temporary stage)</li>
+        <li>Events (e.g. ramps, temporary stage etc...)</li>
     </ol>
     <br>
     <h3>Typical requirements to complete an Engineered Design</h3>
     <ol>
-        <li>Structural steel plan of the layout where the scaffold is to be constructed. This would include all
-            elevations
-            and plans associated with the area where the scaffold is to be installed
+        <li>Structural steel plan of the layout where the scaffold is to be constructed. This would include all elevations
+         and plans associated with the area where the scaffold is to be installed
         </li>
         <li>In order to comply with Eurocode, the client need to provide the fundamental value of basic wind velocity as
             10 minutes mean wind velocity irrespective of wind direction and time of year 10m above ground having
@@ -66,12 +65,9 @@ include('header.php');
         <li>A bill of materials (BOM) can be provided upon request</li>
     </ol>
     <br>
-
 </div>
 </body>
 <footer>
-    <?php
-    include('footer.php');
-    ?>
+<?php include 'footer.php';?>
 </footer>
 </html>
