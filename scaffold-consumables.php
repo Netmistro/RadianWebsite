@@ -85,7 +85,7 @@ include('header.php');
                     <li>Used to cover protruding bolt ends on scaffolding to prevent injury.</li>
                     <li>Superior Quality</li>
                     <li>Domed Shape</li>
-                    <li>RADIAN'S Fitting End Caps stocked in Yellow, Orange, Green, Blue and Red</li>
+                    <li>Available in Yellow</li>
                 </ul>
             </div>
         </div>
@@ -109,6 +109,66 @@ include('header.php');
         </div>
         <br>
 
+        <!-- Leachs Combicap -->
+        <div class="tools-container">
+            <div class="tools-image">
+                <img src="./images/consumables/leach-combicap-yellow.png" alt="Consumable" width="300">
+            </div>
+            <div class="tools-details">
+                <b><span class="product-code">Product Code:</span> SPE-0005</b><br>
+                <span class="tag-label">Description: </span><span>Big Ben Combicap (Bag of 250)</span><br>
+                <span class="tag-label">Manufacturer: </span><span>LEACH's</span><br>
+                <ul>
+                    <li>Fits both Tube End and Fitting End</li>
+                    <li>Re-usable time & time again</li>
+                    <li>Available in Yellow or Blue</li>
+                    <li>Used and specified on many major site worldwide</li>
+                    <li>Available in Yellow</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+
+        <!-- Leachs Haz-Cover Diagonal Stripes -->
+        <div class="tools-container">
+            <div class="tools-image">
+                <img src="./images/consumables/leach-haz-cover.png" alt="Haz-Cover" width="300">
+            </div>
+            <div class="tools-details">
+                <b><span class="product-code">Product Code:</span> SST-0002</b><br>
+                <span class="tag-label">Description: </span><span>Big Ben Haz Cover</span><br>
+                <span class="tag-label">Manufacturer: </span><span>LEACH's</span><br>
+                <ul>
+                    <li>Simply clips on around the scaffold tube</li>
+                    <li>Re-usable time & time again</li>
+                    <li>Fits all scaffold tubes</li>
+                    <li>No need to tie or tape</li>
+                    <li>High quality & durable</li>
+                    <li>Smart easy clean</li>
+                    <li>Available in Red & white Stripe</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+
+        <!-- Harness Inspection Tag -->
+        <div class="tools-container">
+            <div class="tools-image">
+                <img src="./images/consumables/leach-harness-inspection-tag.png" alt="Harness-Inspection-Tag" width="300">
+            </div>
+            <div class="tools-details">
+                <b><span class="product-code">Product Code:</span> MTS-0002</b><br>
+                <span class="tag-label">Description: </span><span>Harness Inspection Tag</span><br>
+                <span class="tag-label">Manufacturer: </span><span>LEACH's</span><br>
+                <ul>
+                    <li>Available in Yellow Only</li>
+                    <li>Soft and Durable PVC</li>
+                    <li>The inspection tag supplied is printed with the years 2015-2023, 2017-2025</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+
         <!--    Debris Netting -->
         <div class="tools-container">
             <div class="tools-image">
@@ -127,6 +187,67 @@ include('header.php');
                     <li>Available in 3m x 50m</li>
                     <li>Flame Retardant Debris Netting also available</li>
 
+                </ul>
+            </div>
+        </div>
+        <br>
+
+        <!-- Kwikaz Fastening Clips -->
+        <div class="tools-container">
+            <div class="tools-image">
+                <img src="./images/consumables/leach-kwikaz-clips.png" alt="Consumable" width="300">
+            </div>
+            <div class="tools-details">
+                <b><span class="product-code">Product Code:</span> DNE-0013</b><br>
+                <span class="tag-label">Description: </span><span>KWIKAZ Fastening Clips</span><br>
+                <span class="tag-label">Manufacturer: </span><span>LEACH's</span><br>
+                <p>Please be aware the Kwikaz system is based on the Australian method of fixing netting on the inside of the scaffold, meaning the clips are pointing
+                    outwards away from personnel. At ground level the clips can be protected by rubber caps.
+                    Kwikaz can also be used to fix netting on the outside of scaffold, however, you will need to order rubber caps to protect personnel on the scaffold.</p>
+                <ul>
+                    <li>Made from tough galvanised carbon steel for extra bite with a 200N force required to detach each clip</li>
+                    <li>Used in conjunction with the KwikAz fastening Tool</li>
+                    <li>Typically 10x faster than using zip ties</li>
+                    <li>Each clip is reusable which leads to long term savings</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+
+        <!-- Kwikaz Fastening Tool/Driver -->
+        <div class="tools-container">
+            <div class="tools-image">
+                <img src="./images/consumables/leach-kwikaz-driver.png" alt="Consumable" width="300">
+            </div>
+            <div class="tools-details">
+                <b><span class="product-code">Product Code:</span> DNE-0014</b><br>
+                <span class="tag-label">Description: </span><span>KWIKAZ Fastener Tool/Driver</span><br>
+                <span class="tag-label">Manufacturer: </span><span>LEACH's</span><br>
+                <p>Save time, money and labour with KwikAz which is typically 10x faster than using netting ties.</p>
+                <ul>
+                    <li>This fully reusable system leads to long term savings</li>
+                    <li>200N force required to detach each clip</li>
+                    <li>Can be used to fasten debris netting or brickguards with ease</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+
+        <!-- Barrier Fencing - Orange -->
+        <div class="tools-container">
+            <div class="tools-image">
+                <img src="./images/consumables/leach-barrier-fencing-orange.png" alt="Barrier Fencing" width="300">
+            </div>
+            <div class="tools-details">
+                <b><span class="product-code">Product Code:</span> DNE-0022</b><br>
+                <span class="tag-label">Description: </span><span>Barrier Fencing Mesh - Orange (1m x 50m)</span><br>
+                <span class="tag-label">Manufacturer: </span><span>LEACH's</span><br>
+                <p>Quick and easy to construct. Suitable for all types of areas, including construction sites and railways.</p>
+                <ul>
+                    <li>Highly visible temporary fencing</li>
+                    <li>Made from heavy duty, durable, weatherproof plastic</li>
+                    <li>Available in Orange</li>
+                    <li>Available in 1m x 50m rolls</li>
                 </ul>
             </div>
         </div>
@@ -202,6 +323,7 @@ include('header.php');
     </div>
 </body>
 <footer>
-    <?php include('footer.php');?>
+    <?php include('footer.php'); ?>
 </footer>
+
 </html>
