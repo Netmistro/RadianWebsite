@@ -137,8 +137,9 @@
     font-weight: bold;
 }
 
-.ppe-details li {
+.ppe-container li {
     color: black;
+    display: list-item;
 }
 
 /*Tools Page*/
