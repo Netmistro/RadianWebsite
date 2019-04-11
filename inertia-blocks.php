@@ -58,7 +58,7 @@ include('header.php');
             <div class="ppe-details">
                 <b><span class="product-code">Product Code:</span> FPA-0001</b><br>
                 <span class="tag-label">Description: </span><span>IKAR 12m Fall Arrest Block with Rescue Winch</span><br>
-                <span class="tag-label">Manufacturer: </span><span>BIG BEN</span><br>
+                <span class="tag-label">Manufacturer: </span><span>IKAR</span><br>
                 <p>These devices initially work as a normal fall arrest device, but then automatically lowers the user at an approximate speed of 0.9 m/sec following
                     activation of the centrifugal coupling. The snaphook with a fall indicator, installed in the retractable fasteners, shows the user whether the device
                     has been encumbered by a fall, thus making a check necessary.</p>
@@ -83,7 +83,7 @@ include('header.php');
             <div class="ppe-details">
                 <b><span class="product-code">Product Code:</span> FPA-0002</b><br>
                 <span class="tag-label">Description: </span><span>IKAR 18m Fall Arrest Block with Rescue Winch</span><br>
-                <span class="tag-label">Manufacturer: </span><span>BIG BEN</span><br>
+                <span class="tag-label">Manufacturer: </span><span>IKAR</span><br>
                 <p>These devices initially work as a normal fall arrest device, but then automatically lowers the user at an approximate speed of 0.9 m/sec following
                     activation of the centrifugal coupling. The snaphook with a fall indicator, installed in the retractable fasteners, shows the user whether the device
                     has been encumbered by a fall, thus making a check necessary.</p>
@@ -133,9 +133,7 @@ include('header.php');
     </div>
 </body>
 <footer>
-    <?php
-    include('footer.php');
-    ?>
+    <?php include('footer.php'); ?>
 </footer>
 
 </html>

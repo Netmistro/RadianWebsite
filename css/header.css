@@ -22,11 +22,11 @@
   text-align: left;
 }
 
-li {
+.mainnav li {
   list-style: none;
 }
 
-li a {
+.mainnav li a {
   text-decoration: none;
 }
 

@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: said
+ * User: Arnold Bradshaw
  * Date: 2018-12-01
  * Time: 00:21
  */
@@ -163,7 +163,8 @@ include('header.php');
                 <ul>
                     <li>Available in Yellow Only</li>
                     <li>Soft and Durable PVC</li>
-                    <li>The inspection tag supplied is printed with the years 2015-2023, 2017-2025</li>
+                    <li>Ideal for any type of harness</li>
+                    <li>The inspection tag supplied is available in either of the years (2015-2023, 2017-2025)</li>
                 </ul>
             </div>
         </div>
