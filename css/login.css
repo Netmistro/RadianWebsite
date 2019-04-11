@@ -107,7 +107,7 @@ span.register {
 
 /* Change styles for span and cancel button on extra small screens */
 
-@media screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width:640px) {
     form {
         width: 90%;
         padding-left: 0px;
