@@ -75,10 +75,10 @@
     color: white;
 }
 /* Smaller screen sizes */
-@media only screen and (min-width: 375px) and (max-width:640px) {
+@media only screen and (min-width: 375px) and (max-width:667px) {
     .row {
         display: flex;
-        width: 100%;
+        width: 95%;
         flex-direction: column;
     }
     .column {

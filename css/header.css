@@ -170,9 +170,9 @@
   padding-top: 60px;
 }
 
-@media only screen and (min-width: 375px) and (max-width:640px) {
+@media only screen and (min-width: 375px) and (max-width:667px) {
   .nav-wrapper {
-    width: 100%;
+    width: 95%;
     background-color: black;
     margin-bottom: 3%
   }
@@ -187,7 +187,7 @@
   .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 95%;
   }
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
   .sticky+.content {

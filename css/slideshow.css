@@ -106,7 +106,7 @@ img {
 
 /* On smaller screens, decrease text size and other areas */
 
-@media only screen and (min-width: 375px) and (max-width:640px) {
+@media only screen and (min-width: 375px) and (max-width:667px) {
     .prev, .next, .text {
         font-size: 11px
     }

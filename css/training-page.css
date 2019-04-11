@@ -65,4 +65,6 @@ input[type=submit]:focus {
 
 /* Designing for smaller screen sizes */
 
-@media only screen and (min-width: 375px) and (max-width:640px) {}
+@media only screen and (min-width: 375px) and (max-width:667px) {
+    /* Test */
+}

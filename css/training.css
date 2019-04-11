@@ -102,7 +102,7 @@ input[type=submit]:focus {
 
 /* Media query for smaller phones */
 
-@media only screen and (min-width: 375px) and (max-width:640px) {
+@media only screen and (min-width: 375px) and (max-width:667px) {
     img {
         max-width: 100%;
     }
