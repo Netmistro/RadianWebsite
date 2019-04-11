@@ -339,26 +339,18 @@
     }
     .ppe-container {
         flex-wrap: wrap;
-        max-width: 100%;
     }
     .boss-towers-container {
         flex-wrap: wrap;
-        max-width: 100%;
     }
     img {
         max-width: 90%;
         margin: 5px;
     }
-    .scaff-mat-page, .formwork-page, .tagging-system, .tools-page, .rope-access-page, .ppe-page, .system-scaff-page .system-scaff-page {
+    .scaff-mat-page, .formwork-page, .tagging-system, .tools-page, .rope-access-page, .ppe-page, .system-scaff-page, .system-scaff-page {
         width: 95%;
     }
     h1 {
         text-align: center;
-    }
-    h3 {
-        text-align: center;
-    }
-    p {
-        margin: 5%;
     }
 }
