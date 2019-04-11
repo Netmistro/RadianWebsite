@@ -30,7 +30,7 @@
   text-decoration: none;
 }
 
-.dropdown {
+.mainnav .dropdown {
   position: absolute;
   width: 150px;
   top: 33px;
@@ -171,13 +171,52 @@
 }
 
 @media screen and (max-width: 375px) {
-  .row {
-    display: flex;
+  .nav-wrapper {
     width: 100%;
-    flex-direction: column;
+    background-color: black;
+    margin-bottom: 3%
   }
-  .row .column {
+  .mainnav {
+    flex-direction: row;
+    z-index: 1;
+  }
+  .right-menu-item {
+    float: left;
+  }
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
     width: 100%;
-    padding: 2%;
+  }
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky+.content {
+    padding-top: 60px;
+  }
+  .mainnav li a {
+    padding: 2px 2px;
+  }
+  .mainnav .dropdown {
+    width: 130px;
+    top: 41px;
+    z-index: 1;
+  }
+  /* First Level Menu Items */
+  .subs {
+    left: -45px;
+    width: 150px;
+  }
+  /* Second Level Menu Items */
+  .hassubs .hassubs .dropdown .subs {
+    left: -5px;
+    position: relative;
+    width: 140px;
+    top: 0px;
+  }
+  .hassubs .hassubs .dropdown {
+    position: absolute;
+    width: 140px;
+    left: 115px;
+    top: 0px;
   }
 }

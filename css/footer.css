@@ -81,8 +81,30 @@
         width: 100%;
         flex-direction: column;
     }
+    .column {
+        text-align: center;
+    }
     .row .column {
         width: 100%;
         padding: 2%;
+        font-size: 10pt;
+        width: 100%;
+        min-height: 180px;
+        line-height: 1.2;
+        margin: 0 auto;
+    }
+    .row .column a {
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+    .row .column p {
+        font-size: 10pt;
+    }
+    .row .column h2 {
+        font-size: 11pt;
+        text-align: center;
+    }
+    .column .contact-list dt {
+        text-align: center;
     }
 }

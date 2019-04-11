@@ -194,10 +194,16 @@ button[type=submit] {
 /* Media query for smaller phones */
 
 @media only screen and (max-width: 375px) {
-    img {
-        max-width: 100%;
+    .main-page img {
+        width: 30%;
+        display: block;
+        align-content: center;
     }
     .main-page {
         width: 90%;
+    }
+    .main-page .content-wrap h2 {
+        font-size: 13pt;
+        text-align: center;
     }
 }
