@@ -3,6 +3,7 @@
 // 11th April, 2019
 session_start();
 require 'header.php';
+$_SESSION['username'] = "Admin";
 ?>
 
 <!DOCTYPE html>
@@ -52,15 +53,17 @@ require 'header.php';
                 </a>
                 <?php
                 if (isset($_SESSION['username'])) {
-                    echo '< div class ="gallery-upload ">
-                    <form action ="./includes/gallery-upload.inc.php" method ="POST" enctype ="multipart/form-data ">
-                     <input type ="text" name ="filename" placeholder ="File Name ... ">
-                     <input type ="text" name ="filetitle" placeholder ="Image Title ... ">
-                     <input type ="text" name ="filedesc" placeholder ="Image Description ... ">
-                     <input type ="file" name ="filename ">
-                     <button type ="submit" name =submit >UPLOA D < /butto n>
-                     < /form>
-                     < /div>';
+                    echo '
+                    <div class ="gallery-upload">
+                    <h2>Upload</h2>
+                    <form action ="./includes/gallery-upload.inc.php" method ="POST" enctype ="multipart/form-data">
+                     <input type ="text" name ="filename" placeholder ="File Name ...">
+                     <input type ="text" name ="filetitle" placeholder ="Image Title ...">
+                     <input type ="text" name ="filedesc" placeholder ="Image Description ...">
+                     <input type ="file" name ="filename">
+                     <button type ="submit" name=submit>UPLOAD</button>
+                     </form>
+                     </div>';
                 }
                 ?>
             </div>

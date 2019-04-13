@@ -94,8 +94,8 @@
                         <li class="subs"><a href="./engineering-design.php">Engineering Design</a></li>
                         <li class="subs"><a href="./scaffold-inspection.php">Scaffold Inspection</a></li>
                         <li class="subs"><a href="./scaffold-training.php">Scaffold Training</a></li>
-                        <li class="subs"><a href="./training-gallery.php">Training Gallery</a></li>
                         <li class="subs"><a href="./rescue-training.php">Rescue Training</a></li>
+                        <li class="subs"><a href="./training-gallery.php">Training Gallery</a></li>
                         <!-- <li class="subs"><a href="#">Certified Scaffolder</a></li> -->
                     </ul>
                 </li>
