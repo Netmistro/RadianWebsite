@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Brad
+ * User: Arnold Bradshaw
  * Date: 10/8/2018
  * Time: 11:03 AM
  */
@@ -25,7 +25,8 @@ include 'header.php';
         <div class="content-wrap">
             <br>
             <h2>Contact Us</h2><br>
-            <p>We would very much like to hear from you. Visit our offices, call us, or email. Our friendly and knowledgeable staff members are always ready to be of service.</p><br>
+            <p>We would very much like to hear from you. Visit our offices, call us, or email. Our friendly and
+                knowledgeable staff members are always ready to be of service.</p><br>
         </div>
         <div class="radian-form">
             <?php
