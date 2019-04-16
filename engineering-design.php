@@ -58,10 +58,15 @@ include 'header.php';
                 If this is not a consideration, the design can still be done but will not be in compliance with
                 Eurocode.</li>
             <li>Scaffold - The general size (L x B x H) and purpose of the scaffold.</li>
+            <li>Scaffold Type - The type of scaffold to be erected is very important as well and needs to be indicated
+                as pert of the requirement</li>
             <li>Ground Conditions - This is often overlooked and is something thats very crutial to designing any ground
                 up scaffold. If you have BS 5975, as there is a lot guidance within. If the ground is soft, it maybe
                 necessary to spread the load using additional sole boards. Know what you are up against and let the
                 design team be aware.</li>
+            <li>Loading Requirements - What are the loading requirements and what is expected of the scaffold? Is the
+                scaffold going to do a vertical lift or will the load be cross-hauled? Is the loading consistent
+                throughout the scaffold or are other sections going to have different loads?</li>
             <li>Photographs - Photos of the general area where the scaffold is to be erected. At least two photos should
                 be taken. One of the general area showing any nearby cables or obstacles that can pose an issue during
                 the scaffold erection and another showing the exact location where the proposed scaffold is to be
@@ -71,6 +76,7 @@ include 'header.php';
                 a lot of rework, miscommunication and unnecessary expense.</li>
             <li>Potential Site Hazards - Take a smuch photos as you can about the area and what could possibly be a
                 hinderance and a hazard to erecting the scaffold.</li>
+            <li>Other Information - Is there anything else worthy of mentioning? Please inclue it.</li>
         </ol>
         <br>
         <h3>What constitutes a Design?</h3>
