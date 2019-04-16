@@ -21,6 +21,7 @@
                     <ul class="dropdown">
                         <!-- Single Menu Items -->
                         <li class="subs"><a href="./scaffold-consumables.php">Consumables</a></li>
+                        <li class="subs"><a href="./tagging-systems.php">Tagging Systems</a></li>
                         <li class="subs"><a href="./formwork.php">Formwork</a></li>
 
                         <!-- Scaffold Equipment Sub Menu -->
