@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: said
+ * User: Arnold Bradshaw
  * Date: 11/16/18
  * Time: 9:42 PM
  */
@@ -13,8 +13,9 @@ if (($_SERVER["REQUEST_METHOD"] == "POST") && ($_SESSION['userID'] == true)) {
 } elseif ($_SERVER["REQUEST_METHOD"] == "POST") {
     header('Location: login.php');
 }
-include('includes/db-connect.php');
+include_once('includes/db-connect.php');
 $sql = "SELECT * FROM training";
+// Trainign data array
 $training_data = mysqli_query($conn, $sql);
 ?>
 <!DOCTYPE html>
@@ -23,14 +24,14 @@ $training_data = mysqli_query($conn, $sql);
     <meta charset="UTF-8">
     <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials, Tools & Training">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RADIAN Training</title>
-    <link rel="stylesheet" href="css/training.css">
+    <title>Scaffold Training</title>
+    <link rel="stylesheet" href="./css/training.css">
 </head>
 <body>
 <div class="main-page">
     <!--    Display a table caption with the current year    -->
     <br>
-    <h1>Upcoming Training - <?php echo date(Y); ?></h1>
+    <h2>Upcoming Training - <?php echo date(Y); ?></h2>
     <div class="training-container">
         <table>
             <?php
@@ -43,8 +44,8 @@ $training_data = mysqli_query($conn, $sql);
                 echo "<td>";
                 echo "<b>" . "Course Code: " . $row['course_code'] . "</b>" . "<br>";
                 echo "<b>" . "Course Title: " . "<span style='color: blue'>".$row['train_title'] . "</b>" . "</span>"."<br>";
-                setlocale(LC_MONETARY, "en_US");
-                echo "<b>"."Cost (TTD): " ."</b>". money_format("%.2n", $row['train_cost']) . " + VAT"."<br>";
+                echo "<b>"."Cost (TTD): " ."</b>"."$".  $row['train_cost'] . " + VAT"."<br>";
+                
                 echo "<b>"."Course Description: "."</b>" . $row['short_description'] . "<br>";
                 if ($row['train_start_date'] > date("Y-m-d")) {
                     echo "<span style='color: #cd0a0a'>" . "Start Date: " . $row['train_start_date'] . "</span>" . "<br>";

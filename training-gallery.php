@@ -23,7 +23,7 @@ $_SESSION['username'] = "Admin";
             <h2>Gallery</h2>
             <div class="gallery-container">
                 <?php
-                include_once('./includes/db-connect.php');
+                include_once('includes/db-connect.php');
                 $sql = "SELECT * FROM traininggallery ORDER BY orderGallery DESC";
                 $stmt = mysqli_stmt_init($conn);
                 if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -34,10 +34,9 @@ $_SESSION['username'] = "Admin";
 
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo '<a href="#">
-                    <div>
+                    <div style="background-image: url(traning-pics/'.$row["imageFullNameGallery"].');"></div>
                     <h3>' . $row['titleGallery'] . '</h3>
-                    <p>' . $row['titleGallery'] . '</p>
-                    </div>
+                    <p>' . $row['descGallery'] . '</p>
                     </a>';
                     }
                 }
@@ -49,17 +48,16 @@ $_SESSION['username'] = "Admin";
                 echo '
                     <div class ="gallery-upload">
                     <h2>Upload</h2>
-                    <form action ="./includes/gallery-upload.inc.php" method ="POST" enctype ="multipart/form-data">
+                    <form action ="includes/gallery-upload.inc.php" method ="POST" enctype ="multipart/form-data">
                      <input type ="text" name ="filename" placeholder ="File Name ...">
                      <input type ="text" name ="filetitle" placeholder ="Image Title ...">
                      <input type ="text" name ="filedesc" placeholder ="Image Description ...">
                      <input type ="file" name ="filename">
                      <button type ="submit" name=submit>UPLOAD</button>
-                     </form>
-                     </div>';
+                    </form>
+                    </div>';
             }
             ?>
-        </div>
         </div>
     </section>
 

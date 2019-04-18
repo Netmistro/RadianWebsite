@@ -1,24 +1,27 @@
 .gallery-links .wrapper {
-    margin: 0 auto;
-    width: 80%;
+	margin: 0 auto;
+	width: 80%;
 }
 
 .gallery-container a:hover {
-    opacity: 0.8;
+	opacity: 0.8;
 }
 
 .gallery-container a div {
-    width: 100%;
-    height: 235px;
-    background-color: red;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	width: 100%;
+	height: 235px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .gallery-container a h3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: #111;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #111;
+}
+
+.gallery-upload{
+	text-align: center;
 }

@@ -2,7 +2,7 @@
 <?php
 if (isset($_POST['submit'])) {
     $newFileName = $_POST['filename'];
-    if ($_POST['filename']) {
+    if (empty($newFileName)){
         $newFileName = "gallery";
     }
 } else {
@@ -25,7 +25,7 @@ $allowed = array("jpg", "jpeg", "png");
 
 if (in_array($fileActualExt, $allowed)) {
     if ($fileError === 0) {
-        if ($fileSize > 2000000) {
+        if ($fileSize < 2000000) {
             $imageFullName = $newFileName . "." . uniqid("", true) . "." . $fileActualExt;
             $fileDestination = "../training-pics/" . $imageFullName;
 
@@ -44,7 +44,7 @@ if (in_array($fileActualExt, $allowed)) {
                     $rowCount = mysqli_num_rows($result);
                     $setImageOrder = $rowCount + 1;
 
-                    $sql = "INSERT into traininggallery(titleGallery,descGallery,imgFullNameGallery,orderGallery) VALUES(?,?,?,?);";
+                    $sql = "INSERT INTO traininggallery (titleGallery, descGallery, imgFullNameGallery, orderGallery) VALUES(?,?,?,?);";
                     if (!mysqli_stmt_prepare($stmt, $sql)) {
                         echo "SQL Statement Failed!";
                     } else {

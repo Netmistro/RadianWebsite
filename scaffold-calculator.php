@@ -8,7 +8,7 @@
  */
 include('header.php');
 include('includes/db-connect.php');
-$sql = "SELECT * FROM scaffold_weight";
+$sql = "SELECT * FROM scaffoldweight";
 $scaffoldWeightData = mysqli_query($conn, $sql);
 ?>
 <!DOCTYPE html>
