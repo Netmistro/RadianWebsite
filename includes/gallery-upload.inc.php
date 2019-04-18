@@ -29,7 +29,34 @@ if (in_array($fileActualExt, $allowed)) {
             $imageFullName = $newFileName . "." . uniqid("", true) . "." . $fileActualExt;
             $fileDestination = "../training-pics/" . $imageFullName;
 
-            include_once"db-connect.php";
+            include_once "db-connect.php";
+            if (empty($imageTitle) || empty($imageDesc)) {
+                header("Location:../training-gallery.php?upload=empty");
+                exit();
+            } else {
+                $sql = "SELECT * FROM traininggallery;";
+                $stmt = mysqli_stmt_init($conn);
+                if (!mysqli_stmt_prepare($stmt, $sql)) {
+                    echo "SQL Statement Failed!";
+                } else {
+                    mysqli_stmt_execute($stmt);
+                    $result = mysqli_stmt_get_result($stmt);
+                    $rowCount = mysqli_num_rows($result);
+                    $setImageOrder = $rowCount + 1;
+
+                    $sql = "INSERT into traininggallery(titleGallery,descGallery,imgFullNameGallery,orderGallery) VALUES(?,?,?,?);";
+                    if (!mysqli_stmt_prepare($stmt, $sql)) {
+                        echo "SQL Statement Failed!";
+                    } else {
+                        mysqli_stmt_bind_param($stmt, "ssss", $imageTitle, $imageDesc, $imageFullName, $setImageOrder);
+                        mysqli_stmt_execute($stmt);
+
+                        move_uploaded_file($fileTempName, $fileDestination);
+
+                        header("Location:../training-gallery.php?upload=success");
+                    }
+                }
+            }
         } else {
             echo "File size too large!";
             exit();

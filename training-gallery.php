@@ -22,38 +22,31 @@ $_SESSION['username'] = "Admin";
         <div class="wrapper">
             <h2>Gallery</h2>
             <div class="gallery-container">
-                <a href="#">
-                    <div></div>
-                    <h3>This is a title</h3>
-                    <p>This is a paragraph</p>
-                </a>
-
-                <a href="#">
-                    <div></div>
-                    <h3>This is a title</h3>
-                    <p>This is a paragraph</p>
-                </a>
-
-                <a href="#">
-                    <div></div>
-                    <h3>This is a title</h3>
-                    <p>This is a paragraph</p>
-                </a>
-
-                <a href="#">
-                    <div></div>
-                    <h3>This is a title</h3>
-                    <p>This is a paragraph</p>
-                </a>
-
-                <a href="#">
-                    <div></div>
-                    <h3>This is a title</h3>
-                    <p>This is a paragraph</p>
-                </a>
                 <?php
-                if (isset($_SESSION['username'])) {
-                    echo '
+                include_once('./includes/db-connect.php');
+                $sql = "SELECT * FROM traininggallery ORDER BY orderGallery DESC";
+                $stmt = mysqli_stmt_init($conn);
+                if (!mysqli_stmt_prepare($stmt, $sql)) {
+                    echo "SQL Statement Failed!";
+                } else {
+                    mysqli_stment_execute($stmt);
+                    $result = mysqli_stmt_get_result($stmt);
+
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        echo '<a href="#">
+                    <div>
+                    <h3>' . $row['titleGallery'] . '</h3>
+                    <p>' . $row['titleGallery'] . '</p>
+                    </div>
+                    </a>';
+                    }
+                }
+
+                ?>
+            </div>
+            <?php
+            if (isset($_SESSION['username'])) {
+                echo '
                     <div class ="gallery-upload">
                     <h2>Upload</h2>
                     <form action ="./includes/gallery-upload.inc.php" method ="POST" enctype ="multipart/form-data">
@@ -64,10 +57,9 @@ $_SESSION['username'] = "Admin";
                      <button type ="submit" name=submit>UPLOAD</button>
                      </form>
                      </div>';
-                }
-                ?>
-            </div>
-
+            }
+            ?>
+        </div>
         </div>
     </section>
 
