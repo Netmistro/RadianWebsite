@@ -2,7 +2,10 @@
 	margin: 0 auto;
 	width: 80%;
 }
-
+.gallery-container a{
+	width: 230px;
+	margin: 20px 10px 0;
+}
 .gallery-container a:hover {
 	opacity: 0.8;
 }
@@ -20,8 +23,13 @@
 	font-size: 20px;
 	font-weight: 700;
 	color: #111;
+	padding-top: 16px;
 }
 
 .gallery-upload{
 	text-align: center;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
 }

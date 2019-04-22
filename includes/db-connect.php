@@ -10,7 +10,7 @@ $host = "localhost";
 $user = "root";
 $password = "root";
 $db = "radian";
-$port = 8900;
+$port = 8888;
 
 // Create connection
 $conn = mysqli_connect($host, $user, $password, $db, $port);

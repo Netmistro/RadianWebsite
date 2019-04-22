@@ -31,8 +31,9 @@ $training_data = mysqli_query($conn, $sql);
 <div class="main-page">
     <!--    Display a table caption with the current year    -->
     <br>
-    <h2>Upcoming Training - <?php echo date(Y); ?></h2>
     <div class="training-container">
+    <h2>Upcoming Training - <?php echo date(Y); ?></h2>
+
         <table>
             <?php
             while ($row = mysqli_fetch_assoc($training_data)) {

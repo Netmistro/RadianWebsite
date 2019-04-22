@@ -7,7 +7,6 @@ $_SESSION['username'] = "Admin";
 ?>
 
 <!DOCTYPE html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,7 +39,6 @@ $_SESSION['username'] = "Admin";
                     </a>';
                     }
                 }
-
                 ?>
             </div>
             <?php
@@ -53,7 +51,7 @@ $_SESSION['username'] = "Admin";
                      <input type ="text" name ="filetitle" placeholder ="Image Title ...">
                      <input type ="text" name ="filedesc" placeholder ="Image Description ...">
                      <input type ="file" name ="filename">
-                     <button type ="submit" name=submit>UPLOAD</button>
+                     <button type ="submit" name=submit> UPLOAD </button>
                     </form>
                     </div>';
             }
