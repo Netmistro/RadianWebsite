@@ -3,7 +3,31 @@
 // 11th April, 2019
 session_start();
 require 'header.php';
-$_SESSION['username'] = "Admin";
+// INIT
+$dir = __DIR__ . DIRECTORY_SEPARATOR . "gallery" . DIRECTORY_SEPARATOR;
+$tdir = __DIR__ . DIRECTORY_SEPARATOR . "thumbnail" . DIRECTORY_SEPARATOR;
+$maxLong = 600; // maximum width or height, whichever is longer
+$quality = 40;
+$images = [];
+
+// READ FILES FROM GALLERY FOLDER
+$files = glob($dir . "*.{jpg,jpeg,gif,png}", GLOB_BRACE);
+
+// CHECK AND GENERATE THUMBNAILS
+foreach ($files as $f) {
+    $img = basename($f);
+    $images[] = $img;
+    if (!file_exists($tdir . $img)) {
+        list($width, $height) = getimagesize($dir . $img);
+        $ratio = $width > $height ? $maxLong / $width : $maxLong / $height;
+        $newWidth = ceil($width * $ratio);
+        $newHeight = ceil($height * $ratio);
+        $source = imagecreatefromjpeg($dir . $img);
+        $destination = imagecreatetruecolor($newWidth, $newHeight);
+        imagecopyresampled($destination, $source, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
+        imagejpeg($destination, $tdir . $img, $quality);
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -13,55 +37,29 @@ $_SESSION['username'] = "Admin";
     <title>Photo Gallery</title>
     <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials, Tools & Training">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/training-gallery.css">
+    <link rel="stylesheet" href="css/training-gallery.css">
+    <script src="./js/thumbnail.js"></script>
 </head>
 
 <body>
-    <section class="gallery-links">
-        <div class="wrapper">
-            <h2>Gallery</h2>
-            <div class="gallery-container">
-                <?php
-                include_once('includes/db-connect.php');
-                $sql = "SELECT * FROM traininggallery ORDER BY orderGallery DESC";
-                $stmt = mysqli_stmt_init($conn);
-                if (!mysqli_stmt_prepare($stmt, $sql)) {
-                    echo "SQL Statement Failed!";
-                } else {
-                    mysqli_stment_execute($stmt);
-                    $result = mysqli_stmt_get_result($stmt);
+<div class=training-gallery>
+<!-- Lightbox  -->
+    <div id="lfront"></div>
+    <div id="lback"></div>
 
-                    while ($row = mysqli_fetch_assoc($result)) {
-                        echo '<a href="#">
-                    <div style="background-image: url(traning-pics/'.$row["imageFullNameGallery"].');"></div>
-                    <h3>' . $row['titleGallery'] . '</h3>
-                    <p>' . $row['descGallery'] . '</p>
-                    </a>';
-                    }
-                }
-                ?>
-            </div>
-            <?php
-            if (isset($_SESSION['username'])) {
-                echo '
-                    <div class ="gallery-upload">
-                    <h2>Upload</h2>
-                    <form action ="includes/gallery-upload.inc.php" method ="POST" enctype ="multipart/form-data">
-                     <input type ="text" name ="filename" placeholder ="File Name ...">
-                     <input type ="text" name ="filetitle" placeholder ="Image Title ...">
-                     <input type ="text" name ="filedesc" placeholder ="Image Description ...">
-                     <input type ="file" name ="filename">
-                     <button type ="submit" name=submit> UPLOAD </button>
-                    </form>
-                    </div>';
-            }
-            ?>
-        </div>
-    </section>
+<!-- The Gallery -->
+    <div id="gallery">
+    <?php
+    foreach ($images as $i) {
+        printf("<img src='thumbnail/%s' onclick='gallery.show(this)'/>", basename($i));
+    }
+    ?>
+    </div>
 
+</div>
 </body>
 <footer>
-    <?php require 'footer.php'; ?>
+    <?php require 'footer.php';?>
 </footer>
 
 </html>
