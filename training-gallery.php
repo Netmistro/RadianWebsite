@@ -19,25 +19,27 @@ $gallery_Data = mysqli_query($conn, $sql);
 </head>
 
 <body>
-<div class=training-gallery>
-    <div class=training-block>
+    <div class="training-gallery">
+    
     <?php
         while ($row = mysqli_fetch_assoc($gallery_Data)) {
+            echo '<div class="training-block">';
             echo '<div class="training-images">';
             $image_Path = 'trainingGallery/' . $row['desc_Gallery'] .'/'.$row['image_Name']. '.jpg';
-            echo "<img src= '$image_Path' alt='Training' width='25%'>" . "<br>";
+            echo "<img src= '$image_Path' alt='Training'>" . "<br>";
             echo'</div>';
-            
-            echo'<div class=gallery-text>';
+                
+            echo'<div class="gallery-text">';
             echo $row['title_Gallery'].'<br>';
             echo 'Start Date:'.$row['train_Start_Date'].'<br>';
             echo 'End Date:'.$row['train_End_Date'].'<br>';
             echo'</div>';
-                }
+            echo'</div>';
+        }
         mysqli_close($conn);
     ?>
+ 
     </div>
-</div>
 </body>
 <footer>
     <?php require 'footer.php';?>
