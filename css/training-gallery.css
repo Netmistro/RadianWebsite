@@ -1,25 +1,32 @@
 .training-gallery {
-  width: 80%;
-  margin: 0 auto;
-  padding: 5px;
-  min-height: 700px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+	width: 80%;
+	margin: 0 auto;
+	padding: 5px;
+	min-height: 700px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 }
 
 .training-gallery .training-block {
-  border: 1px solid black;
-  max-width: 33.3%;
-  height: 300px;
-  flex: 1;
+	max-width: 350px;
+	height: 410px;
+	flex: 1;
+	margin: 5px;
+}
+
+.training-gallery .training-block:hover {
+	border: 1px solid black;
 }
 .training-gallery .training-images {
-  height: 250px;
-  display: flex;
-  align-content: center;
+	display: flex;
+	align-content: center;
+	object-fit: cover;
+	overflow: hidden;
 }
 
 .training-gallery .training-block .gallery-text {
-  text-align: left;
+	text-align: centre;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }

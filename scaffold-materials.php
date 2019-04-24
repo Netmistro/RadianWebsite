@@ -22,7 +22,7 @@ include('header.php');
 <body>
     <div class="scaff-mat-page">
         <br>
-        <h1>Scaffold Materials</h1><br>
+        <h1>Tube & Clamp Scaffolding</h1><br>
 
         <!-- Scaffold Tubes -->
         <div class="scaff-mat-container">
