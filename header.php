@@ -25,7 +25,7 @@
                         <li class="subs"><a href="./formwork.php">Formwork</a></li>
 
                         <!-- Scaffold Equipment Sub Menu -->
-                        <li class="subs hassubs"><a href="JavaScript:void(0)">Equipment</a>
+                        <li class="subs hassubs"><a href="JavaScript:void(0)">Scaffolding</a>
                             <ul class="dropdown">
                                 <li class="subs"><a href="./cuplock.php">Cuplock</a></li>
                                 <li class="subs"><a href="./scaffold-materials.php">Tube & Clamp</a></li>
@@ -83,7 +83,7 @@
                                 <li class="subs"><a href="./level-holders.php">Level Holders</a></li>
                                 <li class="subs"><a href="./tape-holders.php">Tape Holders</a></li>
                                 <li class="subs"><a href="./hammers-mallet-holders.php">Hammer Holders</a></li>
-                                <li class="subs"><a href="./tool-belts.php">Scaffold Belts</a></li>
+                                <li class="subs"><a href="./leather-tool-belts.php">Scaffold Belts</a></li>
                             </ul>
                         </li>
                     </ul>

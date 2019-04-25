@@ -26,13 +26,13 @@ $gallery_Data = mysqli_query($conn, $sql);
             echo '<div class="training-block">';
             echo '<div class="training-images">';
             $image_Path = 'trainingGallery/' . $row['desc_Gallery'] .'/'.$row['image_Name']. '.jpg';
-            echo "<img src= '$image_Path' alt='Training' width=350 height=350>" . "<br>";
+            echo "<img src= '$image_Path' alt='Training'>" . "<br>";
             echo'</div>';
                 
             echo'<div class="gallery-text">';
             echo $row['title_Gallery'].'<br>';
-            echo 'Start Date:'.$row['train_Start_Date'].'<br>';
-            echo 'End Date:'.$row['train_End_Date'].'<br>';
+            echo 'Start Date: '.$row['train_Start_Date'].'<br>';
+            echo 'End Date: '.$row['train_End_Date'].'<br>';
             echo'</div>';
             echo'</div>';
         }

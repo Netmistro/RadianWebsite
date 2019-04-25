@@ -1,32 +1,39 @@
 .training-gallery {
 	width: 80%;
 	margin: 0 auto;
-	padding: 5px;
-	min-height: 700px;
+	min-height: 500px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 }
 
 .training-gallery .training-block {
-	max-width: 350px;
-	height: 410px;
-	flex: 1;
-	margin: 5px;
+	padding: 2%;
+	width: 25%;
+	height: 200px;
 }
 
 .training-gallery .training-block:hover {
-	border: 1px solid black;
+	border: 1px solid red;
 }
 .training-gallery .training-images {
+	transition: 1s;
+	padding: 15px;
+	width: 200px;
+	height: 200px;
 	display: flex;
 	align-content: center;
 	object-fit: cover;
 	overflow: hidden;
 }
 
+.training-gallery .training-images :hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
 .training-gallery .training-block .gallery-text {
 	text-align: centre;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	
+	padding: 2%;
 }
