@@ -61,7 +61,7 @@
                                 <!-- <li class="subs"><a href="#">Vernier Calipers</a></li> -->
                                 <!-- <li class="subs"><a href="#">Micrometer Screw Gauges</a></li> -->
                                 <!-- <li class="subs"><a href="#">Column Climber</a></li> -->
-                                <!-- <li class="subs"><a href="#">Elcometer</a></li> -->
+                                <li class="subs"><a href="./elcometer.php">Inspection Kits</a></li>
                                 <li class="subs"><a href="./tool-belts.php">Tool Belts</a></li>
                             </ul>
                         </li>
@@ -96,7 +96,7 @@
                         <li class="subs"><a href="./scaffold-inspection.php">Scaffold Inspection</a></li>
                         <li class="subs"><a href="./scaffold-training.php">Scaffold Training</a></li>
                         <li class="subs"><a href="./rescue-training.php">Rescue Training</a></li>
-                        <li class="subs"><a href="./training-gallery.php">Training Gallery</a></li>
+                        <!-- <li class="subs"><a href="./training-gallery.php">Training Gallery</a></li> -->
                         <!-- <li class="subs"><a href="#">Certified Scaffolder</a></li> -->
                     </ul>
                 </li>

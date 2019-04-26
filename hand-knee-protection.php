@@ -263,8 +263,8 @@ include 'header.php';
                         maintaining complete dexterity.</p>
 
                     <p>In addition to providing impact protection from heavy equipment without the extra bulk, the
-                    neoprene knuckle padding breathes well, reducing moisture and sweat that can negatively affect a
-                    glove's fit and performance.</p>
+                        neoprene knuckle padding breathes well, reducing moisture and sweat that can negatively affect a
+                        glove's fit and performance.</p>
                     <h3>Features</h3>
                     <ol>
                         <li>ABRASION-RESISTANT: Made with high performance Tena-Grip™ material</li>
