@@ -15,9 +15,8 @@ $gallery_Data = mysqli_query($conn, $sql);
     <title>Photo Gallery</title>
     <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials, Tools & Training">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/training-gallery.css">
-    <link rel="stylesheet" href="./css/lightbox.min.css">
-    <script src="./js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/training-gallery.css">  
+
 </head>
 
 <body>
