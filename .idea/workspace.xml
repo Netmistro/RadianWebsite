@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff336057-2b2b-41f7-ac64-5cead3ef3e17" name="Default Changelist" comment="">
+    <list default="true" id="ff336057-2b2b-41f7-ac64-5cead3ef3e17" name="Default Changelist" comment="Deleted lightbox data to start a new system.">
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads/300_lb_tool_bucket_instructions.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/downloads/300_lb_tool_bucket_instructions.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads/Inflatable Life Jackets.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads/Unit Beam Data Sheet (Loads).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads/cinching_wrist_cuff.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/downloads/cinching_wrist_cuff.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads/fast_action_instruction_booklet_2014.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/downloads/fast_action_instruction_booklet_2014.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boss-towers.php" beforeDir="false" afterPath="$PROJECT_DIR$/boss-towers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineering-design.php" beforeDir="false" afterPath="$PROJECT_DIR$/engineering-design.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool-belts.php" beforeDir="false" afterPath="$PROJECT_DIR$/tool-belts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inertia-blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/inertia-blocks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lightbox-plus-jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/thumbnail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/DEPLOY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/ROADMAP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/css/lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/css/lightbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/js/lightbox-plus-jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/js/lightbox-plus-jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/js/lightbox-plus-jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/js/lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/js/lightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/dist/js/lightbox.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/src/css/lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/src/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/src/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/src/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/src/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightbox2-master/src/js/lightbox.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +68,17 @@
     <favorites_list name="RadianWebsite" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="26" column="77" lean-forward="true" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,17 +88,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Arnold Bradshaw &lt;arnoldbradshaw@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rope-access.php" />
         <option value="$PROJECT_DIR$/conventional-scaffolding.php" />
         <option value="$PROJECT_DIR$/includes/db-connect.php" />
         <option value="$PROJECT_DIR$/scaffold-calculator.php" />
         <option value="$PROJECT_DIR$/cuplock-scaffolding.php" />
-        <option value="$PROJECT_DIR$/engineering-design.php" />
         <option value="$PROJECT_DIR$/scaffold-training.php" />
         <option value="$PROJECT_DIR$/css/rescue-equipment.css" />
         <option value="$PROJECT_DIR$/scaffold-inspection.php" />
@@ -81,7 +122,6 @@
         <option value="$PROJECT_DIR$/../ScaffoldTraining/user-profile.php" />
         <option value="$PROJECT_DIR$/../ScaffoldTraining/scaffold-tools.php" />
         <option value="$PROJECT_DIR$/system-scaffold.php" />
-        <option value="$PROJECT_DIR$/boss-towers.php" />
         <option value="$PROJECT_DIR$/cuplock.php" />
         <option value="$PROJECT_DIR$/ringlok.php" />
         <option value="$PROJECT_DIR$/ringlock.php" />
@@ -102,24 +142,27 @@
         <option value="$PROJECT_DIR$/css/header2.css" />
         <option value="$PROJECT_DIR$/header2.php" />
         <option value="$PROJECT_DIR$/css/main-style.css" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/slideshow.js" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/css/header.css" />
+        <option value="$PROJECT_DIR$/boss-towers.php" />
+        <option value="$PROJECT_DIR$/inertia-blocks.php" />
+        <option value="$PROJECT_DIR$/engineering-design.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.3">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
-      <path value="$PROJECT_DIR$/../../bin/php/php7.3.1/lib/php" />
+      <path value="$PROJECT_DIR$/../../bin/php/php7.2.8" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -129,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,30 +185,17 @@
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
               <item name="RadianWebsite" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="RadianWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="RadianWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RadianWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="RadianWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;azure" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php7.2.8" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
@@ -292,20 +323,28 @@
       <workItem from="1553871748919" duration="143000" />
       <workItem from="1554139493629" duration="416000" />
       <workItem from="1554146726609" duration="116000" />
+      <workItem from="1556552564699" duration="213000" />
+      <workItem from="1556553098551" duration="7000" />
+      <workItem from="1556553186365" duration="12000" />
+      <workItem from="1556553223274" duration="1000" />
+      <workItem from="1556565418816" duration="1539000" />
+      <workItem from="1556630125423" duration="1031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268601000" />
+    <option name="totallyTimeSpent" value="271404000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32956383" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26979" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -313,7 +352,7 @@
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -326,21 +365,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deleted lightbox data to start a new system." />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted lightbox data to start a new system." />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/logout.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reset-password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="46" lean-forward="true" selection-start-line="8" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reset-request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1699">
@@ -377,108 +409,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/confirmation.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/dop.php" />
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/login.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/reset-password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/reset-request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/scaffold-calculator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/useful-links.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/user-profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/scaffold-tools.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/tagging-systems.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/privacy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-343" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boss-towers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/footer.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/index.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/login.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/profile.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/register.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/reset-password.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/reset-request.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/scaffold-calculator.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/useful-links.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/user-profile.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/scaffold-tools.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/tagging-systems.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/privacy.php" />
+    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/header.php" />
     <entry file="file://$PROJECT_DIR$/cuplock.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -644,17 +590,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss-towers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engineering-design.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inertia-blocks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="26" column="77" lean-forward="true" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
         </state>
       </provider>
     </entry>
