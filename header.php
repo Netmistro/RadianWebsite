@@ -55,11 +55,12 @@
                             </ul>
                         </li>
 
-                        <!-- Scaffold Tools Sub Menu -->
+                        <!-- Scaffold Tools and other items Sub Menu -->
                         <li class="subs hassubs"><a href="JavaScript:void(0)">Other Tools</a>
                             <ul class="dropdown">
-                                <!-- <li class="subs"><a href="#">Vernier Calipers</a></li> -->
+                                 <li class="subs"><a href="./vernier-calipers.php">Vernier Calipers</a></li>
                                 <!-- <li class="subs"><a href="#">Micrometer Screw Gauges</a></li> -->
+                                 <li class="subs"><a href="./wind-meters.php">Wind Meters</a></li>
                                 <!-- <li class="subs"><a href="#">Column Climber</a></li> -->
                                 <li class="subs"><a href="./elcometer.php">Inspection Kits</a></li>
                                 <li class="subs"><a href="./tool-belts.php">Tool Belts</a></li>
