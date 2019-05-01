@@ -318,38 +318,48 @@
     color: black;
 }
 
-@media only screen and (min-width: 375px) and (max-width:667px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) {
     .scaff-mat-container {
         flex-wrap: wrap;
     }
+
     .system-scaff-container {
         flex-wrap: wrap;
     }
+
     .tagging-system-container {
         flex-wrap: wrap;
     }
+
     .tools-container {
         flex-wrap: wrap;
     }
+
     .formwork-container {
         flex-wrap: wrap;
     }
+
     .rope-access-container {
         flex-wrap: wrap;
     }
+
     .ppe-container {
         flex-wrap: wrap;
     }
+
     .boss-towers-container {
         flex-wrap: wrap;
     }
+
     img {
         max-width: 90%;
         margin: 5px;
     }
+
     .scaff-mat-page, .formwork-page, .tagging-system, .tools-page, .rope-access-page, .ppe-page, .system-scaff-page, .system-scaff-page {
         width: 95%;
     }
+
     h1 {
         text-align: center;
     }

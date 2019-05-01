@@ -26,10 +26,10 @@ include 'header.php';
     <h1>Vernier Callipers</h1>
     <br>
 
-    <!-- Kestrel 3000 Wind Meter -->
+    <!-- Faithfull Vernier Calliper - 150mm -->
     <div class="ppe-container">
         <div class="ppe-image">
-            <img src="./images/measurement/HTC-0003.png" alt="Vernier Callipers" width="300"><br>
+            <img src="./images/other-products/vernier/HTC-0003.png" alt="Vernier Callipers" width="300"><br>
         </div>
         <br>
         <div class="ppe-details">
@@ -37,30 +37,59 @@ include 'header.php';
             <span class="tag-label">Description: </span><span>Faithfull Vernier Calliper - 150mm (6")</span><br>
             <span class="tag-label">Manufacturer: </span><span>Faithfull</span><br>
             <p>
-                Wind changes, shifts, and moves rapidly, which can make your outdoor plans require a bit of planning as
-                they evolve along with the weather. The Kestrel 1000 Pocket Wind Meter helps you properly monitor these
-                conditions with accuracy and in real time. This ensures every hunt, fishing excursion, or kite or flying
-                adventure safer and more enjoyable.
+                Manufactured from hardened stainless steel, this dual function electronic digital caliper provides
+                precision readings through a clear liquid crystal display. Its many features include a fine adjustment
+                roller which allows precise measurements to be taken quickly and easily.
+                The digital section button enables readings to be displayed in either metric or imperial format. The
+                four-way measurement function provides a choice of readings in external, internal, depth and step modes.
+                The strong plastic storage case enables the caliper to be kept in a dust and damp free environment,
+                protected from direct sunlight and high temperatures.
             </p>
             <br>
             <h3>Features</h3>
-            <ol>
-                <li>Measuring range: 0-150mm/0-6in</li>
-                <li>Resolution: 0.01mm/0.0005in</li>
-                <li>Accuracy: ±0.03mm/0.001in (0 - 200mm)</li>
-                <li>Repeatability: 0.01mm/0.0005in.</li>
-                <li>Max measuring speed: 1.5m/sec, 60in/sec.</li>
-                <li>Measuring system: Linear capacitive measuring system</li>
-                <li>Display: LCD display - Character Height: 6.35mm</li>
-                <li>Power: 1 Alkaline battery 1.55V, type LR44</li>
-                <li>Working temperature: 5 to 40 degree C or 41 to 104 degree F.</li>
-                <li>Influence of humidity: Not important under 80% of relative humidity</li>
-                <li>Data output: Serial output for interface with computer or printer</li>
-                <li>Data processing interface Data storage, processing & printing, (option): Functions: with software of
-                    quality control.
-                </li>
-                <li>Auto power off 5 minutes</li>
-            </ol>
+            <table align="left">
+                <tr>
+                    <td>Measuring Range</td>
+                    <td>0-150mm/0-6in, 0-200mm/0-8in, 0-300mm/0-12in</td>
+                </tr>
+                <tr>
+                    <td>Resolution</td>
+                    <td>0.01mm/0.0005in</td>
+                </tr>
+                <tr>
+                    <td>Accuracy</td>
+                    <td>+/-0.02mm/0.001in (<100mm)<br>+/-0.03mm/0.001in (>100-200mm)<br>+/-0.04mm/0.0015in (>200-300mm)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Repeatability</td>
+                    <td>0.01mm/0.0005in</td>
+                </tr>
+                <tr>
+                    <td>Max. Measuring Speed</td>
+                    <td>1.5m/sec, 60in/sec.</td>
+                </tr>
+                <tr>
+                    <td>Measuring System</td>
+                    <td>Linear capacitive</td>
+                </tr>
+                <tr>
+                    <td>Display</td>
+                    <td>Liquid Crystal (LCD)</td>
+                </tr>
+                <tr>
+                    <td>Power</td>
+                    <td>One silver oxide battery 1.55V, type SR44 <br>Capacity - 180mAh</td>
+                </tr>
+                <tr>
+                    <td>Working Temperature</td>
+                    <td>5 to 40&deg C, 41 to 104&deg F</td>
+                </tr>
+                <tr>
+                    <td>Influence of Humidity</td>
+                    <td>Not important under 80% of R.H.</td>
+                </tr>
+            </table>
         </div>
     </div>
     <br>
