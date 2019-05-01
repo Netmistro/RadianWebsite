@@ -4,8 +4,7 @@
     width: 80%;
 }
 
-/* Header Styles */
-
+/* Heading Sytles */
 .main-page h1, h2, h5 {
     color: black;
     text-align: left;
@@ -61,7 +60,6 @@
 }
 
 /* Tagging Systems */
-
 .tagging-system .tagging-system-container {
     display: flex;
     border-bottom-style: solid;
@@ -91,6 +89,30 @@
 }
 
 /* PPE CSS */
+.ppe-page p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.ppe-page .ppe-details .product-specs {
+    margin: auto 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 50%;
+}
+
+.ppe-page .ppe-details .product-specs td {
+    border: 1px solid red;
+    padding-left: 1%;
+}
+
+
+.ppe-page .ppe-details .product-specs tr:hover {
+    background-color: #f5f5f5;
+}
 
 .ppe-page .ppe-container {
     display: flex;
