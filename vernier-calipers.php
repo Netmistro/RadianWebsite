@@ -52,7 +52,9 @@ include 'header.php';
             </p>
             <br>
             <table class="product-specs">
-                <th>Product Specifications:</th>
+                <tr>
+                    <th>Product Specifications:</th>
+                </tr>
                 <tr>
                     <td>Measuring Range</td>
                     <td>0-150mm/0-6in, 0-200mm/0-8in, 0-300mm/0-12in</td>
@@ -117,7 +119,9 @@ include 'header.php';
             </p>
             <br>
             <table class="product-specs">
-                <th>Product Specifications:</th>
+                <tr>
+                    <th>Product Specifications:</th>
+                </tr>
                 <tr>
                     <td>Resolution</td>
                     <td>0.01mm</td>
@@ -176,7 +180,9 @@ include 'header.php';
             </p>
             <br>
             <table class="product-specs">
-                <th>Product Specifications:</th>
+                <tr>
+                    <th>Product Specifications:</th>
+                </tr>
                 <tr>
                     <td>Resolution</td>
                     <td>0.02mm</td>

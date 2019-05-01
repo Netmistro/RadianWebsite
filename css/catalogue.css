@@ -4,8 +4,7 @@
     width: 80%;
 }
 
-/* Header Styles */
-
+/* Heading Sytles */
 .main-page h1, h2, h5 {
     color: black;
     text-align: left;
@@ -61,7 +60,6 @@
 }
 
 /* Tagging Systems */
-
 .tagging-system .tagging-system-container {
     display: flex;
     border-bottom-style: solid;
@@ -91,6 +89,30 @@
 }
 
 /* PPE CSS */
+.ppe-page p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.ppe-page .ppe-details .product-specs {
+    margin: auto 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 50%;
+}
+
+.ppe-page .ppe-details .product-specs td {
+    border: 1px solid red;
+    padding-left: 1%;
+}
+
+
+.ppe-page .ppe-details .product-specs tr:hover {
+    background-color: #f5f5f5;
+}
 
 .ppe-page .ppe-container {
     display: flex;
@@ -318,38 +340,48 @@
     color: black;
 }
 
-@media only screen and (min-width: 375px) and (max-width:667px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) {
     .scaff-mat-container {
         flex-wrap: wrap;
     }
+
     .system-scaff-container {
         flex-wrap: wrap;
     }
+
     .tagging-system-container {
         flex-wrap: wrap;
     }
+
     .tools-container {
         flex-wrap: wrap;
     }
+
     .formwork-container {
         flex-wrap: wrap;
     }
+
     .rope-access-container {
         flex-wrap: wrap;
     }
+
     .ppe-container {
         flex-wrap: wrap;
     }
+
     .boss-towers-container {
         flex-wrap: wrap;
     }
+
     img {
         max-width: 90%;
         margin: 5px;
     }
+
     .scaff-mat-page, .formwork-page, .tagging-system, .tools-page, .rope-access-page, .ppe-page, .system-scaff-page, .system-scaff-page {
         width: 95%;
     }
+
     h1 {
         text-align: center;
     }
