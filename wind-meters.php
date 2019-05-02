@@ -38,7 +38,7 @@ include 'header.php';
             <span class="tag-label">Manufacturer: </span><span>Kestrel</span><br>
             <p>
                 Wind changes, shifts, and moves rapidly, which can make your outdoor plans require a bit of planning as
-                they evolve along with the weather. The Kestrel 1000 Pocket Wind Meter helps you properly monitor these
+                they evolve along with the weather. The Kestrel 3000 Pocket Wind Meter helps you properly monitor these
                 conditions with accuracy and in real time. This ensures every hunt, fishing excursion, or kite or flying
                 adventure safer and more enjoyable.
             </p>
@@ -75,7 +75,7 @@ include 'header.php';
             <span class="tag-label">Manufacturer: </span><span>Kestrel</span><br>
             <p>
                 Wind changes, shifts, and moves rapidly, which can make your outdoor plans require a bit of planning as
-                they evolve along with the weather. The Kestrel 1000 Pocket Wind Meter helps you properly monitor these
+                they evolve along with the weather. The Kestrel 2000 Pocket Wind Meter helps you properly monitor these
                 conditions with accuracy and in real time. This ensures every hunt, fishing excursion, or kite or flying
                 adventure safer and more enjoyable.
             </p>

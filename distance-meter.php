@@ -28,6 +28,132 @@ include 'header.php';
         smaller time frame than the traditional tape.</p>
     <br>
 
+    <!-- General LTM 2 in 1 Tape Measure -->
+    <div class="ppe-container">
+        <div class="ppe-image">
+            <img src="./images/other-products/distance-meters/ldm-0001.png" alt="Distance Meter" width="300"><br>
+        </div>
+        <br>
+        <div class="ppe-details">
+            <b><span class="product-code">Product Code:</span> LDM-0001</b><br>
+            <span class="tag-label">Description: </span><span>General Tools LTM 2 in 1 Tape Measure</span><br>
+            <span class="tag-label">Manufacturer: </span><span>General Tools</span><br>
+            <p>
+                The 2-in-1 Laser Tape Measure combines two accurate measuring tools into one product. It is a 50 ft.
+                laser distance measurer with a 16 ft tape measure and is a one-hand, one-person operation. Now you can
+                quickly and easily get both long distance measurements and short-span precision from the same tool!
+                Everything you need is in the palm of your hand with the General Tools 2-in-1 Laser Tape Measure.
+            </p>
+            <br>
+            <h3>Product Description:</h3>
+            <ol>
+
+                <li>VERSATILE: The Laser Tape Measure combines a 50ft laser measurer with a 16ft tape measure</li>
+                <li>ONE BUTTON: Simple, one button operation enables fast and easy long distance laser measurements</li>
+                <li>MEASURE FASTER and FURTHER: Measure up to 50-feet with the laser, and measure twice as far as a
+                    standard 25ft. tape measure
+                </li>
+                <li>PRECISE: Measures distances accurately up to 50-feet to within 1/4-inch</li>
+                <li>COMPACT SIZE: Portable and compact size easily fits in your hand and can hang on a belt</li>
+                <li>CLASS II LASER PRODUCT < 1mW power output</li>
+            </ol>
+            <table class="product-specs">
+                <tr>
+                    <th>Product Specifications:</th>
+                </tr>
+                <tr>
+                    <td>Product Mass</td>
+                    <td>1.6 oz.</td>
+                </tr>
+                <tr>
+                    <td>Dimensions</td>
+                    <td>6.3" x 2.4" x 7.1"</td>
+                </tr>
+                <tr>
+                    <td>Power Source</td>
+                    <td>2 - AAA Batteries (included)</td>
+                </tr>
+                <tr>
+                    <td>Measuring System</td>
+                    <td>Metric</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+
+    <!-- General Tools TS01 100’ Laser Measure -->
+    <div class="ppe-container">
+        <div class="ppe-image">
+            <img src="./images/other-products/distance-meters/ldm-0002.png" alt="Distance Meter" width="300"><br>
+        </div>
+        <br>
+        <div class="ppe-details">
+            <b><span class="product-code">Product Code:</span> LDM-0002</b><br>
+            <span class="tag-label">Description: </span><span>General Tools TS01 100’ Laser Measure</span><br>
+            <span class="tag-label">Manufacturer: </span><span>General Tools</span><br>
+            <p>
+                General Tools TS01 100’ Bluetooth Connected ToolSmart Laser Distance Measure is designed to replace a
+                conventional tape measure. The TS01 is faster, safer and more accurate than a conventional tape measure.
+                It takes much less time and only one hand to hold the tool against a wall, aim at the opposite wall and
+                press the button than it does requiring both hands to secure one end of a conventional tape measure,
+                walk the other end to the far wall, write down the reading and retract the tape. The TS01 offers
+                advanced features, like an area function that provides the square footage of a room or wall so you can
+                easily estimate the amount of paint, flooring, tiles, or other materials needed to complete your
+                project. The laser measure also can act like a digital tape measure that offers real-time, continuous
+                measurement. Its large, backlit screen is easy to read from all angles and saves and displays the last
+                four measurements taken.
+            </p>
+            <br>
+            <h3>Product Description:</h3>
+            <ol>
+                <li>MEASURE FURTHER: Measure up to 100-feet with the push of a button</li>
+                <li>BACKLIT DISPLAY: Laser measure is easy to read from all angles. Saves and displays the last four
+                    measurements taken
+                </li>
+                <li>MEASURE SMARTER- Quickly calculate square footage, volume, and height. Perfect for estimating paint,
+                    flooring, tiles, and more.
+                </li>
+                <li>REAL-TIME MEASURING: Walk-off measurements from the wall and other surfaces to find precise
+                    distances
+                </li>
+                <li>Continuous measurement that adjusts as you move closer and farther from target, just like a tape
+                    measure
+                </li>
+                <li>VERSATILE: Ability to switch between measuring in meters, feet/inches or inches only</li>
+                <li>EXTREMELY PRECISE: Measures distances extremely accurately up to 100-feet to within 1/16-inch</li>
+                <li>COMPACT SIZE: Portable and compact size laser measure easily fits in your hand and carries in
+                    your pocket
+                </li>
+                <li>BLUETOOTH CONNECTED: Use alone or connect to your Smartphone with the free ToolSmart app
+                    CLASS II LASER PRODUCT < 1mW power output
+                </li>
+            </ol>
+            <table class="product-specs">
+                <tr>
+                    <th>Product Specifications:</th>
+                </tr>
+                <tr>
+                    <td>Product Mass</td>
+                    <td>5 oz.</td>
+                </tr>
+                <tr>
+                    <td>Dimensions</td>
+                    <td>1.3" x 2" x 4"</td>
+                </tr>
+                <tr>
+                    <td>Power Source</td>
+                    <td>2 - AAA Batteries (included)</td>
+                </tr>
+                <tr>
+                    <td>Measuring System</td>
+                    <td>Metric & Imperial</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+
     <!-- Tacklife S2-60M Distance Meter -->
     <div class="ppe-container">
         <div class="ppe-image">
@@ -155,7 +281,7 @@ include 'header.php';
                 </tr>
                 <tr>
                     <td>Product Mass</td>
-                    <td>60g (w/o batteries))</td>
+                    <td>60g (w/o batteries)</td>
                 </tr>
                 <tr>
                     <td>Measuring Range</td>
@@ -186,6 +312,201 @@ include 'header.php';
     </div>
     <br>
 
+    <!-- JQ-40 Distance Meter -->
+    <div class="ppe-container">
+        <div class="ppe-image">
+            <img src="./images/other-products/distance-meters/ldm-0005.png" alt="Distance Meter" width="300"><br>
+        </div>
+        <br>
+        <div class="ppe-details">
+            <b><span class="product-code">Product Code:</span> LDM-0005</b><br>
+            <span class="tag-label">Description: </span><span>JQ-40 Distance Meter 40m</span><br>
+            <span class="tag-label">Manufacturer: </span><span>JQ-40</span><br>
+            <p>
+                Measuring a distance shouldn’t have to be a hassle, in fact its easy with this distance meter. This
+                digital laser distance meter quickly measures your distance with a push of a button and displays the
+                last three measurements on screen for any further calculations, which is making it faster than a tape
+                measure.
+            </p>
+            <br>
+            <h3>Product Description:</h3>
+            <ol>
+                <li>High Accuracy: Accuracy less than 2mm; 3 units m/in/ft and 2 reference points, quicker and more
+                    accurate than a tape measure
+                </li>
+                <li>Durable Tool: The product is made of high-strength ABS plastic with IP54 waterproof and dustproof
+                    grade
+                </li>
+                <li>Measuring modes: area/volume/Pythagorean theorem/continuous measurement</li>
+                <li>Read Clearly: Backlight display. Compact size and light, you can put it in your pocket after using
+                </li>
+            </ol>
+            <table class="product-specs">
+                <tr>
+                    <th>Product Specifications:</th>
+                </tr>
+                <tr>
+                    <td>Product Mass</td>
+                    <td>0.32 Oz.</td>
+                </tr>
+                <tr>
+                    <td>Measuring Units</td>
+                    <td>m/ft/in/ft+in</td>
+                </tr>
+                <tr>
+                    <td>Dimensions</td>
+                    <td>12.6" x 3.9" x 3.1"</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+
+    <!-- Sejie 60m Distance Measure -->
+    <div class="ppe-container">
+        <div class="ppe-image">
+            <img src="./images/other-products/distance-meters/ldm-0006.png" alt="Distance Meter" width="300"><br>
+        </div>
+        <br>
+        <div class="ppe-details">
+            <b><span class="product-code">Product Code:</span> LDM-0006</b><br>
+            <span class="tag-label">Description: </span><span>Sejie 60m Laser Distance Measure</span><br>
+            <span class="tag-label">Manufacturer: </span><span>Sejie</span><br>
+            <p>
+                ESYWEN/SEJIE laser measurement tools take reliable measurements up to 196ft, offering many functions
+                like area, volume, two and three point Pythagoras and continuous measurement. Along with automatic
+                calculations and add/subtract function to greatly improve your measuring workflow. Any measuring task is
+                now a one-person job – you don’t need someone else to hold the other end of the tape!
+            </p>
+            <br>
+            <h3>Product Description:</h3>
+            <ol>
+                <li>HIGH ACCURACY The laser measuring tape takes instant and reliable measurements up to 196 feet,
+                    accurate measurements to within 1.5mm; Allows users to measure in decimal meters, feet and inches
+                </li>
+                <li>EASY TO OPERATE - One-button operation make it easy and quick to measure distance, area, volume and
+                    height(Pythagoras); The laser measurement tape has a back-lit display for easy read; 20 groups data
+                    memory
+                </li>
+                <li>AUTOMATIC CALCULATION The digital tape measure has automatic calculation of distance, area and
+                    volume, along with addition and subtraction function to improve your measuring work greatly
+                </li>
+                <li>MULTIPLE MEASUREMENT The zero reference point can be adjusted to coincide with the top or bottom of
+                    the laser tape measurer, allowing for inside and outside measurements; Max & Min values measurement
+                </li>
+            </ol>
+            <table class="product-specs">
+                <tr>
+                    <th>Product Specifications:</th>
+                </tr>
+                <tr>
+                    <td>Product Mass</td>
+                    <td>4.8 Oz.</td>
+                </tr>
+                <tr>
+                    <td>Measuring Units</td>
+                    <td>m/ft/in</td>
+                </tr>
+                <tr>
+                    <td>Power Supply</td>
+                    <td>2 - AAA Alkaline Batteries</td>
+                </tr>
+                <tr>
+                    <td>Dimensions</td>
+                    <td>6.5" x 3.6" x 1.7"</td>
+                </tr>
+                <tr>
+                    <td>Measurement Type</td>
+                    <td>Continuous</td>
+                </tr>
+                <tr>
+                    <td>Measurement Accuracy</td>
+                    <td>1.5mm</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+
+    <!-- Inlife 40m Laser Distance Measure -->
+    <div class="ppe-container">
+        <div class="ppe-image">
+            <img src="./images/other-products/distance-meters/ldm-0007.png" alt="Distance Meter" width="300"><br>
+        </div>
+        <br>
+        <div class="ppe-details">
+            <b><span class="product-code">Product Code:</span> LDM-0007</b><br>
+            <span class="tag-label">Description: </span><span>Inlife 40m Laser Distance Measure</span><br>
+            <span class="tag-label">Manufacturer: </span><span>Inlife</span><br>
+            <p>
+                Measuring a distance shouldn’t have to be a hassle, in fact its easy with this distance meter. This
+                digital laser distance meter quickly measures your distance with a push of a button and displays the
+                last three measurements on screen for any further calculations, which is making it faster than a tape
+                measure.
+            </p>
+            <br>
+            <h3>Product Description:</h3>
+            <ol>
+                <li>HIGHLY ACCURATE: This digital laser distance meters provide accurate and fast results, meeting for
+                    sure your measurement requirements.The measuring range of digital measuring tape is from 0.16FT to
+                    131FT, while its accuracy is 2mm, very quick, accurate and efficient.
+                </li>
+                <li>PORTABLE AND ERGONOMIC:The special design of this distance measuring laser meter allows for easy
+                    maneuvering and Range Finder/Digital Tape Measure Laser.Handy and compact mode provide good
+                    operating feeling; Supplied durable carrying pouch keeps the laser level and measure off dust，while
+                    the waterproof feature ensures the measuring equipment's durability.
+                </li>
+                <li>VARIOUS FUNCTIONS & MODE:The handheld measuring tape laser with level supports continuous
+                    measurement function, Pythagorean measurement function, area measurement function, volume
+                    measurement function, add and subtract measurement function,the digital distance measuring tool is
+                    widely use. Ideal for home, construction, industries, large areas such as rooms, apartments,
+                    buildings, real estates, factories, warehouses, etc.
+                </li>
+                <li>CLEAR BACKLIGHT LCD DISPLAY:The laser measurement tool widely used in household and engineering
+                    decoration, construction, real estate, gardening, city planning, water project monitoring, etc.Large
+                    LCD with backlight and multi-line display, provides you with a better visibility in dark areas.
+                </li>
+            </ol>
+            <table class="product-specs">
+                <tr>
+                    <th>Product Specifications:</th>
+                </tr>
+                <tr>
+                    <td>Product Mass</td>
+                    <td>5.6 Oz.</td>
+                </tr>
+                <tr>
+                    <td>Measuring Units</td>
+                    <td>m/ft/in/ft+in</td>
+                </tr>
+                <tr>
+                    <td>Dimensions</td>
+                    <td>6.6" x 5.5" x 1.9"</td>
+                </tr>
+                <tr>
+                    <td>Max. Distance</td>
+                    <td>40.0m</td>
+                </tr>
+                <tr>
+                    <td>Measuring Accuracy</td>
+                    <td>2mm</td>
+                </tr>
+                <tr>
+                    <td>Laser Lebel</td>
+                    <td>Class II</td>
+                </tr>
+                <tr>
+                    <td>Laser Content</td>
+                    <td>< 0.02mW</td>
+                </tr>
+                <tr>
+                    <td>Measuring Range</td>
+                    <td>0.05m - 40m / 0.16 ft - 131.2 ft</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
 
 </div>
 </body>

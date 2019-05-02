@@ -21,24 +21,65 @@ include('header.php');
 <body>
 <div class="tools-page">
     <br>
-    <h1>Scaffold Hammers & Mallets</h1><br>
-    <p>RADIAN H.A. Limited provides a wide range of Scaffold Hammers & Mallets. Below are just a few of the items that
-        we carry
-        and we have <b>a lot more</b> items. Please feel free to call us or come in and see what we have.</p><br><br>
+    <h1>Hammers & Mallets</h1><br>
+    <p>RADIAN H.A. Limited provides a wide range of Hammers & Mallets in Brass, Copper and Steel. Below are just a few
+        of the items that we carry and we have <b>a lot more</b> items. Please feel free to call us or come in and see
+        what we have.</p><br><br>
 
-    <!--     1.5 lb Thor Mallet -->
+    <!-- Thor Copper Mallet 925g Plastic Handle -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/tools/radian-ratchet.png" alt="Spanner" width="300">
+            <img src="images/tools/hth-0004.png" alt="Spanner" width="300">
         </div>
         <div class="tools-details">
-            <b><span class="product-code">Product Code:</span> SRS-0022</b><br>
-            <span class="tag-label">Description: </span><span>RADIAN Ratchet Spanner</span><br>
-            <span class="tag-label">Manufacturer: </span><span>RADIAN</span><br>
+            <b><span class="product-code">Product Code:</span> HTH-0004</b><br>
+            <span class="tag-label">Description: </span><span>THOR Copper Mallet 925g, Plastic Handle</span><br>
+            <span class="tag-label">Manufacturer: </span><span>THOR Hammer</span><br>
             <p>
-                21/22mm Steel Ratchet Spanner, Box Type socket, short Podger handle and slide hole, Nickel plated and
-                polished finish
+                Ideal for positive blows on highly finished or closely ground machined parts throughout the Aircraft,
+                Automotive or Shipping Industries. Also used by tool and gauge makers and for bearing assembly in heavy
+                industrial applications such as Offshore, Earthmoving equipment, Shipping, locomotive assembly etc.
             </p>
+            <br>
+            <h3>Product Specifications</h3>
+            <ol>
+                <li>Manufactured from 99.9% Pure Electrolytic Copper rod</li>
+                <li>Head Diameter - 38mm 1.1/2in</li>
+                <li>Approx. Length - 310mm 12.1/4in</li>
+                <li>Head Length - 89mm 3.1/2in</li>
+                <li>Plastic handle</li>
+                <li>Striking Material - Copper</li>
+                <li>Weight 930g</li>
+            </ol>
+        </div>
+    </div>
+    <br>
+
+    <!-- Thor Copper Mallet 925g Wooden Handle -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/tools/hth-0005.png" alt="Spanner" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> HTH-0005</b><br>
+            <span class="tag-label">Description: </span><span>THOR Copper Mallet 925g, Wooden Handle</span><br>
+            <span class="tag-label">Manufacturer: </span><span>THOR Hammer</span><br>
+            <p>
+                Ideal for positive blows on highly finished or closely ground machined parts throughout the Aircraft,
+                Automotive or Shipping Industries. Also used by tool and gauge makers and for bearing assembly in heavy
+                industrial applications such as Offshore, Earthmoving equipment, Shipping, locomotive assembly etc.
+            </p>
+            <br>
+            <h3>Product Specifications</h3>
+            <ol>
+                <li>Manufactured from 99.9% Pure Electrolytic Copper rod</li>
+                <li>Head Diameter - 38mm 1.1/2in</li>
+                <li>Approx. Length - 310mm 12.1/4in</li>
+                <li>Head Length - 89mm 3.1/2in</li>
+                <li>Plastic handle</li>
+                <li>Striking Material - Copper</li>
+                <li>Weight 930g</li>
+            </ol>
         </div>
     </div>
     <br>
