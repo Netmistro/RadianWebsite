@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff336057-2b2b-41f7-ac64-5cead3ef3e17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distance-meter.php" beforeDir="false" afterPath="$PROJECT_DIR$/distance-meter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hammers-mallets.php" beforeDir="false" afterPath="$PROJECT_DIR$/hammers-mallets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/other-products/distance-meters/ldm-0003.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/other-products/distance-meters/ldm-0003.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wind-meters.php" beforeDir="false" afterPath="$PROJECT_DIR$/wind-meters.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hammers-mallets.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+            <state relative-caret-position="530">
+              <caret line="269" column="39" selection-start-line="269" selection-start-column="39" selection-end-line="269" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -321,7 +307,7 @@
       <workItem from="1556733687841" duration="3641000" />
       <workItem from="1556800099144" duration="317000" />
       <workItem from="1556802686403" duration="3723000" />
-      <workItem from="1556818186870" duration="1104000" />
+      <workItem from="1556818186870" duration="5122000" />
     </task>
     <task id="LOCAL-00001" summary="New Items Added">
       <created>1556713907618</created>
@@ -334,14 +320,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292410000" />
+    <option name="totallyTimeSpent" value="296428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32956383" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20759289" />
+      <window_info auto_hide="true" content_ui="combo" x="286" y="67" width="257" height="619" id="Project" order="1" weight="0.20759289" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="1" weight="0.32936078" />
@@ -658,8 +644,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hammers-mallets.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+        <state relative-caret-position="530">
+          <caret line="269" column="39" selection-start-line="269" selection-start-column="39" selection-end-line="269" selection-end-column="39" />
         </state>
       </provider>
     </entry>
