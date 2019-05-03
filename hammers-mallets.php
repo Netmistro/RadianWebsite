@@ -26,6 +26,77 @@ include('header.php');
         of the items that we carry and we have <b>a lot more</b> items. Please feel free to call us or come in and see
         what we have.</p><br><br>
 
+    <!-- Estwing Dead Blow Hammer - One Piece Polyurethane Construction 18 oz. -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/tools/hth-0006.png" alt="Spanner" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> HTH-0006</b><br>
+            <span class="tag-label">Description: </span><span>Estwing Dead Blow Hammer - One Piece Polyurethane Construction</span><br>
+            <span class="tag-label">Manufacturer: </span><span>Estwing</span><br>
+            <p>
+                Estwing’s dead blow hammers have power from within through the movement of hundreds of steel shot for
+                maximum power and control. Steel canister, with steel shot, and steel handle are completely encased in
+                polyurethane, which is oil and chemical tolerant. Eliminates or minimizes denting and marring. Reduces
+                swing fatigue, sting and vibration.
+            </p>
+            <br>
+            <h3>Product Specifications</h3>
+            <ul>
+                <li>Steel encased in polyurethane</li>
+                <li>Steel shot filled for maximum power</li>
+                <li>Oil and chemical tolerant</li>
+            </ul>
+            <br>
+            <h3>Notes</h3>
+            <ul>
+                <li>Protect your eyes from flying particles and dust.</li>
+                <li>Always wear safety goggles.</li>
+                <li>Bystanders shall also wear safety goggles.</li>
+                <li>Only available in 18 oz.</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <!-- Estwing Weight Forward Hammer -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/tools/hth-0003.png" alt="Spanner" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> HTH-0003</b><br>
+            <span class="tag-label">Description: </span><span>Estwing Weight Forward Hammer EWF21</span><br>
+            <span class="tag-label">Manufacturer: </span><span>Estwing</span><br>
+            <p>
+                Estwing’s dead blow hammers have power from within through the movement of hundreds of steel shot for
+                maximum power and control. Steel canister, with steel shot, and steel handle are completely encased in
+                polyurethane, which is oil and chemical tolerant. Eliminates or minimizes denting and marring. Reduces
+                swing fatigue, sting and vibration.
+            </p>
+            <br>
+            <h3>Product Specifications</h3>
+            <ul>
+                <li>Dimensions - 44.2 x 18.6 x 9 cm</li>
+                <li>Model - WF21</li>
+                <li>Mass - 939g</li>
+                <li>Smooth face</li>
+                <li>Overstrike protection</li>
+                <li>Smooth face to claw radius for easier nail pulling</li>
+                <li>Shock resistant gasket</li>
+                <li>Comfortable grip</li>
+            </ul>
+            <br>
+            <h3>Notes</h3>
+            <ul>
+                <li>Protect your eyes from flying particles and dust.</li>
+                <li>Always wear safety goggles.</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
     <!-- Thor Copper Mallet 625g Plastic Handle -->
     <div class="tools-container">
         <div class="tools-image">
@@ -33,7 +104,7 @@ include('header.php');
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTH-0004</b><br>
-            <span class="tag-label">Description: </span><span>THOR Copper Mallet 625g, Plastic Handle</span><br>
+            <span class="tag-label">Description: </span><span>THOR Copper Mallet 625g, Plastic Handle with Rubber Grip</span><br>
             <span class="tag-label">Manufacturer: </span><span>THOR Hammer</span><br>
             <p>
                 Ideal for positive blows on highly finished or closely ground machined parts throughout the Aircraft,
@@ -90,7 +161,7 @@ include('header.php');
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTH-0010</b><br>
-            <span class="tag-label">Description: </span><span>THOR Copper Mallet 900g, Plastic Handle</span><br>
+            <span class="tag-label">Description: </span><span>THOR Copper Mallet 900g, Plastic Handle with Rubber Grip</span><br>
             <span class="tag-label">Manufacturer: </span><span>THOR Hammer</span><br>
             <p>
                 Ideal for positive blows on highly finished or closely ground machined parts throughout the Aircraft,
@@ -118,7 +189,7 @@ include('header.php');
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTH-0011</b><br>
-            <span class="tag-label">Description: </span><span>THOR Brass Mallet 930g, Plastic Handle</span><br>
+            <span class="tag-label">Description: </span><span>THOR Brass Mallet 930g, Plastic Handle with Rubber Grip</span><br>
             <span class="tag-label">Manufacturer: </span><span>THOR Hammer</span><br>
             <p>
                 Ideal for positive blows on highly finished or closely ground machined parts throughout the Aircraft,
@@ -175,7 +246,7 @@ include('header.php');
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTH-0013</b><br>
-            <span class="tag-label">Description: </span><span>THOR Solid Round Brass Mallet 670g, Plastic Handle</span><br>
+            <span class="tag-label">Description: </span><span>THOR Solid Round Brass Mallet 670g, Plastic Handle with Rubber Grip</span><br>
             <span class="tag-label">Manufacturer: </span><span>THOR Hammer</span><br>
             <p>
                 Ideal for positive blows on highly finished or closely ground machined parts throughout the Aircraft,

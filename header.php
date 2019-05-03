@@ -61,7 +61,7 @@
                             <li class="subs"><a href="./vernier-calipers.php">Vernier Calipers</a></li>
                             <li class="subs"><a href="distance-meter.php">Distance Meter</a></li>
                             <li class="subs"><a href="./wind-meters.php">Wind Meters</a></li>
-                            <!-- <li class="subs"><a href="#">Column Climber</a></li> -->
+                             <li class="subs"><a href="./column-climber.php">Column Climber</a></li>
                             <li class="subs"><a href="./elcometer.php">Inspection Kits</a></li>
                             <li class="subs"><a href="./tool-belts.php">Tool Belts</a></li>
                         </ul>

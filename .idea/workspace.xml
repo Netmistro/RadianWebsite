@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff336057-2b2b-41f7-ac64-5cead3ef3e17" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hammers-mallets.php" beforeDir="false" afterPath="$PROJECT_DIR$/hammers-mallets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,17 +34,7 @@
     <favorites_list name="RadianWebsite" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hammers-mallets.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="269" column="39" selection-start-line="269" selection-start-column="39" selection-end-line="269" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/rescue-equipment.css" />
         <option value="$PROJECT_DIR$/scaffold-inspection.php" />
         <option value="$PROJECT_DIR$/css/training.css" />
         <option value="$PROJECT_DIR$/formwork.php" />
@@ -115,8 +106,9 @@
         <option value="$PROJECT_DIR$/vernier-calipers.php" />
         <option value="$PROJECT_DIR$/distance-meter.php" />
         <option value="$PROJECT_DIR$/wind-meters.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/hammers-mallets.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/column-climber.php" />
       </list>
     </option>
   </component>
@@ -140,25 +132,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RadianWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RadianWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
-              <item name="RadianWebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;azure" />
@@ -308,6 +282,8 @@
       <workItem from="1556800099144" duration="317000" />
       <workItem from="1556802686403" duration="3723000" />
       <workItem from="1556818186870" duration="5122000" />
+      <workItem from="1556842243778" duration="1053000" />
+      <workItem from="1556885572554" duration="6404000" />
     </task>
     <task id="LOCAL-00001" summary="New Items Added">
       <created>1556713907618</created>
@@ -320,11 +296,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296428000" />
+    <option name="totallyTimeSpent" value="303885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32956383" />
       <window_info auto_hide="true" content_ui="combo" x="286" y="67" width="257" height="619" id="Project" order="1" weight="0.20759289" />
@@ -401,14 +376,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="New Items Added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db-connect.php" />
-    <entry file="file://$PROJECT_DIR$/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/confirmation.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/dop.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/footer.php" />
@@ -628,24 +595,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hammers-mallets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="248" column="129" selection-start-line="248" selection-start-column="129" selection-end-line="248" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/column-climber.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/wind-meters.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="77" column="65" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
+          <caret line="77" column="65" selection-end-line="177" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="63" column="75" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hammers-mallets.php">
+    <entry file="file://$PROJECT_DIR$/column-climber.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="269" column="39" selection-start-line="269" selection-start-column="39" selection-end-line="269" selection-end-column="39" />
+        <state relative-caret-position="427">
+          <caret line="360" column="65" selection-start-line="360" selection-start-column="65" selection-end-line="360" selection-end-column="65" />
+          <folding>
+            <element signature="e#6#98#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
