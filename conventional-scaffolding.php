@@ -27,7 +27,8 @@ include('header.php');
     <p>
         Generally known as tube and coupler scaffold, the tube and clamp scaffold is inclusive of clamps , boards and
         other scaffold paraphernalia. Use of tube and coupler scaffolding is associated with safety, reach, easy access
-        and position in various construction applications.
+        and position in various construction applications.</p>
+    <p>
         Via right angle clamps, the vertical steel tubes are connected to the horizontal steel tubes in the tube coupler
         scaffold used for various scaffolding applications. For the purpose of systematically stabilising the scaffold,
         the diagonal tubes are connected at fixed intervals to the tube and clamp scaffold via swivel couplers.
@@ -36,12 +37,11 @@ include('header.php');
         field of construction industry and scaffolding sectors but the tube and camp scaffold is used in various
         scaffolding applications as it is tried and tested for its low cost and extremely high reliability.
         Additionally, the tube and coupler scaffold is used in construction applications where unlimited versatility is
-        required.</p><br><br>
+        required.</p>
+    <br><br>
 </div>
 </body>
 <footer>
-    <?php
-    include('footer.php');
-    ?>
+    <?php include('footer.php');?>
 </footer>
 </html>
