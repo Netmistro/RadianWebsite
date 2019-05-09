@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff336057-2b2b-41f7-ac64-5cead3ef3e17" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conventional-scaffolding.php" beforeDir="false" afterPath="$PROJECT_DIR$/conventional-scaffolding.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drop-object.php" beforeDir="false" afterPath="$PROJECT_DIR$/drop-object.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,17 @@
     <favorites_list name="RadianWebsite" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/drop-object.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9420">
+              <caret line="486" column="19" selection-start-line="486" selection-start-column="19" selection-end-line="486" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,7 +100,6 @@
         <option value="$PROJECT_DIR$/scaffold-materials.php" />
         <option value="$PROJECT_DIR$/scaffold-tools.php" />
         <option value="$PROJECT_DIR$/safety-equipment.php" />
-        <option value="$PROJECT_DIR$/drop-object.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/leather-products.php" />
         <option value="$PROJECT_DIR$/tool-belts.php" />
@@ -112,21 +122,21 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/column-climber.php" />
         <option value="$PROJECT_DIR$/conventional-scaffolding.php" />
+        <option value="$PROJECT_DIR$/drop-object.php" />
       </list>
     </option>
+  </component>
+  <component name="PHPCodeSnifferProjectConfiguration">
+    <option name="selectedConfigurationId" value="DEFAULT_INTERPRETER" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
-    <include_path>
-      <path value="$PROJECT_DIR$/../../bin/php/php7.3.1/lib/php" />
-    </include_path>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.2.1" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -148,6 +158,10 @@
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
               <item name="RadianWebsite" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RadianWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -159,10 +173,10 @@
     <property name="DatabaseDriversLRU" value="mysql&#10;azure" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php7.2.1/php.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="settings.php.quality.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -309,6 +323,8 @@
       <workItem from="1557027012387" duration="85000" />
       <workItem from="1557334597585" duration="102000" />
       <workItem from="1557334796477" duration="56000" />
+      <workItem from="1557341683597" duration="2904000" />
+      <workItem from="1557412294193" duration="8663000" />
     </task>
     <task id="LOCAL-00001" summary="New Items Added">
       <created>1556713907618</created>
@@ -321,13 +337,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304260000" />
+    <option name="totallyTimeSpent" value="315827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32956383" />
-      <window_info auto_hide="true" content_ui="combo" x="286" y="67" width="257" height="619" id="Project" order="1" weight="0.20759289" />
+      <window_info auto_hide="true" content_ui="combo" x="286" y="67" width="257" height="619" id="Project" order="1" weight="0.20735608" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="1" weight="0.32936078" />
@@ -401,7 +417,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="New Items Added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/dop.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/footer.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/index.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/login.php" />
@@ -416,13 +431,6 @@
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/tagging-systems.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/privacy.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/header.php" />
-    <entry file="file://$PROJECT_DIR$/cuplock.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="233" column="43" lean-forward="true" selection-start-line="233" selection-start-column="43" selection-end-line="233" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ringlock.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
@@ -520,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drop-object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tool-belts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -564,13 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boss-towers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -655,6 +649,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boss-towers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="52" column="83" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cuplock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4660">
+          <caret line="233" column="43" selection-start-line="233" selection-start-column="43" selection-end-line="233" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confirmation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drop-object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9420">
+          <caret line="486" column="19" selection-start-line="486" selection-start-column="19" selection-end-line="486" selection-end-column="19" />
         </state>
       </provider>
     </entry>
