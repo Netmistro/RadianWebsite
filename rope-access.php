@@ -234,7 +234,7 @@ include('header.php');
         </div>
         <div class="rope-access-details">
             <b><span class="product-code">Product Code:</span> RAREPU01</b><br>
-            <span class="tag-label">Description: </span><span>ASAP®</span><br>
+            <span class="tag-label">Description: </span><span>Rescue Pulley</span><br>
             <span class="tag-label">Manufacturer: </span><span>PETZL</span><br>
             <p>
                 The very high efficiency RESCUE pulley is designed for intensive use by rescue professionals.</p><br>
