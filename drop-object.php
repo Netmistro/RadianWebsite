@@ -26,7 +26,7 @@ include('header.php');
     <!-- Squids 3713 Elastic Loop Tool Tails Swivel -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19765-squids-3713.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
