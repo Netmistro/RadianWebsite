@@ -70,7 +70,7 @@ include('header.php');
     <!-- Squids® 3700 Web Tool Tails™ - 2lbs (6-Pack) -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19703-squids-3700.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
@@ -111,7 +111,7 @@ include('header.php');
     <!-- Squids® 3755 Self-Adhering Tape Trap - 12ft/3.7M Roll -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19755-squids-3755.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
@@ -143,7 +143,7 @@ include('header.php');
     <!-- Squids® 3790 Tool Shackle (2-Pack) -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19795-squids-3790.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
@@ -183,7 +183,7 @@ include('header.php');
     <!-- Squids® 3770 Tape Measure Trap -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19770-squids-3770.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
@@ -223,7 +223,7 @@ include('header.php');
     <!-- Squids® 3156 Coil Tool Lanyard with Single Carabiner – 2lbs / 0.9 kg -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19161-squids-3156.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
@@ -272,7 +272,7 @@ include('header.php');
     <!-- Squids® 3108F(x) Tool Lanyard Single Locking Carabiner - 15lbs -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19808-squids-3108F.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
@@ -320,7 +320,7 @@ include('header.php');
     <!-- Squids® 3118F(x) Tool Lanyard Dual Locking Carabiner - 15lbs -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19828-squids-3118F.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
@@ -367,7 +367,7 @@ include('header.php');
     <!-- Squids® 3400 Grabber -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19118-squids-3400.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
@@ -409,10 +409,10 @@ include('header.php');
     </div>
     <br>
 
-    <!-- Squids® 3157 Coil Tool Lanyard with Buckle – 2lbs / 0.9kg -->
+    <!-- Squids® 3157/3158 Coil Tool Lanyard with Buckle – 2lbs / 0.9kg -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19157-squids-3157.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
@@ -460,7 +460,7 @@ include('header.php');
     <!-- Squids® 3155 Elastic Tool Lanyard with Clamp – 2lbs / 0.9kg -->
     <div class="tools-container">
         <div class="tools-image">
-            <img src="images/safety-equipment/ty-flot-zipper-tool-bucket.png" alt="Ergodyne-DOP" width="300">
+            <img src="images/safety-equipment/19155-squids-3155.png" alt="Ergodyne-DOP" width="300">
         </div>
         <div class="tools-details">
             <b><span class="product-code">Product Code:</span> HTL-0001</b><br>
