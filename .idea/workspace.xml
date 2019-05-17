@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ff336057-2b2b-41f7-ac64-5cead3ef3e17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffold-materials.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-materials.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +39,17 @@
     <favorites_list name="RadianWebsite" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/life-jackets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/training.css" />
         <option value="$PROJECT_DIR$/formwork.php" />
         <option value="$PROJECT_DIR$/css/footer.css" />
         <option value="$PROJECT_DIR$/css/slideshow.css" />
@@ -81,11 +93,9 @@
         <option value="$PROJECT_DIR$/ringlok.php" />
         <option value="$PROJECT_DIR$/ringlock.php" />
         <option value="$PROJECT_DIR$/rescue-equipment.php" />
-        <option value="$PROJECT_DIR$/profile.php" />
         <option value="$PROJECT_DIR$/scaffold-mart.php" />
         <option value="$PROJECT_DIR$/css/calculator.css" />
         <option value="$PROJECT_DIR$/ppe.php" />
-        <option value="$PROJECT_DIR$/scaffold-materials.php" />
         <option value="$PROJECT_DIR$/scaffold-tools.php" />
         <option value="$PROJECT_DIR$/safety-equipment.php" />
         <option value="$PROJECT_DIR$/footer.php" />
@@ -107,10 +117,13 @@
         <option value="$PROJECT_DIR$/distance-meter.php" />
         <option value="$PROJECT_DIR$/wind-meters.php" />
         <option value="$PROJECT_DIR$/hammers-mallets.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/column-climber.php" />
         <option value="$PROJECT_DIR$/conventional-scaffolding.php" />
         <option value="$PROJECT_DIR$/drop-object.php" />
+        <option value="$PROJECT_DIR$/profile.php" />
+        <option value="$PROJECT_DIR$/scaffold-materials.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/life-jackets.php" />
       </list>
     </option>
   </component>
@@ -310,6 +323,8 @@
       <workItem from="1557334796477" duration="56000" />
       <workItem from="1557412634847" duration="1246000" />
       <workItem from="1557424725623" duration="11000" />
+      <workItem from="1558106380201" duration="4674000" />
+      <workItem from="1558120899040" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="New Items Added">
       <created>1556713907618</created>
@@ -322,10 +337,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305517000" />
+    <option name="totallyTimeSpent" value="310258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32956383" />
       <window_info auto_hide="true" content_ui="combo" x="286" y="67" width="257" height="619" id="Project" order="1" weight="0.2374798" />
@@ -402,9 +418,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="New Items Added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/dop.php" />
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/footer.php" />
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/index.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/login.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/profile.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/register.php" />
@@ -435,13 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -483,13 +489,6 @@
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scaffold-materials.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="172" column="17" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -628,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="63" column="75" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/column-climber.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -656,6 +648,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-916">
           <caret line="462" column="67" selection-start-line="462" selection-start-column="67" selection-end-line="462" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaffold-training.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaffold-materials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hand-knee-protection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="460" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life-jackets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
         </state>
       </provider>
     </entry>

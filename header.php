@@ -38,8 +38,8 @@
                     <!-- Safety Equipment Sub Menu -->
                     <li class="subs hassubs"><a href="JavaScript:void(0)">Safety Equipment</a>
                         <ul class="dropdown">
-                            <li class="subs"><a href="./harness-and-lanyards.php">Harnesses & Lanyard</a></li>
-                            <!-- <li class="subs"><a href="#">Life Jackets</a></li> -->
+                            <li class="subs"><a href="./harness-and-lanyards.php">Harness & Lanyard</a></li>
+                             <li class="subs"><a href="./life-jackets.php">Life Jackets</a></li>
                             <li class="subs"><a href="./hand-knee-protection.php">Hand & Knee</a></li>
                             <li class="subs"><a href="./eye-protection.php">Eyes</a></li>
                             <li class="subs"><a href="./inertia-blocks.php">Inertia Reels</a></li>
