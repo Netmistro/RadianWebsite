@@ -15,7 +15,7 @@ if (($_SERVER["REQUEST_METHOD"] == "POST") && ($_SESSION['userID'] == true)) {
 }
 include_once('includes/db-connect.php');
 $sql = "SELECT * FROM training";
-// Trainign data array
+// Training data array
 $training_data = mysqli_query($conn, $sql);
 ?>
 <!DOCTYPE html>
@@ -32,7 +32,18 @@ $training_data = mysqli_query($conn, $sql);
     <!--    Display a table caption with the current year    -->
     <br>
     <div class="training-container">
-        <h2>Upcoming Training - <?php echo date(Y); ?></h2>
+        <h1>Upcoming Training - <?php echo date("Y"); ?></h1>
+
+        <!-- Declare PHP variables for the form here -->
+        <?php
+        $scaffolderName = $_POST["scaffolder-name"];
+        ?>
+        <!-- Search Form for Training -->
+        <form name="search-training" action="./includes/search-training.inc.php" method="post">
+            <label for="user">Scaffolder Search</label>
+            <input type="text" name="scaffolder-name">
+            <input type="submit" name="submit" value="Search"> <br><br>
+        </form>
 
         <table>
             <?php
