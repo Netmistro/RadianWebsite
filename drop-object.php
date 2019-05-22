@@ -703,6 +703,62 @@ include('header.php');
     </div>
     <br>
 
+    <!-- Big Ben Guided Fall Arrestor with Snap Hook on 25m Kernmantle Anchorage Line -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/safety-equipment/FPA-0012.png" alt="Big-Ben" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> FPA-0012</b><br>
+            <span class="tag-label">Description: </span><span>BIG BEN Guided Fall Arrestor with Snap Hook on 25m Kernmantle Anchorage Line</span><br>
+            <span class="tag-label">Manufacturer: </span><span>BIG BEN</span><br>
+            <ul>
+                <li>14mm Kernmantle Polyamide Rope</li>
+                <li>Complete with a Polyamide energy dissipater</li>
+                <li>Connector - Galvernized Steel 18mm opening snap hook</li>
+                <li>EN353-2</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <!-- Big Ben Automatic Rope Grab with Arrestor & Snap Hook -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/safety-equipment/FPA-0013.png" alt="Big-Ben" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> FPA-0012</b><br>
+            <span class="tag-label">Description: </span><span>BIG BEN Automatic Rope Grab with Arrestor & Snap Hook</span><br>
+            <span class="tag-label">Manufacturer: </span><span>BIG BEN</span><br>
+            <ul>
+                <li>Complies with EN353-2</li>
+                <li>Connecting Full Body Harness must comply with EN361</li>
+                <li>Works with 14mm Kernmantle Polyamide Rope</li>
+                <li>Bust be connected at chest height or rear dorsal connector</li>
+                <li>Should only be used for 5 Years after first initial use</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <!-- Big Ben Kernmantle Polyamide Rope -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/safety-equipment/ROP-0001.png" alt="Big-Ben" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> ROP-0001</b><br>
+            <span class="tag-label">Description: </span><span>BIG BEN Kernmantle Polyamide Rope</span><br>
+            <span class="tag-label">Manufacturer: </span><span>BIG BEN</span><br>
+            <ul>
+                <li>Rope material - Kernmantle Polyamide</li>
+                <li>Rope Diameters - 14mm</li>
+                <li>Rope Lengths - 10m (ROP-0001), 20m (ROP-0002), 30m (ROP-0003) & 40m (ROP-0004)</li>
+            </ul>
+        </div>
+    </div>
+    <br>
 
 </div>
 </body>

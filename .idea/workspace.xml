@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff336057-2b2b-41f7-ac64-5cead3ef3e17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/search-training.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffold-training.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-training.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drop-object.php" beforeDir="false" afterPath="$PROJECT_DIR$/drop-object.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,25 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scaffold-training.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/search-training.inc.php">
+        <entry file="file://$PROJECT_DIR$/drop-object.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="113" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="113" />
+            <state relative-caret-position="335">
+              <caret line="738" column="75" selection-start-line="738" selection-start-column="75" selection-end-line="738" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -164,9 +146,9 @@
         <option value="$PROJECT_DIR$/scaffold-materials.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/life-jackets.php" />
-        <option value="$PROJECT_DIR$/drop-object.php" />
         <option value="$PROJECT_DIR$/scaffold-training.php" />
         <option value="$PROJECT_DIR$/includes/search-training.inc.php" />
+        <option value="$PROJECT_DIR$/drop-object.php" />
       </list>
     </option>
   </component>
@@ -175,7 +157,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.2.18" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -377,6 +359,7 @@
       <workItem from="1558442296483" duration="1171000" />
       <workItem from="1558456697596" duration="3873000" />
       <workItem from="1558461505587" duration="6268000" />
+      <workItem from="1558534906900" duration="3353000" />
     </task>
     <task id="LOCAL-00001" summary="New Items Added">
       <created>1556713907618</created>
@@ -389,15 +372,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322964000" />
+    <option name="totallyTimeSpent" value="326317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32956383" />
-      <window_info content_ui="combo" x="286" y="67" width="257" height="619" id="Project" order="1" visible="true" weight="0.16684435" />
+      <window_info content_ui="combo" x="286" y="67" width="257" height="619" id="Project" order="1" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32956153" />
@@ -413,7 +396,8 @@
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32956153" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.17803837" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32936078" />
+      <window_info active="true" anchor="right" id="Database" order="0" visible="true" weight="0.17803837" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -703,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drop-object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="148" column="71" selection-start-line="148" selection-start-column="71" selection-end-line="148" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -734,18 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scaffold-training.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5a92a244-6211-4957-b547-2249f2fccad9/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -762,6 +727,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="113" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaffold-training.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drop-object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="738" column="75" selection-start-line="738" selection-start-column="75" selection-end-line="738" selection-end-column="75" />
         </state>
       </provider>
     </entry>
