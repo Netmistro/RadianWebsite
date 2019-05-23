@@ -34,15 +34,11 @@ $training_data = mysqli_query($conn, $sql);
     <div class="training-container">
         <h1>Upcoming Training - <?php echo date("Y"); ?></h1>
 
-        <!-- Declare PHP variables for the form here -->
-        <?php
-        $scaffolderName = $_POST["scaffolder-name"];
-        ?>
         <!-- Search Form for Training -->
-        <form name="search-training" action="./includes/search-training.inc.php" method="post">
-            <label for="user">Scaffolder Search</label>
-            <input type="text" name="scaffolder-name">
-            <input type="submit" name="submit" value="Search"> <br><br>
+        <form action="search-training.php" method="POST">
+            <input type="text" name="scaffolder-name" placeholder="Scaffolder Search">
+            <button type="submit" name="search-scaffolder"></button>
+            <br><br>
         </form>
 
         <table>
