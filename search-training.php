@@ -22,78 +22,58 @@ include('header.php');
     <!-- Display a table with the search results -->
     <br>
     <div class="training-container">
-        <h3>Scaffolder Search Results</h3>
-        <table>
-            <?php
-            if (isset($_POST['search-scaffolder'])) {
-            $searchScaffolders = mysqli_real_escape_string($conn, $_POST['scaffolder-name']);
-            //
-            include('./includes/db-connect.php');
+        <?php
+        if (isset($_POST['scaffolder-search'])) {
+            $searchScaff = ($_POST['search-training']);
+
+            include_once('./includes/db-connect.php');
+
             $sql = "SELECT students.firstName, students.lastName, studenttraining.certNo, studenttraining.courseName,
             studenttraining.startDate,studenttraining.endDate
             FROM students
-            INNER JOIN studenttraining ON students.studentID=studenttraining.fkStudentID  WHERE firstName = 'Arnold'";
+            INNER JOIN studenttraining ON students.studentID=studenttraining.fkStudentID WHERE 
+            lastName ='$searchScaff' OR firstName ='$searchScaff' OR certNo='$searchScaff'
+            ORDER BY lastName, firstName, startDate";
 
             $result = mysqli_query($conn, $sql);
             $queryResult = mysqli_num_rows($result);
-            ?>
-            <table style="float: left">
-                <tr>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Certificate No.</th>
-                    <th>Scaffold Course</th>
-                    <th>Start Date</th>
-                    <th>End Date</th>
-                </tr>
-                <?php
-                if ($queryResult > 0) {
-                    while ($row = mysqli_fetch_assoc($result)) {
-                        echo "<tr>";
-                        echo "<td>";
-                        echo $row['firstName'];
-                        echo "</td>";
 
-                        echo "<td>";
-                        echo $row['lastName'];
-                        echo "</td>";
+            echo "<h3>Scaffolder Search Results ($queryResult)</h3>";
 
-                        echo "<td>";
-                        echo $row['certNo'];
-                        echo "</td>";
-
-                        echo "<td>";
-                        echo $row['courseName'];
-                        echo "</td>";
-
-                        echo "<td>";
-                        echo $row['startDate'];
-                        echo "</td>";
-
-                        echo "<td>";
-                        echo $row['endDate'];
-                        echo "</td>";
-
-                        echo "</tr>";
-
-                        echo "<br>";
-
-                    }
-
-
-                } else {
-                    echo "<p> Please enter a valid search query </p>";
+            if ($queryResult > 0) {
+                echo "<br><br>";
+                echo "
+                <table class = 'training-search-table' style='float: left'>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Certificate No.</th>
+                        <th>Scaffold Course</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                    </tr>";
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo "<tr>";
+                    echo "<td>" . $row['firstName'] . "</td>";
+                    echo "<td>" . $row['lastName'] . "</td>";
+                    echo "<td>" . $row['certNo'] . "</td>";
+                    echo "<td>" . $row['courseName'] . "</td>";
+                    echo "<td>" . $row['startDate'] . "</td>";
+                    echo "<td>" . $row['endDate'] . "</td>";
+                    echo "</tr>";
                 }
-
-                mysqli_close($conn);
-
-                }
-                ?>
-
-            </table>
+            } else {
+                echo "<p> There are no results that match your query </p>";
+                echo "<br>";
+            }
+            mysqli_close($conn);
+        }
+        ?>
+        </table>
     </div>
 </div>
 </body>
+<br>
 <footer>
     <?php include('footer.php'); ?>
 </footer>

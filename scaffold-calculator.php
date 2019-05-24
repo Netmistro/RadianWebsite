@@ -51,7 +51,7 @@ $scaffoldWeightData = mysqli_query($conn, $sql);
                         $weightKg = $_POST[$materialID] * $unitWeight;
                         $weightLbs = $weightKg * 2.20462;
                         $weightTons = $weightKg / 1000;
-                        $totalWeightKg = $weightKg + $totalWeightKg;
+                        $totalWeightKg += $weightKg;
                     }
                     if (isset($_POST['clear'])) {
                         header('Location: scaffold-calculator.php');

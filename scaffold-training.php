@@ -36,8 +36,8 @@ $training_data = mysqli_query($conn, $sql);
 
         <!-- Search Form for Training -->
         <form action="search-training.php" method="POST">
-            <input type="text" name="scaffolder-name" placeholder="Scaffolder Search">
-            <button type="submit" name="search-scaffolder"></button>
+            <input type="text" name="search-training" placeholder="Scaffolder Search">
+            <input type="submit" name="scaffolder-search" value="Search">
             <br><br>
         </form>
 
