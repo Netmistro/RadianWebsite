@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff336057-2b2b-41f7-ac64-5cead3ef3e17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/calculator.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/calculator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/training.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/training.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffold-calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-calculator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffold-training.php" beforeDir="false" afterPath="$PROJECT_DIR$/scaffold-training.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-training.php" beforeDir="false" afterPath="$PROJECT_DIR$/search-training.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rope-access.php" beforeDir="false" afterPath="$PROJECT_DIR$/rope-access.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,29 +60,7 @@
     <favorites_list name="RadianWebsite" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/search-training.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/training.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../ScaffoldTraining/footer.php" />
         <option value="$PROJECT_DIR$/../ScaffoldTraining/index.php" />
         <option value="$PROJECT_DIR$/../ScaffoldTraining/privacy.php" />
         <option value="$PROJECT_DIR$/../ScaffoldTraining/profile.php" />
@@ -165,6 +139,7 @@
         <option value="$PROJECT_DIR$/css/calculator.css" />
         <option value="$PROJECT_DIR$/css/training.css" />
         <option value="$PROJECT_DIR$/search-training.php" />
+        <option value="$PROJECT_DIR$/rope-access.php" />
       </list>
     </option>
   </component>
@@ -173,7 +148,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.2.18" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -396,6 +371,12 @@
       <workItem from="1558620096061" duration="674000" />
       <workItem from="1558630333794" duration="9538000" />
       <workItem from="1558699588130" duration="16457000" />
+      <workItem from="1559154821384" duration="91000" />
+      <workItem from="1560182681669" duration="26000" />
+      <workItem from="1560783311716" duration="312000" />
+      <workItem from="1562007096438" duration="15000" />
+      <workItem from="1562007193210" duration="531000" />
+      <workItem from="1562080835805" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="New Items Added">
       <created>1556713907618</created>
@@ -408,13 +389,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="358446000" />
+    <option name="totallyTimeSpent" value="360193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32956383" />
-      <window_info active="true" content_ui="combo" x="286" y="67" width="257" height="619" id="Project" order="1" visible="true" weight="0.18123667" />
+      <window_info content_ui="combo" x="286" y="67" width="257" height="619" id="Project" order="1" weight="0.19789983" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="1" weight="0.32936078" />
@@ -432,7 +413,7 @@
       <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32936078" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.17803837" />
+      <window_info anchor="right" id="Database" order="0" weight="0.17770597" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -489,7 +470,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="New Items Added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/scaffold-calculator.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/useful-links.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/user-profile.php" />
     <entry file="file://$PROJECT_DIR$/../ScaffoldTraining/scaffold-tools.php" />
@@ -731,9 +711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5a92a244-6211-4957-b547-2249f2fccad9/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5a92a244-6211-4957-b547-2249f2fccad9/console.sql" />
     <entry file="das://5a92a244-6211-4957-b547-2249f2fccad9/schema/radian/table/studenttraining">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="00c43b0e-6f6d-490e-8132-6aa8624c0a57">
@@ -776,20 +754,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/search-training.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/training.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="2673">
           <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search-training.php">
+    <entry file="file://$PROJECT_DIR$/rope-access.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="607">
+          <caret line="413" column="17" selection-start-line="413" selection-start-column="17" selection-end-line="413" selection-end-column="17" />
         </state>
       </provider>
     </entry>

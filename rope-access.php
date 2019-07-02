@@ -392,6 +392,30 @@ include('header.php');
     </div>
     <br>
 
+    <!-- Petzl Grillon -->
+    <div class="rope-access-container">
+        <div class="rope-access-image">
+            <img src="images/ropeaccess/petzl-grillon.png" alt="PETZL" width="300">
+        </div>
+        <div class="rope-access-details">
+            <b><span class="product-code">Product Code:</span> RAGRIL01</b><br>
+            <span class="tag-label">Description: </span><span>Petzl GRILLON - Adjustable Lanyard for work positioning</span><br>
+            <span class="tag-label">Manufacturer: </span><span>PETZL</span><br>
+            <p>
+                The GRILLON adjustable lanyard is used to make work positioning systems, to complement a fall-arrest
+                system. Its length can be very easily and precisely adjusted as necessary for comfortable positioning at
+                the work station. Depending on the configuration, it can be used in single or double mode. GRILLON is
+                available in two colors and seven lengths (2, 3, 4, 5, 10, 15 and 20 m). It is certified to North
+                American, European and Russian standards.</p><br>
+            <h3>Specifications</h3>
+            <ul>
+                <li>Material(s): nylon, polyester, aluminum</li>
+                <li>Certification(s): ANSI Z359.3, CSA Z259.11, CE EN 358, CE EN 12841 type C, EAC</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
 </div>
 </body>
 <footer>
