@@ -15,8 +15,8 @@ require 'header.php';
     <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials, Tools & Training">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RADIAN H.A. Limited</title>
-    <link rel="stylesheet" href="css/main-style.css">
-    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" type="text/css" href="css/main-style.css">
+    <link rel="stylesheet" type="text/css" href="css/slideshow.css">
 </head>
 
 <body>
@@ -24,17 +24,9 @@ require 'header.php';
         <div class="content-wrap">
             <br>
             <img src="./images/radian-logo.png" alt="RADIAN HA Limited" width="150">
-
-            <div class="header">
-                <h3>IMPORTANT Information</h3>
-                <p>Please be advised that our Primary Office line (868) 658-0293 is temporarily out of service. However
-                    we can be reached on the following additional numbers listed below:-</p>
-                <ol>
-                    <li>TSTT - (868) 658-8294</li>
-                    <li>FLOW - (868) 223-8823/4</li>
-                    <li>DIGICEL - (868) 387-0293</li>
-                </ol>
-            </div>
+            <br><br>
+            <!-- Optional Banner as needed -->
+            <?php include 'banner.php' ?>
 
             <h2>The leading Scaffold Training provider in Trinidad & Tobago and the Caribbean</h2>
             <p>Radian H.A. Ltd. is a dynamic, customer-driven business established in 2001; we primarily engage in the
