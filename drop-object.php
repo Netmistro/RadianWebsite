@@ -760,6 +760,173 @@ include('header.php');
     </div>
     <br>
 
+    <!-- Gin Wheel Arm for Secure Pulley or Braked Pulley -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/safety-equipment/LHE-0036.png" alt="Big-Ben" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> LHE-0036</b><br>
+            <span class="tag-label">Description: </span><span>Pulley Arm (Swivel/Fixed)</span><br>
+            <span class="tag-label">Manufacturer: </span><span>NONE</span><br>
+            <ul>
+                <li>Available in Swivelled of Fixed Options</li>
+                <li>Swivel Arm - LHE-0036</li>
+                <li>Fixed Arm - LHE-0031</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <!-- Big Ben Controlled Safety Pulley with large Wheel - SWL 50Kg -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/safety-equipment/LHE-0029.png" alt="Big-Ben" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> LHE-0029</b><br>
+            <span class="tag-label">Description: </span><span>BIG BEN Controlled Safety Pulley with large Wheel - SWL 50Kg</span><br>
+            <span class="tag-label">Manufacturer: </span><span>BIG BEN</span><br>
+            <p>
+                PUT A BRAKE ON PULLEY ACCIDENTS! MAKE YOUR SITE SAFER WITH THE NEW BIG BEN BRAKED PULLEY.</p>
+            <p>
+                This Revolutionary new award winning product ensures the safe raising and lowering of goods on scaffolds
+                and construction sites. Loads are lowered safely automatically at a controlled speed that ensures safety
+                even if you let go of the rope! The product has a SWL of 50Kg and is set to improve safety standards on
+                construction sites Globally. Eliminate risk and protect your staff and management hierarchy from
+                potential personal injury claims by specifying the BIG BEN Braked Pulley. Big Ben Safety, developed the
+                product following a request to find a safer alternative to the gin wheel and other braked pulleys that
+                haven't lived up to their expectations.
+            </p>
+            <p>SAFE LIFTING AND LOWERING DEVICE</p>
+            <ul>
+                <li>Loads are automatically arrested and lowered at a safe speed (approx 1.5m/second)</li>
+                <li>Can be supplied with rope length of your choice</li>
+                <li>Use at any height</li>
+                <li>Fits onto Scaffold Tube</li>
+                <li>Support bracket optional</li>
+                <li>50% larger wheel for easier lifting</li>
+                <li>Less effort required</li>
+                <li>SWL 50kg</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <!-- Securepulley Auto Braking Gin Wheel -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/safety-equipment/LHE-0001.png" alt="Big-Ben" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> LHE-0001</b><br>
+            <span class="tag-label">Description: </span><span>SECURPULLEY Auto Braking Gin Wheel</span><br>
+            <span class="tag-label">Manufacturer: </span><span>NONE</span><br>
+            <ul>
+                <li>Let go of the rope and the load stops automatically</li>
+                <li>SecurPulley comes complete with either Fixed or Swivel Arm</li>
+                <li>Safe working load (SWL) - 50kg</li>
+                <li>Serial numbered and certificated</li>
+                <li>18mm Certified Lifting Rope is purchased separately and can be either supplied in a 220m reel or cut
+                    to your specific required length
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <!-- 18mm Certified Polypropylene Rope - 220m Reel -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/safety-equipment/ROP-0005.png" alt="Big-Ben" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> ROP-0005</b><br>
+            <span class="tag-label">Description: </span><span>18mm Certified Polypropylene Rope - 220m Reel</span><br>
+            <span class="tag-label">Manufacturer: </span><span>NONE</span><br>
+            <ul>
+                <li>18mm Certified Polypropylene Rope - 220m Reel</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <!-- BIG BEN Triple Tube Lift -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/safety-equipment/LHE-0040.png" alt="Big-Ben" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> LHE-0040</b><br>
+            <span class="tag-label">Description: </span><span>BIG BEN Triple Tubelift</span><br>
+            <span class="tag-label">Manufacturer: </span><span>NONE</span><br>
+            <p>
+                This new innovative, simple but extremely effective tube lifting clamp is a further development in
+                lifting safety and has been designed as a result of speaking with many scaffolding contractors about the
+                issues faced every day in lifting scaffold tube relying on rope to secure it.
+            </p>
+            <br>
+            <p>
+                The BIG BEN TubeLift™ ensures each tube is securely clamped whilst raised and lowered.
+            </p>
+            <ul>
+                <li>SWL 50kg</li>
+                <li>LOLER tested</li>
+                <li>Individually serial numbered</li>
+                <li>Can lift 1, 2 or 3 tubes at a time</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <!-- BIG BEN Double Tube Lifter -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/safety-equipment/LHE-0039.png" alt="Big-Ben" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> LHE-0039</b><br>
+            <span class="tag-label">Description: </span><span>BIG BEN Double Tube lifter</span><br>
+            <span class="tag-label">Manufacturer: </span><span>NONE</span><br>
+            <p>
+                Secure 2 tubes at a time for safe lifting.
+            </p>
+            <ul>
+                <li>SWL 50kg</li>
+                <li>LOLER Certified</li>
+                <li>Individually serial numbered</li>
+                <li>The load naturally swivels when lifted</li>
+            </ul>
+            <p>European Union Design Application No. 006468740</p>
+            <p>Community Design Registration No. 006468740-0001</p>
+        </div>
+    </div>
+    <br>
+
+    <!-- BIG BEN Certified Scaffold Board Lifter -->
+    <div class="tools-container">
+        <div class="tools-image">
+            <img src="images/safety-equipment/LHE-0041.png" alt="Big-Ben" width="300">
+        </div>
+        <div class="tools-details">
+            <b><span class="product-code">Product Code:</span> LHE-0041</b><br>
+            <span class="tag-label">Description: </span><span>BIG BEN Certified Scaffold Board Lifter</span><br>
+            <span class="tag-label">Manufacturer: </span><span>NONE</span><br>
+            <p>
+                The Fastest, Safest way to lift Scaffold Boards. Pop this adjustable loop over the ends of 1-3 boards,
+                pull it tight and lift away. Quick and Easy to release. Lift and lower safely with peace of mind
+            </p>
+            <ul>
+                <li>SWL 50kg</li>
+                <li>LOLER Certified</li>
+                <li>Individually serial numbered</li>
+                <li>Larger sizes available as a fast safe solution for lifting larger & heavier items</li>
+                <li>Patent Pending</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
 </div>
 </body>
 <footer>

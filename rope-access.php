@@ -398,7 +398,7 @@ include('header.php');
             <img src="images/ropeaccess/petzl-grillon.png" alt="PETZL" width="300">
         </div>
         <div class="rope-access-details">
-            <b><span class="product-code">Product Code:</span> RAGRIL01</b><br>
+            <b><span class="product-code">Product Code:</span> RALANY01</b><br>
             <span class="tag-label">Description: </span><span>Petzl GRILLON - Adjustable Lanyard for work positioning</span><br>
             <span class="tag-label">Manufacturer: </span><span>PETZL</span><br>
             <p>

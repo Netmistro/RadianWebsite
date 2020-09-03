@@ -15,7 +15,7 @@ if (($_SERVER["REQUEST_METHOD"] == "POST") && ($_SESSION['userID'] == true)) {
 }
 include_once('includes/db-connect.php');
 $sql = "SELECT * FROM training";
-// Training data array
+// Trainign data array
 $training_data = mysqli_query($conn, $sql);
 ?>
 <!DOCTYPE html>
@@ -32,14 +32,7 @@ $training_data = mysqli_query($conn, $sql);
     <!--    Display a table caption with the current year    -->
     <br>
     <div class="training-container">
-        <h1>Upcoming Training - <?php echo date("Y"); ?></h1>
-
-        <!-- Search Form for Training -->
-        <form action="search-training.php" method="POST">
-            <input type="text" name="search-training" placeholder="Scaffolder Search">
-            <input type="submit" name="scaffolder-search" value="Search">
-            <br><br>
-        </form>
+    <h2>Upcoming Training - <?php echo date(Y); ?></h2>
 
         <table>
             <?php
@@ -51,14 +44,14 @@ $training_data = mysqli_query($conn, $sql);
                 echo "</td>";
                 echo "<td>";
                 echo "<b>" . "Course Code: " . $row['course_code'] . "</b>" . "<br>";
-                echo "<b>" . "Course Title: " . "<span style='color: blue'>" . $row['train_title'] . "</b>" . "</span>" . "<br>";
-                echo "<b>" . "Cost (TTD): " . "</b>" . "$" . $row['train_cost'] . " + VAT" . "<br>";
-
-                echo "<b>" . "Course Description: " . "</b>" . $row['short_description'] . "<br>";
+                echo "<b>" . "Course Title: " . "<span style='color: blue'>".$row['train_title'] . "</b>" . "</span>"."<br>";
+                echo "<b>"."Cost (TTD): " ."</b>"."$".  $row['train_cost'] . " + VAT"."<br>";
+                
+                echo "<b>"."Course Description: "."</b>" . $row['short_description'] . "<br>";
                 if ($row['train_start_date'] > date("Y-m-d")) {
                     echo "<span style='color: #cd0a0a'>" . "Start Date: " . $row['train_start_date'] . "</span>" . "<br>";
                     echo "<span style='color: #cd0a0a'>" . "End Date: " . $row['train_end_date'] . "</span>" . "<br>";
-                    echo "<b>" . "Instructor: " . "</b>" . $row['train_instructor'] . "<br>";
+                    echo "<b>"."Instructor: " ."</b>". $row['train_instructor'] . "<br>";
                     echo "<b>" . "Spaces Available: " . $row['train_spaces'] . "</b>" . "<br>";
                     echo "<form action='scaffold-training.php' method='post'>";
                     echo "<button type='submit' class='btn-book-now' >" . "Book Now" . "</button>" . "<br>";

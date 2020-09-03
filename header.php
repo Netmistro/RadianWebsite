@@ -107,7 +107,7 @@
                 <ul class="dropdown">
                     <li class="subs"><a href="./cuplock-scaffolding.php">Cuplock Scaffold</a></li>
                     <li class="subs"><a href="./conventional-scaffolding.php">Conventional Scaffold</a></li>
-                    <li class="subs"><a href="./scaffold-calculator.php">Scaffold Calculator</a></li>
+                    <li class="subs"><a href="scaffold-calc.php">Scaffold Calculator</a></li>
                     <li class="subs"><a href="./useful-links.php">Useful Links</a></li>
                 </ul>
             </li>

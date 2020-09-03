@@ -16,7 +16,7 @@ include('header.php');
     <meta name="RADIAN H.A. Limited" content="Everything Scaffolding, Sale & Rental of Materials, Tools & Training">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>System Scaffold</title>
-    <link rel="stylesheet" href="./css/catalogue.css">
+    <link rel="stylesheet" href="css/catalogue.css">
 </head>
 <body>
 <div class="system-scaff-page">

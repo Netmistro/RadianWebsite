@@ -1,19 +1,18 @@
 <?php
-/*
+/**
  * Created by PhpStorm.
- * User: Arnold Bradshaw
+ * User: said
  * Date: 11/4/18
  * Time: 12:03 AM
  */
 
-$host = "localhost";
-$user = "root";
-$password = "root";
-$db = "radian";
-$port = 8900;
+$serverName = "localhost";
+$dbUserName = "root";
+$dbPassword = "root";
+$dbName = "Radian";
 
 // Create connection
-$conn = mysqli_connect($host, $user, $password, $db, $port);
+$conn = mysqli_connect($serverName, $dbUserName, $dbPassword, $dbName);
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());

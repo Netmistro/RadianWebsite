@@ -1,6 +1,6 @@
 /* Calculator Page */
 
-.calculator-page .main-page {
+.calculator-page {
     width: 80%;
     margin: 0 auto;
 }
@@ -105,50 +105,42 @@ input[type=text]:focus {
 
 /* Responsive Design of Table */
 
-@media only screen and (min-width: 375px) and (max-width: 667px) {
+@media only screen and (min-width: 375px) and (max-width:667px) {
     /* Flex display for image logo*/
     .calculator-page img {
         display: none;
     }
-
     /* Alternate colors for even rows */
     tr:nth-child(even) {
         background-color: #CCCCCC;
     }
-
     /* Centre header 1 */
     .calculator-page h1 {
         display: inline;
         font-size: 18px;
         text-align: center;
     }
-
     /* Hide table headers */
     th {
         display: none;
     }
-
     /* Adjust width of quantity column*/
     td:nth-child(3) {
         width: 25%;
     }
-
     /* Left Justify Table data */
     .calculator-page td {
         text-align: left;
         font-size: medium;
     }
-
     /* Hide certain columns*/
     td:nth-child(2), td:nth-child(4), td:nth-child(5), td:nth-child(6), td:nth-child(7) {
         display: none;
     }
-
     .calculator-page {
         width: 90%;
         margin: 0 auto;
     }
-
     /* Formatting of the Qty Field */
     input[type=text] {
         width: 90%;
