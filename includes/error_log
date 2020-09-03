@@ -1,0 +1,90 @@
+[17-Dec-2018 02:36:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 02:47:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 02:48:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 02:49:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 02:50:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 02:52:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 03:56:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 03:59:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 04:08:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 04:08:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 04:09:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 04:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 04:15:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 04:15:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 04:16:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 04:17:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 04:19:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 04:32:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 05:59:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 19:05:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 19:46:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[17-Dec-2018 19:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/sig6z20m4w9p/public_html/includes/login.inc.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/sig6z20m4w9p/public_html/includes/login.inc.php on line 26
+[08-Jan-2019 19:06:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sig6z20m4w9p/public_html/includes/db-connect.php on line 15
+[08-Jan-2019 19:09:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'arnoldbradshaw'@'localhost' to database 'radian' in /home/sig6z20m4w9p/public_html/includes/db-connect.php on line 15

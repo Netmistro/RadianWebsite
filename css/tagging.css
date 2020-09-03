@@ -1,0 +1,25 @@
+.tagging-system .tagging-system-container {
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    flex-direction: row;
+}
+
+.tagging-system-container .tagging-details {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 1.8;
+    text-align: justify;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.tagging-details .product-code {
+    font-size: larger;
+    color: red;
+}
+
+.tagging-system .tag-label {
+    font-weight: bold;
+}
