@@ -350,7 +350,7 @@ include('header.php');
                         <li>Strap material: Polyethylene</li>
                         <li>Rescue Loop: Yes</li>
                         <li>100% Tie Off for 140kg Users</li>
-                        <li>Ultra Light - Weighs only 1.9Kg</li>
+                        <li>Ultra Light - Weighs only 2.4Kg</li>
                         <li>Comes with Unique fast grip wide opening Scaffold Hooks</li>
                     </ol>
                 </div>
@@ -364,7 +364,7 @@ include('header.php');
                 </div>
                 <br>
                 <div class="ppe-details">
-                    <b><span class="product-code">Product Code:</span>FPL-7720-2</b><br>
+                    <b><span class="product-code">Product Code:</span>FPL-0019</b><br>
                     <span class="tag-label">Description: </span><span>BIG BEN 2M Twin Leg Retractable (Steel
                         Hooks)</span><br>
                     <span class="tag-label">Manufacturer: </span><span>BIG BEN</span><br>
@@ -383,7 +383,7 @@ include('header.php');
                         <li>Strap material: Polyethylene</li>
                         <li>Rescue Loop: Yes</li>
                         <li>100% Tie Off for 140kg Users</li>
-                        <li>Ultra Light - Weighs only 2.4kg</li>
+                        <li>Ultra Light - Weighs only 1.9kg</li>
                         <li>Comes with Unique fast grip wide opening Scaffold Hooks</li>
                     </ol>
                 </div>
