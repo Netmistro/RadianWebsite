@@ -1,0 +1,30 @@
+/* Main Page paragraph sytle */
+
+.main-page p {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11pt;
+    line-height: 1.8;
+    text-align: justify;
+    text-decoration: none;
+}
+
+/*CSS for the link items*/
+
+.main-page li {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-size: 11pt;
+    line-height: 1.6;
+    text-align: justify;
+}
+/***** H1 Styles CSS *****/
+
+.main-page h1,
+h2,
+h5 {
+    color: black;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+}

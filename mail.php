@@ -18,14 +18,17 @@ if(isset($_POST['submit'])){
     <title>RADIAN H.A. Limited Website Responder</title>
     </head>
         <body>
-        <h3>You have a new RFQ made from www.rhatt.com. Please see details below for your action.</h3>
-        <p>From: .''.$name;</p>
-        <p>E-mail: .''.$email;</p>
-        <p>Telephone: .''.$telephone;</p>
-        <p>Reference: .''.$reference;</p>
-        <p>Company: .''.$company;</p>
-        <p>RFQ Details: .''.$RFQ;</p>
-        <p>Please do not respond to this email, it is not monitored</p>
+        <h4>You have a new RFQ made from www.rhatt.com. Please see details below FYA.</h4>
+        <p>From: $name</p>
+        <p>E-mail: $email</p>
+        <p>Telephone: $telephone</p>
+        <p>Reference: $reference</p>
+        <p>Company: $company</p>
+        <p>RFQ Details: $RFQ</p>
+        <p>Please do not respond to this email as it is not monitored.</p>
+        <br><br>
+        <h4>RADIAN H.A. Limited</h4>
+        <p>187 Helen Street, Marabella</p>
         </body>
     </html>
     ";

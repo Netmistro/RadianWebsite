@@ -15,12 +15,15 @@ include('header.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thank You</title>
     <link rel="stylesheet" href="css/main-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="main-page">
     <div class="content-wrap">
         <br>
-        <h2>Thank you for making your online request for quotation. We strive for improvement, if you see any way we can improve the process. please be sure to drop us a line.
+        <h2>Thank You</h2><br><br>
+
+        <p>Thank you for making your online request for quotation. We strive for improvement, if you see any way we can improve the process. please be sure to drop us a line.
        <br>
         <p>Again, thank you for choosing RADIAN H.A. Limited for your requirements. <br>
         <p>Remember Radian has alot to offer that you may not know about. We also do/offer the following: -</p><br>
