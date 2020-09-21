@@ -29,6 +29,8 @@ include 'header.php';
                 <form id="contact" action="mail.php" method="POST">
                     <h3>Request a Quotation</h3>
                     <h4>Contact us today, and get reply with in 24 hours!</h4>
+                    <p>Please be as specific as possible with the items being requested to quote on.</p>
+                    <p>Provide a mobile number in case of uncertainty, we can reach you directly.</p>
                     <fieldset>
                         <input placeholder="Your name" name="name" type="text" tabindex="1" required autofocus>
                     </fieldset>
