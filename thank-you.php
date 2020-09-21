@@ -5,7 +5,6 @@
  * Date: 11/18/18
  * Time: 2:35 PM
  */
-session_start();
 include('header.php');
 ?>
 <!DOCTYPE html>
@@ -21,20 +20,20 @@ include('header.php');
 <div class="main-page">
     <div class="content-wrap">
         <br>
-        <h2>Thank you for registering your training course with RADIAN H.A. Limited</h2><br>
-        <p>You will receive an email shortly confirming your training and all the details. Please remember to walk with
-            Full PPE on the days of the training or as advised by the Instructor.</p><br>
-        <p>Again, thank you for choosing RADIAN H.A. Limited for your training needs. We hope your stay with us will
-            be an enjoyable one.</p><br>
-        <p>Remember Radian is more than just training. We also do the following: -</p><br>
+        <h2>Thank you for making your online request for quotation. We strive for improvement, if you see any way we can improve the process. please be sure to drop us a line.
+       <br>
+        <p>Again, thank you for choosing RADIAN H.A. Limited for your requirements. <br>
+        <p>Remember Radian has alot to offer that you may not know about. We also do/offer the following: -</p><br>
         <ul>
-            <li>Rental of Scaffold Equipment</li>
+            <li>Rental of Scaffold Equipment - Cuplock, Tube & Fitting, Ring Lock & H- Frames</li>
             <li>Sale of Scaffold Equipment</li>
             <li>Sale of Scaffold Tools</li>
             <li>Formwork Rental</li>
             <li>H-Frame Scaffolding</li>
             <li>PPE - Harnesses, Lanyards, Helmets etc...</li>
             <li>Rope Access Equipment</li>
+            <li>Inertia Blocks</li>
+            <li>Personal Retractable Lines</li>
             <li>Tool tethers</li>
         </ul>
     </div>

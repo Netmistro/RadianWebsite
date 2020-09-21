@@ -18,10 +18,14 @@ if(isset($_POST['submit'])){
     <title>RADIAN H.A. Limited Website Responder</title>
     </head>
         <body>
-        <h1>You have a new RFQ made from www.rhatt.com. Please see details below for your action.</h1>
-        <p>From:</p>.$name;
-        <h3>Please do not respond to this email, it is not monitored</h3>
-            
+        <h3>You have a new RFQ made from www.rhatt.com. Please see details below for your action.</h3>
+        <p>From: .''.$name;</p>
+        <p>E-mail: .''.$email;</p>
+        <p>Telephone: .''.$telephone;</p>
+        <p>Reference: .''.$reference;</p>
+        <p>Company: .''.$company;</p>
+        <p>RFQ Details: .''.$RFQ;</p>
+        <p>Please do not respond to this email, it is not monitored</p>
         </body>
     </html>
     ";
@@ -40,7 +44,7 @@ if(isset($_POST['submit'])){
 
     }else{
 
-        header('Location:index.php');
+        header('Location:thank-you.php');
         exit;
     }
     // Send email
