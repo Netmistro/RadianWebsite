@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
     $company = $_POST['company'];
     $RFQ = $_POST['RFQ'];
 
-    $to = "arnold.bradshaw@rhatt.com";
+    $to = "operations@rhatt.com";
     $subject = "RFQ - ".$reference;
     
     $message = "
@@ -44,7 +44,8 @@ if(isset($_POST['submit'])){
     
     // More headers
     $headers .= 'From: RFQ - RADIAN Website <info@rhatt.com>' . "\r\n";
-    //$headers .= 'Cc: myboss@example.com' . "\r\n";
+    // $headers .= 'Cc: ' . "\r\n";
+    $headers .= 'Bcc: arnold.bradshaw@rhatt.com' . "\r\n";
     
     if(mail($to, $subject, $message, $headers)){
 
