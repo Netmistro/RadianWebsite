@@ -24,32 +24,12 @@ include 'header.php';
 
     <body>
         <div class="main-page">
-            <br>
-            <div class="container">
-                <form id="contact" action="includes/testmail.php" method="POST">
-                    <h3>Request a Quotation</h3>
-                    <h4>Contact us today, and get reply with in 24 hours!</h4>
-                    <fieldset>
-                        <input placeholder="Your name" name="name" type="text" tabindex="1" required autofocus>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Email Address" name="email" type="email" tabindex="2" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Phone Number" name="telephone" type="tel" tabindex="3" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Reference" name="reference" type="text" tabindex="4" required>
-                    </fieldset>
-                    <fieldset>
-                        <textarea placeholder="Quotation Required for what items?" name="RFQ" tabindex="5"
-                            required></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                    </fieldset>
-                </form>
-            </div>
+        <iframe allowfullscreen="" allow="fullscreen" style="border:none;width:100%;height:800px;" src="//e.issuu.com/embed.html?d=the_scaffolder___s_choice_workwear_&amp;hideIssuuLogo=true&amp;u=leachssafety"></iframe>
+
+        <iframe allowfullscreen="" allow="fullscreen" style="border:none;width:100%;height:800px;" src="//e.issuu.com/embed.html?d=0120_mpg_issue_1&amp;hideIssuuLogo=true&amp;u=leachssafety"></iframe>
+
+        <iframe allowfullscreen="" allow="fullscreen" style="border:none;width:100%;height:800px;" src="//e.issuu.com/embed.html?d=oil__gas___energy_scaffolding___hei&amp;hideIssuuLogo=true&amp;u=leachssafety"></iframe>
+        
         </div>
         <script src="" async defer></script>
     </body>
