@@ -18,6 +18,7 @@ if(isset($_POST['submit'])){
     <title>RADIAN H.A. Limited Website Responder</title>
     </head>
         <body>
+            <br>
             <h4>You have a new RFQ made from www.rhatt.com/contact-us.php. Please see details below FYA.</h4>
             <p><b>From: </b> $name</p>
             <p><b>E-mail: </b> $email</p>
