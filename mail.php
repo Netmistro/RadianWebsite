@@ -1,25 +1,48 @@
 <?php
-$to = "arnoldbradshaw@rhatt.com.com";
-$subject = "RFQ - RADIAN HA Limited Website";
 
-$message = "
-<html>
-<head>
-<title>RFQ - RADIAN HA Limited Website</title>
-</head>
-<body>
-<p>This email contains HTML Tags!</p>
+if(isset($_POST['submit'])){
+    // Define all variables here
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $telephone = $_POST['telephone'];
+    $reference = $_POST['reference'];
+    $company = $_POST['company'];
+    $RFQ = $_POST['RFQ'];
 
-</body>
-</html>
-";
+    $to = "arnold.bradshaw@rhatt.com";
+    $subject = "RFQ - RADIAN H.A. Limited Website";
+    
+    $message = "
+    <html>
+    <head>
+    <title>RADIAN H.A. Limited Website Responder</title>
+    </head>
+        <body>
+        <h1>You have a new RFQ made from www.rhatt.com. Please see details below for your action.</h1>
+        <p>From:</p>.$name;
+        <h3>Please do not respond to this email, it is not monitored</h3>
+            
+        </body>
+    </html>
+    ";
+    
+    // Always set content-type when sending HTML email
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    
+    // More headers
+    $headers .= 'From: RADIAN Website <info@rhatt.com>' . "\r\n";
+    //$headers .= 'Cc: myboss@example.com' . "\r\n";
+    
+    if(!@mail($to, $subject, $message, $headers)){
 
-// Always set content-type when sending HTML email
-$headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+        echo 'Error sending email.' ;
 
-// More headers
-$headers .= 'From: <info@rhatt.com>' . "\r\n";
-//$headers .= 'Cc: myboss@example.com' . "\r\n";
+    }else{
 
-mail($to, $subject, $message, $headers);
+        header('Location:index.php');
+        exit;
+    }
+    // Send email
+   // mail($to, $subject, $message, $headers);
+}
