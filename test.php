@@ -7,8 +7,8 @@
  * Time: 11:03 AM
  */
 include 'header.php';
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,14 +19,14 @@ include 'header.php';
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main-style.css">
-        <link rel="stylesheet" href="css/mail.css">
+        <link rel="stylesheet" href="css/test.css">
     </head>
 
     <body>
         <div class="main-page">
             <br>
             <div class="container">
-                <form id="contact" action="mail.php" method="POST">
+                <form id="contact" action="includes/testmail.php" method="POST">
                     <h3>Request a Quotation</h3>
                     <h4>Contact us today, and get reply with in 24 hours!</h4>
                     <fieldset>
@@ -42,10 +42,7 @@ include 'header.php';
                         <input placeholder="Reference" name="reference" type="text" tabindex="4" required>
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Company Name" name="company" type="text" tabindex="5" required>
-                    </fieldset>
-                    <fieldset>
-                        <textarea placeholder="Quotation Required for what items?" name="RFQ" tabindex="6"
+                        <textarea placeholder="Quotation Required for what items?" name="RFQ" tabindex="5"
                             required></textarea>
                     </fieldset>
                     <fieldset>
