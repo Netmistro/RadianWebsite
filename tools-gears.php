@@ -24,14 +24,10 @@ include 'header.php';
 
     <body>
         <div class="main-page">
-            <iframe allowfullscreen="" allow="fullscreen" style="border:none;width:100%;height:800px;"
-                src="//e.issuu.com/embed.html?d=the_scaffolder___s_choice_workwear_&amp;hideIssuuLogo=true&amp;u=leachssafety"></iframe>
 
-            <iframe allowfullscreen="" allow="fullscreen" style="border:none;width:100%;height:800px;"
-                src="//e.issuu.com/embed.html?d=0120_mpg_issue_1&amp;hideIssuuLogo=true&amp;u=leachssafety"></iframe>
-
-            <iframe allowfullscreen="" allow="fullscreen" style="border:none;width:100%;height:800px;"
-                src="//e.issuu.com/embed.html?d=oil__gas___energy_scaffolding___hei&amp;hideIssuuLogo=true&amp;u=leachssafety"></iframe>
+            <br>
+            <h2>Tools & Gears Brochure - 2019</h2>
+            <br>
 
             <style>
             .embed-container {

@@ -24,14 +24,10 @@ include 'header.php';
 
     <body>
         <div class="main-page">
-            <iframe allowfullscreen="" allow="fullscreen" style="border:none;width:100%;height:800px;"
-                src="//e.issuu.com/embed.html?d=the_scaffolder___s_choice_workwear_&amp;hideIssuuLogo=true&amp;u=leachssafety"></iframe>
 
-            <iframe allowfullscreen="" allow="fullscreen" style="border:none;width:100%;height:800px;"
-                src="//e.issuu.com/embed.html?d=0120_mpg_issue_1&amp;hideIssuuLogo=true&amp;u=leachssafety"></iframe>
-
-            <iframe allowfullscreen="" allow="fullscreen" style="border:none;width:100%;height:800px;"
-                src="//e.issuu.com/embed.html?d=oil__gas___energy_scaffolding___hei&amp;hideIssuuLogo=true&amp;u=leachssafety"></iframe>
+            <br>
+            <h2>Company Brochure</h2>
+            <br>
 
             <style>
             .embed-container {
@@ -52,8 +48,8 @@ include 'header.php';
                 height: 100%;
             }
             </style>
-            <div class='embed-container' data-page-width='495' data-page-height='640' id='ypembedcontainer'><iframe
-                    src="https://www.yumpu.com/en/embed/view/vR3QI9xPXNFhVzat" frameborder="0" allowfullscreen="true"
+            <div class='embed-container' data-page-width='500' data-page-height='411' id='ypembedcontainer'><iframe
+                    src="https://www.yumpu.com/xx/embed/view/9CyNJkO1RztGxqM3" frameborder="0" allowfullscreen="true"
                     allowtransparency="true"></iframe></div>
             <script src='https://players.yumpu.com/modules/embed/yp_r_iframe.js'></script>
 
